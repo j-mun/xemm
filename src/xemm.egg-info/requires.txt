@@ -1,0 +1,9 @@
+numpy
+pyyaml
+jax
+
+[dev]
+pytest>=7.0
+black
+isort
+mypy

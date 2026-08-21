@@ -1,0 +1,16 @@
+---
+NAME: SiC, Shaffer
+REFERENCES: Shaffer
+COMMENTS: "refractiveindex.info"
+DATA:
+  - type: tabulated
+    parm: nk
+    unit: nm
+    data: |
+      467 2.7104 0
+      498 2.6916 0
+      515 2.6823 0
+      568 2.6600 0
+      589 2.6525 0
+      616 2.6446 0
+      691 2.6264 0

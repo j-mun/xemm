@@ -1,0 +1,15 @@
+---
+NAME: Boron phosphide (BP), Wettling
+REFERENCES: Wettling
+COMMENTS: "refractiveindex.info"
+DATA:
+  - type: tabulated
+    parm: nk
+    unit: um
+    data: |
+      0.4545	3.34	0
+      0.4580	3.34	0
+      0.4880	3.32	0
+      0.4960	3.30	0
+      0.5145	3.26	0
+      0.6328	3.00	0

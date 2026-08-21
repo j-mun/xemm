@@ -1,0 +1,2 @@
+[console_scripts]
+xemm = xemm.__main__:main
