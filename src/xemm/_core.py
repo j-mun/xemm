@@ -1,28 +1,25 @@
+"""
 
+
+"""
 
 from __future__ import annotations
 __all__ = [
   'MaterialData',
 ]
 
+import os
+_DEFAULT_DB = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'xemm-db')
 
 from functools import cache
-
-import os
-
 import yaml
 import numpy as np
-
-import jax
 import jax.numpy as jp
-
 from . import _interp
-
 import xopt.serial as serial
 
 Array = jp.ndarray | np.ndarray
 
-_DEFAULT_DB = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'db')
 _C = 299792458.0
 _HBAR_EV = 6.582119569e-16
 

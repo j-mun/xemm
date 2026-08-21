@@ -43,6 +43,9 @@ include-package-data = true
 where = ["src"]
 exclude = ["tests*"]
 
+[tool.setuptools.data-files]
+"xemm-db" = ["xemm-db/**/*.yml", "xemm-db/**/*.yaml"]
+
 [project.urls]
 Homepage = "https://github.com/j-mun/xemm"
 Repository = "https://github.com/j-mun/xemm"
