@@ -16,7 +16,7 @@ JAX-compatible calculations.
 
 ## Installation
 
-`xemm` requires Python 3.11 or newer.
+`xemm` can be installed using `pip`.
 
 ```bash
 cd /path/to/xemm
@@ -166,5 +166,5 @@ Run the test suite from the repository root:
 pytest
 ```
 
-XEMM is distributed under the MIT License.
+`xemm` is distributed under the MIT License.
 
