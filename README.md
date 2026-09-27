@@ -1,6 +1,6 @@
 # jaX ElectroMagnetic Materials (XEMM)
 
-XEMM provides tabulated optical material properties as JAX arrays. It loads
+`xemm` provides tabulated optical material properties as JAX arrays. It loads
 refractive-index or relative-permittivity data from YAML files, converts between
 common spectral coordinates, and interpolates the complex material response in
 JAX-compatible calculations.
@@ -16,19 +16,15 @@ JAX-compatible calculations.
 
 ## Installation
 
-XEMM requires Python 3.11 or newer.
+`xemm` requires Python 3.11 or newer.
 
 ```bash
-python -m pip install xemm
+cd /path/to/xemm
+python -m pip install .
 ```
 
-The current source tree also uses
-[XSER](https://github.com/j-mun/xser) for JAX-compatible material objects. In a
-multi-repository development checkout, install XSER before XEMM:
-
 ```bash
-python -m pip install -e ../xser-2026.0.0
-python -m pip install -e '.[dev]'
+python -m pip install git+https://github.com/j-mun/xemm.git
 ```
 
 ## Quick start
