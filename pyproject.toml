@@ -7,7 +7,7 @@ name = "xemm"
 version = "2026.0.0"
 description = "jaX ElectroMagnetic Materials"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 license = { text = "MIT" }
 authors = [
   { name = "Jungho Mun", email = "mjh92@postech.ac.kr" }
@@ -22,6 +22,7 @@ dependencies = [
   "numpy",
   "pyyaml",
   "jax",
+  "xser @ git+https://github.com/j-mun/xser.git@main",
 ]
 
 [project.optional-dependencies]

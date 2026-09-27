@@ -15,8 +15,8 @@ from functools import cache
 import yaml
 import numpy as np
 import jax.numpy as jp
-from . import _interp
-import xopt.serial as serial
+from . import interp
+import xser
 
 Array = jp.ndarray | np.ndarray
 
@@ -119,7 +119,7 @@ def _load_material_data(
 
 
 #--- interface
-class MaterialData(serial.SpecNode):
+class MaterialData(xser.SpecNode):
   '''
   
   import material property data (static)
@@ -195,7 +195,7 @@ class MaterialData(serial.SpecNode):
     '''
 
     f = _convert_unit(f, unit, c.unit)
-    interpolators = {'linear': _interp.linear, 'cubic': _interp.cubic}
+    interpolators = {'linear': interp.linear, 'cubic': interp.cubic}
     try:
       interpolate = interpolators[kind]
     except KeyError as error:
