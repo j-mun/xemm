@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xemm"
+version = "2026.1.0"
+description = "jaX ElectroMagnetic Materials"
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+authors = [
+  { name = "Jungho Mun", email = "mjh92@postech.ac.kr" }
+]
+keywords = ["xemm"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "numpy",
+  "pyyaml",
+  "jax",
+  "xser==2026.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests*"]
+
+[tool.setuptools.data-files]
+"xemm-db" = ["xemm-db/**/*.yml", "xemm-db/**/*.yaml"]
+
+[project.urls]
+Homepage = "https://github.com/j-mun/xemm"
+Repository = "https://github.com/j-mun/xemm"
