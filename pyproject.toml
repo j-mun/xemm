@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "xemm"
-version = "2026.0.0"
+version = "2026.1.0"
 description = "jaX ElectroMagnetic Materials"
 readme = "README.md"
 requires-python = ">=3.13"
@@ -22,16 +22,13 @@ dependencies = [
   "numpy",
   "pyyaml",
   "jax",
-  "xser @ git+https://github.com/j-mun/xser.git@main",
+  "xser==2026.1",
 ]
 
 [project.optional-dependencies]
 dev = [
   "pytest>=7.0",
 ]
-
-[project.scripts]
-xemm = "xemm.__main__:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
