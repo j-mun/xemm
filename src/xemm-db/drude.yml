@@ -1,0 +1,121 @@
+
+materials:
+  - name: Silver (Ag)
+    comment: ""
+    ref: "Ordal et al. (1983), Appl. Opt. 22, 1099; https://opg.optica.org/ao/abstract.cfm?uri=ao-22-7-1099"
+    eps_inf: 1.0
+    omega_p: 9.01
+    gamma: 0.018
+
+  - name: Silver (Ag)
+    comment: ""
+    ref: "Blaber et al. (2009), J. Phys. Chem. C 113, 3041"
+    eps_inf: 1.0
+    omega_p: 9.6
+    gamma: 22.8
+
+  - name: Silver (Ag)
+    comment: ""
+    ref: "Zeman et al. (1990), J. Appl. Phys. 67, 3854"
+    eps_inf: 1.0
+    omega_p: 9.04
+    gamma: 21.25
+
+  - name: Gold (Au)
+    comment: ""
+    ref: "Ordal et al. (1985), Appl. Opt. 24, 4493; https://opg.optica.org/ao/fulltext.cfm?uri=ao-24-24-4493"
+    eps_inf: 1.0
+    omega_p: 8.55
+    gamma: 0.0184
+
+  - name: Aluminum (Al)
+    comment: ""
+    ref: "Ordal et al. (1983), Appl. Opt. 22, 1099"
+    eps_inf: 1.0
+    omega_p: 14.75
+    gamma: 0.0598
+
+  - name: Copper (Cu)
+    comment: ""
+    ref: "Ordal et al. (1985), Appl. Opt. 24, 4493"
+    eps_inf: 1.0
+    omega_p: 7.39
+    gamma: 0.0091
+
+  - name: Platinum (Pt)
+    comment: ""
+    ref: "Ordal et al. (1985), Appl. Opt. 24, 4493"
+    eps_inf: 1.0
+    omega_p: 5.15
+    gamma: 0.0692
+
+  - name: Titanium Nitride (TiN)
+    comment: ""
+    comment: "An alternative refractory plasmonic material"
+    ref: "Shah et al. (2018), ResearchGate / Adv. Optical Mater.; https://www.researchgate.net/figure/Drude-Lorentz-fitting-parameters_tbl2_325641117"
+    eps_inf: 5.0
+    omega_p: 7.64
+    gamma: 0.63
+
+  - name: Palladium (Pd)
+    comment: ""
+    ref: "Ordal et al. (1985), Appl. Opt. 24, 4493"
+    eps_inf: 1.0
+    omega_p: 4.54
+    gamma: 0.0508
+
+  - name: Tungsten (W)
+    comment: ""
+    ref: "Ordal et al. (1985), Appl. Opt. 24, 4493"
+    eps_inf: 1.0
+    omega_p: 6.27
+    gamma: 0.380
+
+  - name: Nickel (Ni)
+    comment: ""
+    ref: "Ordal et al. (1988), Appl. Opt. 27, 1203"
+    eps_inf: 1.0
+    omega_p: 4.89
+    gamma: 0.0434
+
+  - name: Iron (Fe)
+    comment: ""
+    ref: "Ordal et al. (1988), Appl. Opt. 27, 1203"
+    eps_inf: 1.0
+    omega_p: 4.09
+    gamma: 0.0211
+
+  - name: Lead (Pb)
+    comment: ""
+    ref: "Ordal et al. (1985), Appl. Opt. 24, 4493"
+    eps_inf: 1.0
+    omega_p: 8.64
+    gamma: 1.054
+
+  - name: Sodium (Na)
+    comment: "Alkali metal, low-loss but highly reactive"
+    ref: "Blaber et al. (2009), J. Phys. Chem. C 113, 3041"
+    eps_inf: 1.0
+    omega_p: 5.93
+    gamma: 0.028
+
+  - name: Potassium (K)
+    comment: "Alkali metal with low plasma frequency"
+    ref: "Blaber et al. (2009), J. Phys. Chem. C 113, 3041"
+    eps_inf: 1.0
+    omega_p: 3.72
+    gamma: 0.018
+
+  - name: Indium Tin Oxide (ITO)
+    comment: "Transparent Conducting Oxide (TCO); parameters vary heavily by doping level"
+    ref: "Naik et al. (2013), Optical Materials Express 3, 1658"
+    eps_inf: 3.9
+    omega_p: 1.95
+    gamma: 0.12
+
+  - name: Titanium Disilicide (TiSi2)
+    comment: "Refractory silicide useful for high-temperature plasmonics"
+    ref: "Lyvers et al. (2011), Appl. Phys. Lett. 99, 131112"
+    eps_inf: 1.0
+    omega_p: 6.76
+    gamma: 0.81

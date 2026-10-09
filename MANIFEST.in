@@ -1,1 +1,1 @@
-recursive-include src/xemm-db/ **
+recursive-include src/xemm-db *

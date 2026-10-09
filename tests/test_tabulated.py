@@ -32,8 +32,8 @@ def material_db(tmp_path: Path) -> Path:
   return tmp_path
 
 
-def test_from_file_loads_custom_data_without_extension(material_db: Path):
-  material = MaterialData.from_file(
+def test_from_db_loads_custom_data_without_extension(material_db: Path):
+  material = MaterialData.from_db(
     'Test/linear', db=str(material_db), verbose=False
   )
 
@@ -47,8 +47,8 @@ def test_from_file_loads_custom_data_without_extension(material_db: Path):
   )
 
 
-def test_from_file_converts_coordinates_and_parameters(material_db: Path):
-  material = MaterialData.from_file(
+def test_from_db_converts_coordinates_and_parameters(material_db: Path):
+  material = MaterialData.from_db(
     'Test/linear',
     db=str(material_db),
     unit='THz',
@@ -67,7 +67,7 @@ def test_from_file_converts_coordinates_and_parameters(material_db: Path):
 
 
 def test_linear_interpolation_clips_or_extrapolates(material_db: Path):
-  material = MaterialData.from_file(
+  material = MaterialData.from_db(
     'Test/linear', db=str(material_db), verbose=False
   )
 
@@ -87,7 +87,7 @@ def test_linear_interpolation_clips_or_extrapolates(material_db: Path):
 
 
 def test_cubic_interpolation_is_jittable_and_differentiable(material_db: Path):
-  material = MaterialData.from_file(
+  material = MaterialData.from_db(
     'Test/linear', db=str(material_db), verbose=False
   )
 
@@ -102,7 +102,7 @@ def test_cubic_interpolation_is_jittable_and_differentiable(material_db: Path):
 
 
 def test_invalid_interpolation_kind_raises(material_db: Path):
-  material = MaterialData.from_file(
+  material = MaterialData.from_db(
     'Test/linear', db=str(material_db), verbose=False
   )
 
@@ -112,16 +112,37 @@ def test_invalid_interpolation_kind_raises(material_db: Path):
 
 def test_missing_database_and_material_raise(tmp_path: Path):
   with pytest.raises(ValueError, match='database directory does not exist'):
-    MaterialData.from_file('missing', db=str(tmp_path / 'missing'), verbose=False)
+    MaterialData.from_db('missing', db=str(tmp_path / 'missing'), verbose=False)
 
   with pytest.raises(ValueError, match='material data file does not exist'):
-    MaterialData.from_file('missing', db=str(tmp_path), verbose=False)
+    MaterialData.from_db('missing', db=str(tmp_path), verbose=False)
 
 
 def test_bundled_database_material_is_available():
-  material = MaterialData.from_file('Ag/Johnson', verbose=False)
+  material = MaterialData.from_db('Ag/Johnson', verbose=False)
 
   assert 'Silver' in material.name
   assert material.f.ndim == material.re.ndim == material.im.ndim == 1
   assert material.f.size == material.re.size == material.im.size
   assert material.f.size > 4
+
+
+def test_avail_lists_bundled_tabulated_materials_and_models():
+  materials = MaterialData.avail()
+  models = MaterialData.avail('Ag')
+
+  assert materials == sorted(materials, key=str.casefold)
+  assert {'Ag', 'Au', 'Si'} <= set(materials)
+  assert models == ['CRC', 'Johnson', 'Palik_ir', 'Palik_vis', 'Rakic']
+
+
+def test_avail_uses_provided_tabulated_database(tmp_path: Path):
+  custom_db = tmp_path / 'custom-tab'
+  custom_db.mkdir()
+  _write_material(custom_db)
+  (custom_db / 'Other').mkdir()
+  (custom_db / 'Other' / 'table.yaml').write_text('NAME: Other\n')
+
+  assert MaterialData.avail(db=str(custom_db)) == ['Other', 'Test']
+  assert MaterialData.avail('Test', db=str(custom_db)) == ['linear']
+  assert MaterialData.avail('missing', db=str(custom_db)) == []

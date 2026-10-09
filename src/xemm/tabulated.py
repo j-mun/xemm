@@ -8,14 +8,16 @@ __all__ = [
   'MaterialData',
 ]
 
-import os
-_DEFAULT_DB = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'xemm-db')
-
 from functools import cache
 import yaml
 import numpy as np
 import jax.numpy as jp
 from . import interp
+from .paths import (
+  available_tabulated_materials,
+  available_tabulated_models,
+  resolve_tabulated_file,
+)
 import xser
 
 Array = jp.ndarray | np.ndarray
@@ -73,21 +75,6 @@ def _convert_parm(re: Array, im: Array, source: str, target: str) -> tuple[Array
   value = jp.sqrt(re + 1j * im)
   return jp.real(value), jp.imag(value)
 
-
-def _resolve_material_file(file: str, db: str | None) -> str:
-  root = _DEFAULT_DB if db is None else db
-  if not os.path.isdir(root):
-    raise ValueError(f'material database directory does not exist: {root!r}')
-
-  path = file if os.path.isabs(file) else os.path.join(root, file)
-  base, extension = os.path.splitext(path)
-  candidates = (path,) if extension in ('.yml', '.yaml') else (base + '.yml', base + '.yaml')
-  for candidate in candidates:
-    if os.path.isfile(candidate):
-      return candidate
-  raise ValueError(f'material data file does not exist: {file!r}')
-
-
 @cache
 def _load_material_data(
     file:str
@@ -121,13 +108,9 @@ def _load_material_data(
 #--- interface
 class MaterialData(xser.SpecNode):
   '''
-  
   import material property data (static)
 
-  
 
-
-  
   Attributes:
 
   
@@ -143,7 +126,14 @@ class MaterialData(xser.SpecNode):
   name: str # material name
 
   @classmethod
-  def from_file(cls, file:str, db:str|None=None, 
+  def avail(cls, name: str | None = None, db: str | None = None) -> list[str]:
+    """List materials, or tabulated sources for ``name``."""
+    if name is None:
+      return available_tabulated_materials(db)
+    return available_tabulated_models(name, db)
+
+  @classmethod
+  def from_db(cls, file:str, db:str|None=None, 
       unit:str|None=None, parm:str|None=None, verbose:bool=True):
     '''
     Returns:
@@ -151,12 +141,12 @@ class MaterialData(xser.SpecNode):
 
     Args:
       file: material data file name
-      db: database name, if None, use the default database
+      db: database root, if None, use the vendored tabulated database
       unit: frequency unit, if None, use the unit in the file
       parm: material property, if None, use the property in the file
       verbose: whether to print the material name
     '''
-    filename = _resolve_material_file(file, db)
+    filename = resolve_tabulated_file(file, db)
     f, re, im, raw_unit, raw_parm, name = _load_material_data(filename)
     unit = raw_unit if unit is None else unit
     parm = raw_parm if parm is None else parm
@@ -205,3 +195,9 @@ class MaterialData(xser.SpecNode):
     imaginary = interpolate(f, c.f, c.im, extrap=extrap)
     real, imaginary = _convert_parm(real, imaginary, c.parm, parm)
     return real + 1j * imaginary
+
+  def eps(c, f: Array, unit:str='m', kind:str='linear', extrap:bool=False) -> Array:
+    return c.interp(f, unit=unit, parm='e', kind=kind, extrap=extrap)
+
+  def n(c, f: Array, unit:str='m', kind:str='linear', extrap:bool=False) -> Array:
+    return c.interp(f, unit=unit, parm='n', kind=kind, extrap=extrap)

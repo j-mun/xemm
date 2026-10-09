@@ -1,6 +1,9 @@
 # Format of tabulated optical properties
 
-The tabulated optical properties should be yaml (*.yml or *.yaml) files and located at ".../<dat>/<mat>/<model>". For instance, ".../dat/Au/Johnson.yml". The files should be written in the following format:
+The tabulated optical properties should be YAML (`.yml` or `.yaml`) files
+located under `xemm-db/tabulated/<material>/<source>.yml`. For instance,
+`xemm-db/tabulated/Au/Johnson.yml`. The files should be written in the following
+format:
 ```
 NAME: <Short Description>
 REFERNCES: <Reference>
