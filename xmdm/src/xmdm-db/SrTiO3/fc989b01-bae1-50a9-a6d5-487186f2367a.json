@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Bond",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      3.042143,
+      0.1475902,
+      1.170065,
+      0.2953086,
+      30.83326,
+      33.18606
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.43,
+      3.8
+    ]
+  },
+  "metadata": {
+    "source": "1) W. L. Bond. Measurement of the refractive indices of several crystals. J. Appl. Phys. 36, 1674-1677 (1965) (https://doi.org/10.1063/1.1703106) 2) M. J. Dodge. Refractive Index. In M. J. Weber (ed.), Handbook of Laser Science and Technology, Volume IV, Optical Material: Part 2, CRC Press, Boca Raton, 1986 (as cited in Handbook of Optics, 3rd edition, Vol. 4. McGraw-Hill 2009). * Ref. 2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info"
+  },
+  "id": "fc989b01-bae1-50a9-a6d5-487186f2367a"
+}

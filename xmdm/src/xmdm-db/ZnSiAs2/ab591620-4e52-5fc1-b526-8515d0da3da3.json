@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Boyd-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      3.9091,
+      5.5565,
+      0.1578,
+      1.1287,
+      700.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.7,
+      11.5
+    ]
+  },
+  "metadata": {
+    "source": "1) G. D. Boyd, E. Buehler, F. G Storz, J. H. Wernick. Linear and nonlinear optical properties of ternary AIIBIVC2V chalcopyrite semiconductors. IEEE J. Quantum Electron., 8, 419-426 (1972) (https://doi.org/10.1109/JQE.1972.1076982) 2) G. C. Bhar. Refractive index interpolation in phase-matching. Appl. Opt. 15, 305-307 (1976) (https://doi.org/10.1364/AO.15.0305_1) *Ref. 2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "Extraordinary ray(e)",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "ab591620-4e52-5fc1-b526-8515d0da3da3"
+}

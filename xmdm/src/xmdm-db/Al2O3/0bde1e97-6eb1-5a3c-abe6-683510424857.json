@@ -1,0 +1,34 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Patwardhan",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      2.3,
+      3.5,
+      4.5
+    ],
+    "re": [
+      2.44e-20,
+      2.62e-20,
+      2.66e-20
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "G. N. Patwardhan, J. S. Ginsberg, C. Y. Chen, M. M. Jadidi, A. L. Gaeta. Nonlinear refractive index of solids in mid-infrared. Opt. Lett. 46, 1824 (2021) (https://doi.org/10.1364/OL.421469); downloaded from refractiveindex.info",
+    "description": "Sapphire. 100 fs. Spectrally resolved two-beam coupling.",
+    "conditions": {
+      "n2_method": "SRTBC",
+      "pulse_duration": "100e-15"
+    }
+  },
+  "id": "0bde1e97-6eb1-5a3c-abe6-683510424857"
+}

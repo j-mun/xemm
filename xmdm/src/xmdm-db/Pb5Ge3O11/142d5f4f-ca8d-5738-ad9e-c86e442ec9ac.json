@@ -1,0 +1,34 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Simon-e",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      2.358,
+      1.929,
+      2.0,
+      0.0578,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.45,
+      0.7
+    ]
+  },
+  "metadata": {
+    "source": "M. Simon, F. Mersch, C. Kuper, S. Mendricks, S. Wevering, J. Imbrock, E. Krätzig. Refractive indices of photorefractive bismuth titanate, barium-calcium titanate, bismuth germanium oxide, and lead germanate. Phys. Stat. Sol. 159, 559-562 (1997) (https://doi.org/10.1002/1521-396X(199702)159:23.0.CO;2-0); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e). 21 °C.",
+    "conditions": {
+      "temperature": 294,
+      "direction": "e"
+    }
+  },
+  "id": "142d5f4f-ca8d-5738-ad9e-c86e442ec9ac"
+}

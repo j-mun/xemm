@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Rah-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      2.2631,
+      0.026981
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      1.6
+    ]
+  },
+  "metadata": {
+    "source": "Y. Rah, Y. Jin, S. Kim, K. Yu. Optical analysis of the refractive index and birefringence of hexagonal boron nitride from the visible to near-infrared. Opt. Lett., 44, 3797-3800 (2019) (https://doi.org/10.1364/OL.44.003797); downloaded from refractiveindex.info",
+    "description": "Hexagonal boron nitride (hBN). Mechanically exfoliated, few-hundred-nm-thick h-BN flakes on a Si substrate. Extraordinary ray (e).",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "13eaf381-c698-5ceb-bab0-5ff34405df9e"
+}

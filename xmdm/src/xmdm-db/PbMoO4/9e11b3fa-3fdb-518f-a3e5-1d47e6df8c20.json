@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Malitson-o",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      3.54642,
+      0.18518,
+      0.5827,
+      0.33764
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.44,
+      1.08
+    ]
+  },
+  "metadata": {
+    "source": "I. H. Malitson, as cited in Handbook of Optics, 3rd edition, Vol. 4. McGraw-Hill 2009. Data fit by Handbook of Optics.; downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o)",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "9e11b3fa-3fdb-518f-a3e5-1d47e6df8c20"
+}

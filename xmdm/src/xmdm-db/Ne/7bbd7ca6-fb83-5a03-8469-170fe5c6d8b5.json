@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Borzsonyi",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      9.15448e-05,
+      0.00065697,
+      4.01863e-05,
+      0.005728
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      1.0
+    ]
+  },
+  "metadata": {
+    "source": "A. Börzsönyi, Z. Heiner, M. P. Kalashnikov, A. P. Kovács, K. Osvay. Dispersion measurement of inert gases and gas mixtures at 800 nm. Appl. Opt. 47, 4856-4863 (2008) (https://doi.org/10.1364/AO.47.004856); downloaded from refractiveindex.info",
+    "description": "273 K (0 °C), 1000 mbar. Dispersion formula may be usable down to ~0.2 µm.",
+    "conditions": {
+      "temperature": 273,
+      "pressure": 100000
+    }
+  },
+  "id": "7bbd7ca6-fb83-5a03-8469-170fe5c6d8b5"
+}

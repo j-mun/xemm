@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Jansonas-o",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      2.2,
+      3.2
+    ],
+    "re": [
+      5.99e-18,
+      4.4e-18
+    ],
+    "im": [
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "G. Jansonas, R. Budriūnas, M. Vengris, A. Varanavičius. Interferometric measurements of nonlinear refractive index in the infrared spectral range. Opt. Express 30, 30507–30524 (2022) (https://doi.org/10.1364/OE.458850); downloaded from refractiveindex.info",
+    "description": "Single crystal ZnGeP2 (ZGP) (o). Polar angle (θ): 74°, azimuthal angle (φ): 0°. 170 fs and 190 fs at 2.2 μm and 3.2 μm, respectively. Fourier Interferometry.",
+    "conditions": {
+      "n2_method": "FI",
+      "pulse_duration": "170e-15 190e-15"
+    }
+  },
+  "id": "9c1e29c4-cc21-5535-bea0-45df01add09d"
+}

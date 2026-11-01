@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Bosomworth-80K",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      0.0,
+      7.78,
+      2.0,
+      44.643,
+      2.0,
+      -4783.2,
+      0.0,
+      44.643,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      53.0,
+      1000.0
+    ]
+  },
+  "metadata": {
+    "source": "D. R. Bosomworth. Far-infrared optical properties of CaF2, SrF2, BaF2, and CdF2. Phys. Rev., 157, 709 (1967) (https://doi.org/10.1103/PhysRev.157.709); downloaded from refractiveindex.info",
+    "description": "80 K",
+    "conditions": {
+      "temperature": 80
+    }
+  },
+  "id": "9e7b8e51-7f82-5dab-b022-507508d4ab4a"
+}

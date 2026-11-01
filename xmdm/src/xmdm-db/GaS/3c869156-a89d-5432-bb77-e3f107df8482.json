@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kato-e",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      5.30813,
+      0.20852,
+      0.0,
+      0.05251,
+      1.0,
+      101.479,
+      0.0,
+      302.223,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.633,
+      10.591
+    ]
+  },
+  "metadata": {
+    "source": "K. Kato and N. Umemura. Sellmeier equations for GaS and GaSe and their applications to the nonlinear optics in GaSxSe1−x. Opt. Lett. 36, 746-747 (2011) (https://doi.org/10.1364/OL.36.000746); downloaded from refractiveindex.info",
+    "description": "Room temperature. Extraordinary ray (e).",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "3c869156-a89d-5432-bb77-e3f107df8482"
+}

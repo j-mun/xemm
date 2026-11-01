@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Peck-0C",
+  "data": {
+    "formula": 6,
+    "coefficients": [
+      6.7867e-05,
+      0.030182943,
+      144.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4679,
+      2.0587
+    ]
+  },
+  "metadata": {
+    "source": "E. R. Peck and D. J. Fisher. Dispersion of argon. J. Opt. Soc. Am. 54, 1362-1364 (1964) (https://doi.org/10.1364/JOSA.54.001362); downloaded from refractiveindex.info",
+    "description": "Standard conditions: 0 °C, 760 torr (101.325 kPa).",
+    "conditions": {
+      "temperature": 273.15,
+      "pressure": 101325
+    }
+  },
+  "id": "7ceccb35-6360-5df5-a250-6dde6a611edb"
+}

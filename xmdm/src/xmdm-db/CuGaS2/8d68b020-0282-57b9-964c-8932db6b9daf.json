@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Boyd-120-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      3.4834,
+      1.7316,
+      0.1453,
+      1.7785,
+      738.43
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.55,
+      11.5
+    ]
+  },
+  "metadata": {
+    "source": "1) G. D. Boyd, H. Kasper, J. H McFee. Linear and nonlinear optical properties of AgGaS2, CuGaS2, and CuInS2, and theory of the wedge technique for the measurement of nonlinear coefficients. IEEE J. Quantum Electron., 7, 563-573 (1971) (https://doi.org/10.1109/JQE.1971.1076588) 2) G. C. Bhar and G. Ghosh. Temperature-dependent Sellmeier coefficients and coherence lengths for some chalcopyrite crystals. J. Opt. Soc. Am. 69, 730-733 (1979) (https://doi.org/10.1364/JOSA.69.000730) * Ref. 2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "Extrardinary ray (e); 120 °C"
+  },
+  "id": "8d68b020-0282-57b9-964c-8932db6b9daf"
+}

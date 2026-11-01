@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Feldman",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      0.67805894,
+      0.05628989,
+      0.37140533,
+      0.10801027,
+      3.3485284,
+      39.906666
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.21,
+      11.5
+    ]
+  },
+  "metadata": {
+    "source": "A. Feldman, D. Horowitz, R. Waxier and M. Dodge. Optical materials characterization final technical report, February 1, 1978. (https://refractiveindex.info/download/data/1978/Feldman 1978 - Optical materials characterization final technical report.pdf); downloaded from refractiveindex.info",
+    "description": "20 °C"
+  },
+  "id": "6e25074d-0b3d-5b7a-b566-f621e2bd1666"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Grace-liquid-90K",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.26,
+      0.23,
+      0.1066,
+      0.0023,
+      0.9083
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.117,
+      0.66
+    ]
+  },
+  "metadata": {
+    "source": "E. Grace, A. Butcher, J. Monroe, J. A. Nikkel. Index of refraction, Rayleigh scattering length, and Sellmeier coefficients in solid and liquid argon and xenon. Nucl. Instr. Meth. Phys. Res. A 867, 204-208 (2017) (https://doi.org/10.1016/j.nima.2017.06.031); downloaded from refractiveindex.info",
+    "description": "Liquid argon at 90 K (-183.15 °C).",
+    "conditions": {
+      "temperature": 90
+    }
+  },
+  "id": "27021dc9-1766-596a-803b-f25470f85502"
+}

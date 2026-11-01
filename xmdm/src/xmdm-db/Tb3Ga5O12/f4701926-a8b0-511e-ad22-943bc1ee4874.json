@@ -1,0 +1,51 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Schlarb",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.40466,
+      0.43583,
+      0.54607,
+      0.633,
+      1.07981,
+      1.08445,
+      1.14091,
+      1.15228,
+      1.17668
+    ],
+    "re": [
+      2.0178,
+      2.0057,
+      1.9765,
+      1.9656,
+      1.9434,
+      1.9432,
+      1.942,
+      1.9421,
+      1.9415
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "U. Schlarb, B. Sugg. Refractive index of terbium gallium garnet, Phys. Status Solidi B 182, K91–K93 (1994); downloaded from refractiveindex.info",
+    "description": "Single-crystal Tb3Ga5O12; Interferometric measurement; 20 °C.",
+    "conditions": {
+      "temperature": 293
+    }
+  },
+  "id": "f4701926-a8b0-511e-ad22-943bc1ee4874"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Tamosauskas-o",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      0.90291,
+      0.003926,
+      0.83155,
+      0.018786,
+      0.76536,
+      60.01
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.188,
+      5.2
+    ]
+  },
+  "metadata": {
+    "source": "1) G. Tamošauskas, G. Beresnevičius, D. Gadonas, A. Dubietis. Transmittance and phase matching of BBO crystal in the 3−5 μm range and its application for the characterization of mid-infrared laser pulses. Opt. Mater. Express 8, 1410-1418 (2018) (https://doi.org/10.1364/OME.8.001410) 2) G. Tamošauskas. β-barium borate (BBO) absorption in the 0.188-6.22 μm range. arXiv:2111.01212 [physics.optics] (2021) (https://arxiv.org/abs/2111.01212) (Numerical data kindly provided by Gintaras Tamošauskas); downloaded from refractiveindex.info",
+    "description": "Beta barium borate (ß-BaB2O4, BBO). Ordinary ray (o).",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "f7db0278-ac07-524a-b8b3-04df5f82e659"
+}

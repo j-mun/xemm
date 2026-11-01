@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Singh-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      5.366,
+      0.047148
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.45,
+      1.15
+    ]
+  },
+  "metadata": {
+    "source": "S. Singh, J. P. Remeika, J. R. Potopowicz. Nonlinear optical properties of ferroelectric lead titanate. Appl. Phys. Lett. 20, 135, 1972 (https://doi.org/10.1063/1.1654078); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e)",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "c05ed568-fc5c-512d-a03a-fc6f5a46d572"
+}

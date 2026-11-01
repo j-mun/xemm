@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Wahlstrand",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      0.8
+    ],
+    "re": [
+      7.4e-24
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "J. K. Wahlstrand, Y.-H. Cheng, H. M. Milchberg. Absolute measurement of the transient optical nonlinearity in N2, O2, N2O, and Ar. Phys. Rev. A 85, 043820 (2012) (https://doi.org/10.1103/PhysRevA.85.043820); downloaded from refractiveindex.info",
+    "description": "40 fs. Single-shot supercontinuum spectral interferometry. Room temperature, atmospheric pressure.\nFor long pulses, the effective nonlinearity coefficient can be calculated as n2,eff = n2/0.23, where n2 is the reported instantaneous nonlinear refractive index.",
+    "conditions": {
+      "n2_method": "SI",
+      "pulse_duration": "40e-15"
+    }
+  },
+  "id": "68386d4a-3a69-5d85-a0ad-e2f9d98a91f2"
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "materials": {
+    "Example": {
+      "name": "Synthetic optical material",
+      "aliases": ["demo"],
+      "records": [
+        {
+          "id": "0a8c1393-f8da-4a29-a4bf-100aeb510f3e",
+          "physics": "optics",
+          "model": "tabulated",
+          "name": "linear",
+          "path": "Example/0a8c1393-f8da-4a29-a4bf-100aeb510f3e.json"
+        },
+        {
+          "id": "9f0ed550-9dfa-4e7d-967a-183f5f9dbd87",
+          "physics": "optics",
+          "model": "cauchy",
+          "name": "cauchy",
+          "path": "Example/9f0ed550-9dfa-4e7d-967a-183f5f9dbd87.json"
+        }
+      ]
+    }
+  }
+}

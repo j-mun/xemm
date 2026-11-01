@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Adair",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.064
+    ],
+    "re": [
+      1.2e-19
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "R. Adair, L. L. Chase, S. A. Payne. Nonlinear refractive index of optical crystals. Phys. Rev. B 39, 3337 (1989) (https://doi.org/10.1103/PhysRevB.39.3337); downloaded from refractiveindex.info",
+    "description": "SrO[100]. 3 ns. Three-wave mixing.",
+    "conditions": {
+      "n2_method": "TWM",
+      "pulse_duration": "3e-9"
+    }
+  },
+  "id": "0c081e24-f0ec-5213-8fa1-6bd3bc888298"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Wang-4H-o",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      0.20075,
+      -12.07224,
+      5.54861,
+      0.02641,
+      35.65066,
+      1268.24708
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4047,
+      5.0
+    ]
+  },
+  "metadata": {
+    "source": "S. Wang, M. Zhan, G. Wang, H. Xuan, W. Zhang, C. Liu, C. Xu, Y. Liu, Z. Wei, X. Chen. 4H-SiC: A new nonlinear material for midinfrared lasers. Laser Photonics Rev. 7, 831–838 (2013) (https://doi.org/10.1002/lpor.201300068); downloaded from refractiveindex.info",
+    "description": "4H-SiC (hexagonal crystal structure); Ordinary ray (o)",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "93036a13-28d3-5c65-a1e6-adb9357a898d"
+}

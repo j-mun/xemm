@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Laihoa-e",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      1.5149,
+      0.0878
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.35,
+      0.7
+    ]
+  },
+  "metadata": {
+    "source": "R. Laihoa and M. Lakkistoa. Investigation of the refractive indices of LaF3, CeF3, PrF3 and NdF3. Phil. Mag. B 48, 203-207 (1983) (https://doi.org/10.1080/13642818308226470) (As cited in Handbook of Optics, 2nd edition, Vol. 2. McGraw-Hill 1994).; downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e)",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "8f996a99-56d9-5b8d-97c4-f6c6b1a1656c"
+}

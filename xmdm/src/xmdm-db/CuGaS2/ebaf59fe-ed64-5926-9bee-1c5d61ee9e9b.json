@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Boyd-20-o",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      2.9064,
+      2.3065,
+      0.1149,
+      1.5479,
+      738.43
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.55,
+      11.5
+    ]
+  },
+  "metadata": {
+    "source": "1) G. D. Boyd, H. Kasper, J. H McFee. Linear and nonlinear optical properties of AgGaS2, CuGaS2, and CuInS2, and theory of the wedge technique for the measurement of nonlinear coefficients. IEEE J. Quantum Electron., 7, 563-573 (1971) (https://doi.org/10.1109/JQE.1971.1076588) 2) G. C. Bhar and G. Ghosh. Temperature-dependent Sellmeier coefficients and coherence lengths for some chalcopyrite crystals. J. Opt. Soc. Am. 69, 730-733 (1979) (https://doi.org/10.1364/JOSA.69.000730) * Ref. 2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o); 20 °C",
+    "conditions": {
+      "temperature": 293,
+      "direction": "o"
+    }
+  },
+  "id": "ebaf59fe-ed64-5926-9bee-1c5d61ee9e9b"
+}

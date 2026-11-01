@@ -1,0 +1,34 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kato-alpha",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      3.291,
+      0.0414,
+      0.0,
+      0.03978,
+      1.0,
+      9.35522,
+      0.0,
+      31.45571,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.43,
+      3.54
+    ]
+  },
+  "metadata": {
+    "source": "K. Kato and E. Takaoka. Sellmeier and thermo-optic dispersion formulas for KTP. Appl. Opt. 41, 5040-5044 (2002) (https://doi.org/10.1364/AO.41.005040).; downloaded from refractiveindex.info",
+    "description": "nα; 20 °C.",
+    "conditions": {
+      "temperature": 293,
+      "direction": "alpha"
+    }
+  },
+  "id": "5a48100d-2730-5cec-a436-5e7d3859bda4"
+}

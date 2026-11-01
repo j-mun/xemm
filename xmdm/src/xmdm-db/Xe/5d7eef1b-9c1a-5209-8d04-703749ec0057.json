@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Grace-liquid-178K",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.4,
+      0.4,
+      0.1469,
+      0.002,
+      0.827
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.157,
+      0.66
+    ]
+  },
+  "metadata": {
+    "source": "E. Grace, A. Butcher, J. Monroe, J. A. Nikkel. Index of refraction, Rayleigh scattering length, and Sellmeier coefficients in solid and liquid argon and xenon. Nucl. Instr. Meth. Phys. Res. A 867, 204-208 (2017) (https://doi.org/10.1016/j.nima.2017.06.031); downloaded from refractiveindex.info",
+    "description": "Liquid xenon at 178 K (-95.15 °C).",
+    "conditions": {
+      "temperature": 178
+    }
+  },
+  "id": "5d7eef1b-9c1a-5209-8d04-703749ec0057"
+}

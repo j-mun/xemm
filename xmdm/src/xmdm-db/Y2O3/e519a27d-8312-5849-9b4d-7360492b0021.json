@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Nigara",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      2.578,
+      0.1387,
+      3.935,
+      22.936
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.25,
+      9.6
+    ]
+  },
+  "metadata": {
+    "source": "Y. Nigara. Measurement of the optical constants of yttrium oxide. Jpn. J. Appl. Phys. 7, 404-408 (1968) (https://doi.org/10.1143/JJAP.7.404); downloaded from refractiveindex.info"
+  },
+  "id": "e519a27d-8312-5849-9b4d-7360492b0021"
+}

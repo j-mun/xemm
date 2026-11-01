@@ -1,0 +1,35 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Umegaki-e",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      2.918692,
+      0.035145,
+      0.0,
+      0.028224,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.003641,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      5.7
+    ]
+  },
+  "metadata": {
+    "source": "1) S. Umegaki, S.-I. Tanaka, T. Uchiyama, S. Yabumoto. Refractive indices of lithium iodate between 0.4 and 2.2 μ. Opt. Commun. 3, 244-245 (1971) (https://doi.org/10.1016/0030-4018(71)90013-7) 2) V. I. Kabelka, A. S. Piskarskas, A. Y. Stabinis, R. L. Sher. Group matching of interacting light pulses in nonlinear crystals. Sov. J. Quant. Electron. 5, 255-256 (1975) (https://doi.org/10.1070/QE1975v005n02ABEH010943) 3) K. Kato. High-power difference-frequency generation at 4.4-5.7 µm in LiIO3. IEEE. J. Quant. Electron. 21, 119-120 (1985) (https://doi.org/10.1109/JQE.1985.1072617) * Reference 2 presented a dispersion formula based on tabulated data from Reference 1. The formula was further refined and its accuracy was confirmed in Reference 3, which extended the range of validity.; downloaded from refractiveindex.info",
+    "description": "Room temperature. Extraordinary ray (e).",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "ce623cb3-61db-5aba-9e8f-240a2b4c8777"
+}

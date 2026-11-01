@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Miller-betaX",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.064
+    ],
+    "re": [
+      9.21e-20
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "S. Miller, F. Rotermund, G. Xu, F. Noack, V. Panyutin, V. Petrov. Polarization-dependent nonlinear refractive index of BiB3O6. Opt. Mater. 30, 1469 (2008) (https://doi.org/10.1016/j.optmat.2007.11.015); downloaded from refractiveindex.info",
+    "description": "E∥Y (β); propagation ∥ X. 56 ps. Z-scan.",
+    "conditions": {
+      "n2_method": "Z-scan",
+      "pulse_duration": "56e-12",
+      "direction": "beta"
+    }
+  },
+  "id": "1d0f36cf-7c71-5145-a55c-d211dfc55bd6"
+}

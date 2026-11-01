@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Kabacinski",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.03
+    ],
+    "re": [
+      6.13e-20
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "P. Kabaciński, T. M. Kardaś, Y. Stepanenko, C. Radzewicz. Nonlinear refractive index measurement by SPM-induced phase regression. Opt. Express 27, 11018 (2019) (https://doi.org/10.1364/OE.27.011018); downloaded from refractiveindex.info",
+    "description": "210 fs. SPM-induced phase regression.",
+    "conditions": {
+      "n2_method": "SPMIPR",
+      "pulse_duration": "210e-15"
+    }
+  },
+  "id": "ed3721fb-7522-5d03-bd58-cef8dc5460b0"
+}

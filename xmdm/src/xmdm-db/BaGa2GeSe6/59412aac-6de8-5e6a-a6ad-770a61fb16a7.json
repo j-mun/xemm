@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kato-e",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      8.11658,
+      0.30287,
+      0.0,
+      0.13199,
+      1.0,
+      2197.51,
+      0.0,
+      1408.89,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.778,
+      10.6
+    ]
+  },
+  "metadata": {
+    "source": "K. Kato, K. Miyata, V. V. Badikov, V. Petrov. Phase-matching properties of BaGa2GeSe6 for three-wave interactions in the 0.778–10.5910 μm spectral range. Appl. Opt., 57, 7440–7443 (2018) (https://doi.org/10.1364/AO.57.007440); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e); room temperature.",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "59412aac-6de8-5e6a-a6ad-770a61fb16a7"
+}

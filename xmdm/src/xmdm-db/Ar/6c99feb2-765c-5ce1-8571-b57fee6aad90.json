@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Cuthbertson",
+  "data": {
+    "formula": 6,
+    "coefficients": [
+      0.0,
+      0.052476137,
+      189.24954
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.48,
+      0.6708
+    ]
+  },
+  "metadata": {
+    "source": "1) C. Cuthbertson and M. Cuthbertson. The refraction and dispersion of argon, and redeterminations of the dispersion of helium, neon, krypton, and xenon. Proc. R. Soc. London A 84, 13-15 (1910) (https://doi.org/10.1098/rspa.1910.0052) 2) C. Cuthbertson and M. Cuthbertson. On the refraction and dispersion of neon. Proc. R. Soc. London A 83, 149-151 (1910) (https://doi.org/10.1098/rspa.1910.0001) * Ref. 1 doesn't cite gas temperature and pressure. See the earlier publication by the same authors (ref. 2) instead.; downloaded from refractiveindex.info",
+    "description": "Standard conditions: 0 °C, 760 torr (101.325 kPa).",
+    "conditions": {
+      "temperature": 273.15,
+      "pressure": 101325
+    }
+  },
+  "id": "6c99feb2-765c-5ce1-8571-b57fee6aad90"
+}

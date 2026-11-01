@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Miller-gammaX",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.064
+    ],
+    "re": [
+      1.52e-19
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "S. Miller, F. Rotermund, G. Xu, F. Noack, V. Panyutin, V. Petrov. Polarization-dependent nonlinear refractive index of BiB3O6. Opt. Mater. 30, 1469 (2008) (https://doi.org/10.1016/j.optmat.2007.11.015); downloaded from refractiveindex.info",
+    "description": "E∥Z (γ); propagation ∥ X. 56 ps. Z-scan.",
+    "conditions": {
+      "n2_method": "Z-scan",
+      "pulse_duration": "56e-12",
+      "direction": "gamma"
+    }
+  },
+  "id": "b9cd7e16-2a96-58bc-8f4e-114dea246d36"
+}

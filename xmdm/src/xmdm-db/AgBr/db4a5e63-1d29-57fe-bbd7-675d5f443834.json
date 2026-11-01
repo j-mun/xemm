@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Polyanskiy",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      2.86,
+      0.8677,
+      0.32112,
+      21.61,
+      254.2
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.495,
+      12.7
+    ]
+  },
+  "metadata": {
+    "source": "M. N. Polyanskiy, I. V. Pogorelsky, M. Babzien, K. L. Vodopyanov, M. A. Palmer. Nonlinear refraction and absorption properties of optical materials for high-peak-power long-wave-infrared lasers. Opt. Mater. Express 14, 696–714 (2024) (https://doi.org/10.1364/OME.513971) (fit of data from Schröter-1931 (https://doi.org/10.1007/BF01391040) and McCarthy-1973 (https://doi.org/10.1364/AO.12.000409)); downloaded from refractiveindex.info"
+  },
+  "id": "db4a5e63-1d29-57fe-bbd7-675d5f443834"
+}

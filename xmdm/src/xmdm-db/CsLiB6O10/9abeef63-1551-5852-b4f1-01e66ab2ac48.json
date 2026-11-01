@@ -1,0 +1,35 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Sasaki-e",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      2.0588,
+      0.00838,
+      0.0,
+      0.01363,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00607,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.19,
+      2.75
+    ]
+  },
+  "metadata": {
+    "source": "T. Sasaki, Y. Mori, M. Yoshimura. Progress in the growth of a CsLiB6O10 crystal and its application to ultraviolet light generation. Opt. Mat. 23, 343-351 (2003) (https://doi.org/10.1016/S0925-3467(02)00316-6); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e). Room temperature.",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "9abeef63-1551-5852-b4f1-01e66ab2ac48"
+}

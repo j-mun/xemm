@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Caldwell-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      28.5222,
+      9.3068,
+      2.5766,
+      9.235,
+      13521.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      4.0,
+      14.0
+    ]
+  },
+  "metadata": {
+    "source": "1) R. S. Caldwell and H. Y. Fan. Optical properties of tellurium and selenium. Phys. Rev., 114, 664–675 (1959) (https://doi.org/10.1103/PhysRev.114.664) 2) G. C. Bhar. Refractive index interpolation in phase-matching. Appl. Opt. 15, 305–307 (1976) (https://doi.org/10.1364/AO.15.0305_1) * Ref. 2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e).",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "1cf28209-83f8-5e78-8a36-9b192e42ea54"
+}

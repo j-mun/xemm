@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Shaffer",
+  "data": {
+    "formula": 5,
+    "coefficients": [
+      2.5538,
+      0.0342,
+      -2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.467,
+      0.691
+    ]
+  },
+  "metadata": {
+    "source": "P. T. B. Shaffer. Refractive index, dispersion, and birefringence of silicon carbide polytypes. Appl. Opt. 10, 1034-1036 (1971) (https://doi.org/10.1364/AO.10.001034); downloaded from refractiveindex.info",
+    "description": "β-SiC (zincblende crystal structure)"
+  },
+  "id": "04cc874a-20ab-5645-bb39-5272ae5c926d"
+}

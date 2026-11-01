@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Milam",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.064
+    ],
+    "re": [
+      2.85e-20
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "D. Milam, M. J. Weber, A. J. Glass. Nonlinear refractive index of fluoride crystals. Appl. Phys. Lett. 31, 822 (1977) (https://doi.org/10.1063/1.89561); downloaded from refractiveindex.info",
+    "description": "Cubic BaF2. 125 ps. Time-resolved interferometry.",
+    "conditions": {
+      "n2_method": "TRI",
+      "pulse_duration": "125e-12"
+    }
+  },
+  "id": "fde532ce-57fe-5867-8b6c-90cfba258db9"
+}

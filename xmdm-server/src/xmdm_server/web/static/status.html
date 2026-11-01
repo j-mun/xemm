@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>Server status · XMDM</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body data-page="status">
+    <header class="topbar">
+      <a class="brand" href="/data">XMDM <span>materials</span></a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="/data">Data</a>
+        <a href="/upload">Upload</a>
+        <a href="/admin">Admin</a>
+        <a href="/status" aria-current="page">Status</a>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <p class="eyebrow">SYSTEM</p>
+        <h1>Server status</h1>
+        <p>Health and catalog availability for this XMDM server instance.</p>
+      </section>
+      <section class="panel" aria-labelledby="server-status-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">HEALTH CHECK</p>
+            <h2 id="server-status-title">Service health</h2>
+          </div>
+          <button id="refresh-server-status" type="button">Refresh status</button>
+        </div>
+        <div id="server-status" class="status" role="status">Checking server health…</div>
+        <dl id="server-details" class="status-grid"></dl>
+        <p id="status-checked-at" class="muted"></p>
+      </section>
+    </main>
+  </body>
+</html>

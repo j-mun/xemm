@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Owyoung",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.064
+    ],
+    "re": [
+      9.41e-20
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "A. Owyoung. Ellipse rotation studies in laser host materials. IEEE J. Quantum Electron. 9, 1064 (1973) (https://doi.org/10.1109/JQE.1973.1077417); downloaded from refractiveindex.info",
+    "description": "13 ns. Ellipse rotation.",
+    "conditions": {
+      "n2_method": "ER",
+      "pulse_duration": "13e-9"
+    }
+  },
+  "id": "61de46ee-7c1b-5ab8-8764-9c8193b0e083"
+}

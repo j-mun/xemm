@@ -1,0 +1,48 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Sinnock-solid-105K",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.3631,
+      0.4063,
+      0.4358,
+      0.4753,
+      0.5086,
+      0.5461,
+      0.578,
+      0.6439
+    ],
+    "re": [
+      1.3638,
+      1.36,
+      1.3578,
+      1.3554,
+      1.3538,
+      1.3524,
+      1.3514,
+      1.3498
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "A. C. Sinnock and B. L. Smith. Refractive indices of the condensed inert gases. Phys. Rev. 181, 1297-1307 (1969) (https://doi.org/10.1103/PhysRev.181.1297); downloaded from refractiveindex.info",
+    "description": "Solid krypton at 105 K (-168.15 °C).",
+    "conditions": {
+      "temperature": 105
+    }
+  },
+  "id": "32fce9d6-4100-53cf-a474-17d82986df25"
+}

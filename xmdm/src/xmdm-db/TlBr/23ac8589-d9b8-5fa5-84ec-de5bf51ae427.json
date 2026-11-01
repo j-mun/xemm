@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Palik",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      3.744239,
+      0.2079603,
+      0.9189162,
+      0.3765643,
+      12.5444602,
+      165.6525518
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.57,
+      39.4
+    ]
+  },
+  "metadata": {
+    "source": "Handbook of Optical Constants of Solids, Edward D. Palik, ed. Academic Press, Boston, 1985; downloaded from refractiveindex.info",
+    "description": "25 °C"
+  },
+  "id": "23ac8589-d9b8-5fa5-84ec-de5bf51ae427"
+}

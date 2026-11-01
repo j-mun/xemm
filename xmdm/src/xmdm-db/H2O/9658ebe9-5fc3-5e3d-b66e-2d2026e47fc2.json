@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kofman-150K",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      0.496,
+      0.071,
+      0.19,
+      0.134
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.21,
+      0.757
+    ]
+  },
+  "metadata": {
+    "source": "V. Kofman, J. He, I. L. ten Kate, H. Linnartz. The refractive index of amorphous and crystalline water ice in the UV–vis. Astrophys. J. 875, 131 (2019) (https://doi.org/10.3847/1538-4357/ab0d89); downloaded from refractiveindex.info",
+    "description": "Crystalline water ice at 150 K.",
+    "conditions": {
+      "temperature": 150
+    }
+  },
+  "id": "9658ebe9-5fc3-5e3d-b66e-2d2026e47fc2"
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kato-o",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      11.62264,
+      0.43221,
+      0.0,
+      0.15597,
+      1.0,
+      18868.52,
+      0.0,
+      3953.34,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.81,
+      18.0
+    ]
+  },
+  "metadata": {
+    "source": "K. Kato, K. Miyata, V. Petrov. Refined Sellmeier equations for AgGaSe2 up to 18 µm. Appl. Opt., 60, 805–808 (2021) (https://doi.org/10.1364/AO.401828); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o) 20–22 °C.",
+    "conditions": {
+      "temperature": 294,
+      "direction": "o"
+    }
+  },
+  "id": "b1a43843-e252-5a64-8e64-57ca1ca7f3ef"
+}

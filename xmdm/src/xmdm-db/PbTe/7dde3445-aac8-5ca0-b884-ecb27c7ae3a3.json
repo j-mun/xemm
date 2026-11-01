@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Weiting-130K",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      1.0,
+      33.851,
+      2.0,
+      3.6068,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.009763,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      5.189,
+      12.51
+    ]
+  },
+  "metadata": {
+    "source": "F. Weiting and Y. Yixun. Temperature effects on the refractive index of lead telluride and zinc selenide. Infrared Phys. 30, 371-373, 1990 (https://doi.org/10.1016/0020-0891(90)90055-Z) (fitting experimental data with dispersion formula: refractiveindex.info); downloaded from refractiveindex.info",
+    "description": "130 K (-143 °C)"
+  },
+  "id": "7dde3445-aac8-5ca0-b884-ecb27c7ae3a3"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Lee",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      3.263,
+      0.1644
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.45,
+      1.2
+    ]
+  },
+  "metadata": {
+    "source": "S. Y. Lee, T. Y. Jeong, S. Jung, K. J. Yee. Refractive index dispersion of hexagonal boron nitride in the visible and near-infrared. Phys. Status Solidi B, 256, 1800417 (2018) (https://doi.org/10.1002/pssb.201800417); downloaded from refractiveindex.info",
+    "description": "Hexagonal boron nitride (h-BN). In-plane refractive index (ordinary ray, no). h-BN flakes of thickness around 1000 nm were mechanically exfoliated from a bulk crystal and transferred onto quartz substrates for transmission measurements. The single oscillator model is used to fit transmission spectra of several hBN flakes of different thickness.",
+    "conditions": {
+      "film_thickness": "1e-6",
+      "substrate": "SiO2",
+      "direction": "o"
+    }
+  },
+  "id": "91b691e8-58b5-5448-92cc-7245d4e31052"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Matteo-200ps",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      10.6
+    ],
+    "re": [
+      2.5e-17
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "D. Matteo, S. Tochitsky, J. Pigeon, C. Joshi. Pulse length effects in the nonresonant long-wave infrared nonlinear optical response of n-Ge, GaAs, and ZnSe. J. Opt. Soc. Am. B 41, E35 (2024) (https://doi.org/10.1364/JOSAB.534031); downloaded from refractiveindex.info",
+    "description": "n-Ge. 200 ps. Four-wave mixing.",
+    "conditions": {
+      "n2_method": "FWM",
+      "pulse_duration": "200e-12"
+    }
+  },
+  "id": "718e6a45-8b34-5f43-8c57-c7ac8ef62839"
+}

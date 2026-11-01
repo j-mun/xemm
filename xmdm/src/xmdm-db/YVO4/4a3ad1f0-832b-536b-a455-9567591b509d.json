@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Kabacinski-e",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.03
+    ],
+    "re": [
+      1.49e-19
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "P. Kabaciński, T. M. Kardaś, Y. Stepanenko, C. Radzewicz. Nonlinear refractive index measurement by SPM-induced phase regression. Opt. Express 27, 11018 (2019) (https://doi.org/10.1364/OE.27.011018); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e). 210 fs. SPM-induced phase regression.",
+    "conditions": {
+      "n2_method": "SPMIPR",
+      "pulse_duration": "210e-15",
+      "direction": "e"
+    }
+  },
+  "id": "4a3ad1f0-832b-536b-a455-9567591b509d"
+}

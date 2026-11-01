@@ -1,0 +1,34 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Zernike-o",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      2.259276,
+      13.00522,
+      2.0,
+      400.0,
+      1.0,
+      0.01008956,
+      0.0,
+      0.0129426,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.2138,
+      1.529
+    ]
+  },
+  "metadata": {
+    "source": "F. Zernike, Jr. Refractive indices of ammonium dihydrogen phosphate and potassium dihydrogen phosphate between 2000 Å and 1.5 µ. J. Opt. Soc. Am. 54, 1215-1219 (1964) (https://doi.org/10.1364/JOSA.54.001215).; downloaded from refractiveindex.info",
+    "description": "24.8 °C. Ordinary ray (o).",
+    "conditions": {
+      "temperature": 297.95,
+      "direction": "o"
+    }
+  },
+  "id": "e95f3d8c-a143-59e4-941c-f559b2d520cc"
+}

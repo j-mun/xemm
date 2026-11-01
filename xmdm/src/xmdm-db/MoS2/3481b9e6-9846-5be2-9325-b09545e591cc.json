@@ -1,0 +1,70 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Yim-20nm",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.381514,
+      0.405058,
+      0.420636,
+      0.444958,
+      0.461636,
+      0.476379,
+      0.49361,
+      0.518094,
+      0.565865,
+      0.598976,
+      0.62965,
+      0.663614,
+      0.698508,
+      0.733987,
+      0.884671
+    ],
+    "re": [
+      2.39671,
+      3.0524,
+      3.40763,
+      4.12678,
+      4.64557,
+      4.9188,
+      4.85572,
+      4.57462,
+      4.1213,
+      4.04021,
+      4.19537,
+      4.46871,
+      4.50563,
+      4.43343,
+      4.17153
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "C. Yim, M. O'Brien, N. McEvoy, S. Winters, I. Mirza, J. G. Lunney, G. S. Duesberg. Investigation of the optical properties of MoS2 thin films using spectroscopic ellipsometry. Appl. Phys. Let. 104, 103114 (2014) (https://doi.org/10.1063/1.4868108); downloaded from refractiveindex.info",
+    "description": "19.88 nm film synthesized by vapor phase sulfurization. ~290 nm thick SiO2 substrate thermally grown on  oriented crystalline Si wafer.",
+    "conditions": {
+      "film_thickness": 1.988e-08,
+      "substrate": "SiO2/Si"
+    }
+  },
+  "id": "3481b9e6-9846-5be2-9325-b09545e591cc"
+}

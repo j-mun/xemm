@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Bodurov",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      4.6796,
+      0.2002148
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.405,
+      0.635
+    ]
+  },
+  "metadata": {
+    "source": "I. Bodurov, I. Vlaeva, A. Viraneva, T. Yovcheva, S. Sainov. Modified design of a laser refractometer, Nanoscience & Nanotechnology 16, 31-33 (2016) (http://nsc-nt.ipc.bas.bg/page/en/details.php?article_id=524); downloaded from refractiveindex.info",
+    "description": "Titanium dioxide in anatase phase. <35 nm diameter nanoparticles dispersed in water. Concentration 5 wt.%. 24 °C. Refractive index of nanoparticles calculated using Bruggeman's effective medium approximation.",
+    "conditions": {
+      "temperature": 297
+    }
+  },
+  "id": "e121dd87-128c-5819-b0b4-1ab56a3d6cb8"
+}

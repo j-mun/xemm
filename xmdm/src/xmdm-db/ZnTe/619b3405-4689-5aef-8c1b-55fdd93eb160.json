@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Li",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      9.92,
+      0.4253,
+      0.0,
+      0.37766,
+      2.0,
+      8414.13,
+      0.0,
+      56.5,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.55,
+      30.0
+    ]
+  },
+  "metadata": {
+    "source": "H. H. Li. Refractive index of ZnS, ZnSe, and ZnTe and its wavelength and temperature derivatives. J. Phys. Chem. Ref. Data 13, 103-150 (1984) (https://doi.org/10.1063/1.555705) *Sellmeier formula is derived by critical analysis of experimental data from several sources.; downloaded from refractiveindex.info",
+    "description": "293 K (20 °C)."
+  },
+  "id": "619b3405-4689-5aef-8c1b-55fdd93eb160"
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Weber",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.230209,
+      0.234555,
+      0.237999,
+      0.244691,
+      0.246407,
+      0.25763,
+      0.267499,
+      0.275278,
+      0.275971,
+      0.289357,
+      0.292541,
+      0.334148,
+      0.380166,
+      0.410807,
+      0.491604,
+      0.546074,
+      0.576959,
+      0.579065
+    ],
+    "re": [
+      1.0001568,
+      1.00015584,
+      1.0001551,
+      1.00015378,
+      1.00015347,
+      1.00015158,
+      1.00015014,
+      1.00014915,
+      1.00014906,
+      1.00014756,
+      1.00014725,
+      1.00014395,
+      1.0001416,
+      1.00014048,
+      1.0001385,
+      1.00013766,
+      1.00013731,
+      1.00013727
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "Handbook of Optical Materials, Marvin J. Weber. CRC Press 2003 [link (https://books.google.com/books?id=6VpQDoef05wC&hl=en)] *Original source of data is unknown: \"Handbook...\" cites a paper that doesn't include any information on optical constants of Deuterium.; downloaded from refractiveindex.info",
+    "description": "0 °C",
+    "conditions": {
+      "temperature": 273.15
+    }
+  },
+  "id": "f01942f1-ee7f-5e8c-8d97-0387977ea08f"
+}

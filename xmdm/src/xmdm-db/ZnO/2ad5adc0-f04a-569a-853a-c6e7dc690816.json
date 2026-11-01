@@ -1,0 +1,35 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Bond-e",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      2.80333,
+      0.9447,
+      2.0,
+      0.3004,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00714,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.45,
+      4.0
+    ]
+  },
+  "metadata": {
+    "source": "1) W. L. Bond. Measurement of the refractive indices of several crystals. J. Appl. Phys. 36, 1674-1677 (1965) (https://doi.org/10.1063/1.1703106) 2) Handbook of Optics, 3rd edition, Vol. 4. McGraw-Hill 2009 * Ref. 2 provides a dispersion formula based on data from ref. 1; downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e). Room temperature.",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "2ad5adc0-f04a-569a-853a-c6e7dc690816"
+}

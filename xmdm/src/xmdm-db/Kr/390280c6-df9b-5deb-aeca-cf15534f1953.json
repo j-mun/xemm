@@ -1,0 +1,48 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Sinnock-liquid-118K",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.3631,
+      0.4063,
+      0.4358,
+      0.4753,
+      0.5086,
+      0.5461,
+      0.578,
+      0.6439
+    ],
+    "re": [
+      1.3095,
+      1.3065,
+      1.3049,
+      1.3031,
+      1.3017,
+      1.3008,
+      1.2999,
+      1.2986
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "A. C. Sinnock and B. L. Smith. Refractive indices of the condensed inert gases. Phys. Rev. 181, 1297-1307 (1969) (https://doi.org/10.1103/PhysRev.181.1297); downloaded from refractiveindex.info",
+    "description": "Liquid krypton at 118 K (-155.15 °C).",
+    "conditions": {
+      "temperature": 118
+    }
+  },
+  "id": "390280c6-df9b-5deb-aeca-cf15534f1953"
+}

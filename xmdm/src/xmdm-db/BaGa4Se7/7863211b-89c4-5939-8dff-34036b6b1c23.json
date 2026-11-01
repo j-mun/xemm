@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kato-beta",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      6.86603,
+      0.26816,
+      0.0,
+      0.04259,
+      1.0,
+      682.97,
+      0.0,
+      781.78,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.901,
+      10.591
+    ]
+  },
+  "metadata": {
+    "source": "K. Kato, K. Miyata, V. Petrov. Phase-matching properties of BaGa4Se7 for SHG and SFG in the 0.901–10.5910 μm range. Appl. Opt., 56, 2978–2981 (2017) (https://doi.org/10.1364/AO.56.002978); downloaded from refractiveindex.info",
+    "description": "nβ; room temperature.",
+    "conditions": {
+      "direction": "beta"
+    }
+  },
+  "id": "7863211b-89c4-5939-8dff-34036b6b1c23"
+}

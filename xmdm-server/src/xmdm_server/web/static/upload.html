@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>Upload data · XMDM</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body data-page="upload">
+    <header class="topbar">
+      <a class="brand" href="/data">XMDM <span>materials</span></a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="/data">Data</a>
+        <a href="/upload" aria-current="page">Upload</a>
+        <a href="/admin">Admin</a>
+        <a href="/status">Status</a>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <p class="eyebrow">CONTRIBUTE</p>
+        <h1>Upload material data</h1>
+        <p>Preview your spectrum, then submit it for verification and
+          administrator review before publication.</p>
+      </section>
+      <section class="upload-panel panel" aria-labelledby="upload-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">VERIFIED SUBMISSION</p>
+            <h2 id="upload-title">Record details and source data</h2>
+          </div>
+        </div>
+        <div class="upload-grid">
+          <label>Upload destination
+            <select id="upload-destination">
+              <option value="existing">Existing material</option>
+              <option value="new">New material</option>
+            </select>
+          </label>
+          <label>Material
+            <select id="upload-material"></select>
+          </label>
+          <label id="new-material-id-label" hidden>New material ID
+            <input id="upload-material-id" type="text" placeholder="e.g. MyAlloy">
+          </label>
+          <label id="new-material-name-label" hidden>New material display name
+            <input id="upload-material-name" type="text" placeholder="e.g. My alloy">
+          </label>
+          <label>Record name
+            <input id="upload-name" type="text" placeholder="e.g. Measurement 2026">
+          </label>
+          <label>Kind
+            <select id="upload-kind">
+              <option value="nk">n and k</option>
+              <option value="eps">Permittivity (ε)</option>
+            </select>
+          </label>
+          <label>Coordinate unit
+            <select id="upload-unit">
+              <option value="nm">nm</option>
+              <option value="m">m</option>
+              <option value="um">µm</option>
+              <option value="Hz">Hz</option>
+              <option value="GHz">GHz</option>
+              <option value="THz">THz</option>
+              <option value="cm-1">cm⁻¹</option>
+              <option value="eV">eV</option>
+            </select>
+          </label>
+          <label>Author
+            <input id="upload-author" type="text" placeholder="Optional">
+          </label>
+          <label>Source or citation
+            <input id="upload-source" type="text" placeholder="Optional">
+          </label>
+          <label class="upload-wide">Description
+            <textarea id="upload-description" rows="2" placeholder="Optional notes, method, or sample details"></textarea>
+          </label>
+          <label class="upload-wide">Choose CSV, TXT, or JSON file(s)
+            <input id="upload-file" type="file" multiple
+              accept=".csv,.txt,.json,text/csv,text/plain,application/json">
+          </label>
+          <label id="upload-file-choice-label" class="upload-wide" hidden>
+            Preview file
+            <select id="upload-file-choice"></select>
+          </label>
+          <label class="upload-wide">Or paste data
+            <textarea id="upload-data" rows="8" spellcheck="false"
+              placeholder="Three columns: coordinate, real part, imaginary part&#10;450, 1.52, 0.03&#10;500, 1.49, 0.04"></textarea>
+          </label>
+          <label class="upload-wide">Upload bearer token (records:write)
+            <input id="upload-token" type="password" autocomplete="off"
+              placeholder="Token is kept in this page only">
+          </label>
+        </div>
+        <div class="upload-actions">
+          <button id="preview-upload" type="button">Preview spectrum</button>
+          <button id="submit-upload" type="button" disabled>Submit for review</button>
+        </div>
+        <div id="upload-status" class="status" role="status">No upload preview yet.</div>
+      </section>
+      <section class="plot-panel panel" aria-labelledby="preview-title">
+        <div class="section-heading"><h2 id="preview-title">Spectrum preview</h2></div>
+        <div class="chart-wrap">
+          <svg id="chart" viewBox="0 0 960 460" role="img"
+               aria-label="Upload preview spectrum">
+            <text x="480" y="215" text-anchor="middle" class="chart-placeholder">
+              Preview data to visualize the spectrum
+            </text>
+          </svg>
+        </div>
+        <div id="legend" class="legend"></div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Bond-o",
+  "id": "80398401-50b4-565c-ac57-f516b93f30e1",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.8,
+      0.9,
+      1.0,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2.0,
+      2.2,
+      2.4,
+      2.6,
+      2.8,
+      3.0,
+      3.2,
+      3.4,
+      3.6,
+      3.8,
+      4.0
+    ],
+    "re": [
+      2.6448,
+      2.5826,
+      2.5502,
+      2.5132,
+      2.4929,
+      2.4818,
+      2.4732,
+      2.4682,
+      2.4642,
+      2.4612,
+      2.459,
+      2.4562,
+      2.4522,
+      2.4532,
+      2.4518,
+      2.4509,
+      2.4498,
+      2.4491
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "W. L. Bond. Measurement of the refractive indices of several crystals. J. Appl. Phys. 36, 1674-1677 (1965) (https://doi.org/10.1063/1.1703106); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o); Room temperature.",
+    "conditions": {
+      "direction": "o"
+    }
+  }
+}

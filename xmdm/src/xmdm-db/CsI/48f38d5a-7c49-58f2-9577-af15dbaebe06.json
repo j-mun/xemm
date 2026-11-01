@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Rodney",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      0.34617251,
+      0.0229567,
+      1.0080886,
+      0.1466,
+      0.285518,
+      0.181,
+      0.39743178,
+      0.212,
+      3.3605359,
+      161.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.2967,
+      50.0
+    ]
+  },
+  "metadata": {
+    "source": "W. S. Rodney. Optical properties of cesium iodide. J. Opt. Soc. Am. 45, 987-991 (1955) (https://doi.org/10.1364/JOSA.45.000987); downloaded from refractiveindex.info",
+    "description": "24 °C"
+  },
+  "id": "48f38d5a-7c49-58f2-9577-af15dbaebe06"
+}

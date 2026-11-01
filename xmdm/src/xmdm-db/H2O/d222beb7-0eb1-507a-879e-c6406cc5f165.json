@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Daimon-20.0C",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      0.5684027565,
+      0.005101829712,
+      0.1726177391,
+      0.01821153936,
+      0.02086189578,
+      0.02620722293,
+      0.1130748688,
+      10.69792721
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.182,
+      1.129
+    ]
+  },
+  "metadata": {
+    "source": "M. Daimon and A. Masumura. Measurement of the refractive index of distilled water from the near-infrared region to the ultraviolet region. Appl. Opt. 46, 3811-3820 (2007) (https://doi.org/10.1364/AO.46.003811); downloaded from refractiveindex.info",
+    "description": "High performance liquid chromatography (HPLC) distilled water at 20.0 °C.",
+    "conditions": {
+      "temperature": 293.15
+    }
+  },
+  "id": "d222beb7-0eb1-507a-879e-c6406cc5f165"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Devore-e",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      7.197,
+      0.3322,
+      0.0,
+      0.0843,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.43,
+      1.53
+    ]
+  },
+  "metadata": {
+    "source": "J. R. Devore. Refractive indices of rutile and sphalerite. J. Opt. Soc. Am. 41, 416-419 (1951) (https://doi.org/10.1364/JOSA.41.000416); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e); Room temperature",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "ce3022da-7c63-5ce7-8556-dad4fce613db"
+}

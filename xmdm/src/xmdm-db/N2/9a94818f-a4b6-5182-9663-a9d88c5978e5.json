@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Shaw",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      0.248
+    ],
+    "re": [
+      7.5e-23
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "M. J. Shaw, C. J. Hooker, D. C. Wilson. Measurement of the nonlinear refractive index of air and other gases at 248 nm. Opt. Commun. 103, 153-1960 (1993) (https://doi.org/10.1016/0030-4018(93)90657-Q); downloaded from refractiveindex.info",
+    "description": "10 ps at 248 nm. Spectral analysis of self-phase modulation.",
+    "conditions": {
+      "n2_method": "SSPM",
+      "pulse_duration": "10e-12",
+      "temperature": 300,
+      "pressure": 101325
+    }
+  },
+  "id": "9a94818f-a4b6-5182-9663-a9d88c5978e5"
+}

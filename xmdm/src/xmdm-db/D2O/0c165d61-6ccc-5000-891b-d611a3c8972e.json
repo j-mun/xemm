@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Sarkar",
+  "data": {
+    "formula": 5,
+    "coefficients": [
+      1.31914,
+      0.00336189302,
+      -2.0,
+      -8.57651e-05,
+      -4.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.48,
+      0.71
+    ]
+  },
+  "metadata": {
+    "source": "S. Sarkar, A. K. Ghosh, M. Adnan, O. Aftenieva, V. Gupta, A. Fery, J. Joseph, T. A. F. König. Enhanced figure of merit via hybridized guided-mode resonances in 2D-metallic photonic crystal slabs. Adv. Optical Mater. 2022, 2200954 (https://doi.org/10.1002/adom.202200954) (See supporting information); downloaded from refractiveindex.info",
+    "description": "Room temperature."
+  },
+  "id": "0c165d61-6ccc-5000-891b-d611a3c8972e"
+}

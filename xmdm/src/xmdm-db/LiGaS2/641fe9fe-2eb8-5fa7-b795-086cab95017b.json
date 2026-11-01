@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kato-gamma",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      5.77851,
+      0.12325,
+      0.0,
+      0.03465,
+      1.0,
+      580.13,
+      0.0,
+      451.62,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      1.025,
+      10.591
+    ]
+  },
+  "metadata": {
+    "source": "K. Kato, K. Miyata, L. Isaenko, S. Lobanov, V. Vedenyapin, V. Petrov. Phase-matching properties of LiGaS2 in the 1.025–10.5910 μm spectral range. Opt. Lett., 42, 4363–4366 (2017) (https://doi.org/10.1364/OL.42.004363); downloaded from refractiveindex.info",
+    "description": "nγ; room temperature.",
+    "conditions": {
+      "direction": "gamma"
+    }
+  },
+  "id": "641fe9fe-2eb8-5fa7-b795-086cab95017b"
+}

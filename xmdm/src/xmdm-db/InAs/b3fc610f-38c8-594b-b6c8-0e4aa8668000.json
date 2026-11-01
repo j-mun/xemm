@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Lorimor",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      10.1,
+      0.71,
+      2.551,
+      2.75,
+      45.66
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      3.7,
+      31.3
+    ]
+  },
+  "metadata": {
+    "source": "O. G. Lorimor and W. G. Spitzer. Infrared refractive index and absorption of InAs and CdTe. J. Appl. Phys. 36, 1841-1844 (1965) (https://doi.org/10.1063/1.1714362); downloaded from refractiveindex.info",
+    "description": "Room temperature"
+  },
+  "id": "b3fc610f-38c8-594b-b6c8-0e4aa8668000"
+}

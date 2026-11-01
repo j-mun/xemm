@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Pestryakov-beta",
+  "data": {
+    "formula": 3,
+    "coefficients": [
+      3.001424,
+      0.01839757,
+      -2.0,
+      -0.01374799,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.43,
+      1.1
+    ]
+  },
+  "metadata": {
+    "source": "E. V. Pestryakov, V. V. Petrov, I. I. Zubrinov, V. I. Semenov, V. I. Trunov, A. V. Kirpichnikov, A. I. Alimpiev. Physical properties of BeAl6O10 single crystals. J. Appl. Phys., 82, 3661–3666 (1997) (https://doi.org/10.1063/1.365728); downloaded from refractiveindex.info",
+    "description": "nβ; Room temperature.",
+    "conditions": {
+      "direction": "beta"
+    }
+  },
+  "id": "ed87169b-acd6-582c-8dae-3d73f19d4436"
+}

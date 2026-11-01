@@ -1,0 +1,60 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Larruquert",
+  "data": {
+    "unit": "um",
+    "type": "nk",
+    "f": [
+      0.077,
+      0.078,
+      0.079,
+      0.08,
+      0.081,
+      0.082,
+      0.0826,
+      0.0835,
+      0.0868,
+      0.092,
+      0.0964,
+      0.1048,
+      0.1135
+    ],
+    "re": [
+      0.367,
+      0.339,
+      0.302,
+      0.255,
+      0.207,
+      0.161,
+      0.115,
+      0.092,
+      0.053,
+      0.044,
+      0.038,
+      0.031,
+      0.026
+    ],
+    "im": [
+      0.047,
+      0.052,
+      0.06,
+      0.075,
+      0.093,
+      0.12,
+      0.138,
+      0.18,
+      0.39,
+      0.56,
+      0.68,
+      0.88,
+      0.97
+    ]
+  },
+  "metadata": {
+    "source": "1) J. I. Larruquert, J. A. Méndez, J. A. Aznárez. Optical constants of aluminum films in the extreme ultraviolet interval of 82-77 nm. Appl. Opt. 35, 5692-5697 (1996) (https://doi.org/10.1364/AO.35.005692) 2) J. I. Larruquert, J. A. Méndez, J. A. Aznárez. Far-ultraviolet reflectance measurements and optical constants of unoxidized aluminum films. Appl. Opt. 34, 4892-4899 (1995) (https://doi.org/10.1364/AO.34.004892); downloaded from refractiveindex.info",
+    "description": "Optical constants are obtained from reflectance measurements versus angle of incidence. Film deposited at room temperature."
+  },
+  "id": "178aec3a-b43a-5073-ad00-581006142f40"
+}

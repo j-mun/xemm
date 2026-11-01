@@ -1,0 +1,54 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Sinnock-solid-161.35K",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.3612,
+      0.365,
+      0.4063,
+      0.4358,
+      0.47,
+      0.4806,
+      0.5086,
+      0.5461,
+      0.578,
+      0.6439
+    ],
+    "re": [
+      1.4747,
+      1.4736,
+      1.465,
+      1.4608,
+      1.4571,
+      1.456,
+      1.4535,
+      1.4507,
+      1.4486,
+      1.4461
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "A. C. Sinnock and B. L. Smith. Refractive indices of the condensed inert gases. Phys. Rev. 181, 1297-1307 (1969) (https://doi.org/10.1103/PhysRev.181.1297); downloaded from refractiveindex.info",
+    "description": "Solid xenon at 161.35 K (-111.80 °C, melting point).",
+    "conditions": {
+      "temperature": 161.35
+    }
+  },
+  "id": "804fc897-9356-5533-967d-47f56bea50e0"
+}

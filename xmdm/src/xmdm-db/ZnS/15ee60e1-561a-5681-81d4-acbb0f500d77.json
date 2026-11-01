@@ -1,0 +1,37 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Patwardhan",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      2.3,
+      3.5,
+      4.5,
+      8.3
+    ],
+    "re": [
+      4.78e-19,
+      4.55e-19,
+      5.38e-19,
+      3.98e-19
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "G. N. Patwardhan, J. S. Ginsberg, C. Y. Chen, M. M. Jadidi, A. L. Gaeta. Nonlinear refractive index of solids in mid-infrared. Opt. Lett. 46, 1824 (2021) (https://doi.org/10.1364/OL.421469); downloaded from refractiveindex.info",
+    "description": "Polycrystalline ZnS. 100 fs. Spectrally resolved two-beam coupling.",
+    "conditions": {
+      "n2_method": "SRTBC",
+      "pulse_duration": "100e-15"
+    }
+  },
+  "id": "15ee60e1-561a-5681-81d4-acbb0f500d77"
+}

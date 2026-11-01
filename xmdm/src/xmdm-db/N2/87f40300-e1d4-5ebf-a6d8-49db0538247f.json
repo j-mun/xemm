@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Griesmann",
+  "data": {
+    "formula": 6,
+    "coefficients": [
+      0.0,
+      1.9662731,
+      22086.66,
+      0.027450825,
+      133.85688
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.145,
+      0.27
+    ]
+  },
+  "metadata": {
+    "source": "U. Griesmann and J. H. Burnett. Refractivity of nitrogen gas in the vacuum ultraviolet. Opt. lett. 24, 1699-1701 (1999) (https://doi.org/10.1364/OL.24.001699); downloaded from refractiveindex.info",
+    "description": "Standard conditions: 0 °C; 101 325 Pa.",
+    "conditions": {
+      "temperature": 273.15,
+      "pressure": 101325
+    }
+  },
+  "id": "87f40300-e1d4-5ebf-a6d8-49db0538247f"
+}

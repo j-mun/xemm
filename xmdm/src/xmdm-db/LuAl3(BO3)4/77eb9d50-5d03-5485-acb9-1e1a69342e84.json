@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Fang-o",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      3.11285,
+      0.01834,
+      0.0,
+      0.01596,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.02354,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.266,
+      1.338
+    ]
+  },
+  "metadata": {
+    "source": "S. Fang, H. Liu, L. Huang, N. Ye. Growth and optical properties of nonlinear LuAl3(BO3)4 crystals. Opt. Express 21, 16415-16423 (2013) (https://doi.org/10.1364/OE.21.016415); downloaded from refractiveindex.info",
+    "description": "25 °C. Ordinary ray (o).",
+    "conditions": {
+      "temperature": 298,
+      "direction": "o"
+    }
+  },
+  "id": "77eb9d50-5d03-5485-acb9-1e1a69342e84"
+}

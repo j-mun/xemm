@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Mareev",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.24
+    ],
+    "re": [
+      6.2e-22
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "E. Mareev, V. Aleshkevich, F. Potemkin, V. Bagratashvili, N. Minaev, V. Gordienko. Anomalous behavior of nonlinear refractive indexes of CO2 and Xe in supercritical states. Opt. Express 26, 13229 (2018) (https://doi.org/10.1364/OE.26.013229); downloaded from refractiveindex.info",
+    "description": "200 fs, 24 °C, atmospheric pressure.\nSpectral broadening.\nSee the original publication for pressure dependence of n2.",
+    "conditions": {
+      "n2_method": "SB",
+      "pulse_duration": "200e-15",
+      "pressure": 101325,
+      "temperatute": 297
+    }
+  },
+  "id": "8b5e1904-8e97-54c3-a311-19d5754fa801"
+}

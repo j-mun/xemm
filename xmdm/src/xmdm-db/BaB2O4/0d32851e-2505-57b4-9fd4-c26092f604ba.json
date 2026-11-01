@@ -1,0 +1,35 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Eimerl-e",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      2.373,
+      0.0128,
+      0.0,
+      0.0156,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0044,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.22,
+      1.06
+    ]
+  },
+  "metadata": {
+    "source": "D. Eimerl, L. Davis, S. Velsko, E. K. Graham, A. Zalkin. Optical, mechanical, and thermal properties of barium borate. J. Appl. Phys., 62, 1968-1983 (1987) (https://doi.org/10.1063/1.339536); downloaded from refractiveindex.info",
+    "description": "Beta barium borate (ß-BaB2O4, BBO). Extraordinary ray (e).",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "0d32851e-2505-57b4-9fd4-c26092f604ba"
+}

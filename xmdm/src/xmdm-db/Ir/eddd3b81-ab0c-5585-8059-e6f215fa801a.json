@@ -1,0 +1,76 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Hass-300C",
+  "data": {
+    "unit": "um",
+    "type": "nk",
+    "f": [
+      0.05,
+      0.055,
+      0.06,
+      0.065,
+      0.07,
+      0.075,
+      0.08,
+      0.085,
+      0.09,
+      0.095,
+      0.1,
+      0.11,
+      0.12,
+      0.13,
+      0.14,
+      0.15,
+      0.5461
+    ],
+    "re": [
+      0.65,
+      0.76,
+      0.88,
+      1.02,
+      1.13,
+      1.15,
+      1.14,
+      1.1,
+      1.09,
+      1.11,
+      1.14,
+      1.27,
+      1.36,
+      1.38,
+      1.35,
+      1.28,
+      2.49
+    ],
+    "im": [
+      0.88,
+      0.99,
+      1.08,
+      1.08,
+      0.97,
+      0.9,
+      0.9,
+      0.93,
+      0.98,
+      1.06,
+      1.13,
+      1.23,
+      1.21,
+      1.16,
+      1.14,
+      1.18,
+      5.05
+    ]
+  },
+  "metadata": {
+    "source": "G. Hass, G. F. Jacobus, W. R. Hunter. Optical properties of evaporated iridium in the vacuum ultraviolet from 500 Å to 2000 Å. J. Opt. Soc. Am. 57, 758-762 (1967) (https://doi.org/10.1364/JOSA.57.000758); downloaded from refractiveindex.info",
+    "description": "Thin film deposited at 300 °C",
+    "conditions": {
+      "substrate": "glass",
+      "deposition_temperature": 573
+    }
+  },
+  "id": "eddd3b81-ab0c-5585-8059-e6f215fa801a"
+}

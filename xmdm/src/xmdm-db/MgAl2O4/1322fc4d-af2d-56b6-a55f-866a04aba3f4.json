@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Flom",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.03,
+      1.55
+    ],
+    "re": [
+      3.32e-20,
+      4.16e-20
+    ],
+    "im": [
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "S. R. Flom, G. Beadie, S. S. Bayya, B. Shaw, J. M. Auxier. Ultrafast Z-scan measurements of nonlinear optical constants of window materials at 772, 1030, and 1550 nm. Appl. Opt. 54, F123 (2015) (https://doi.org/10.1364/AO.54.00F123); downloaded from refractiveindex.info",
+    "description": "140 fs @ 1030 nm, 97 fs @ 1550 nm. Z-scan.",
+    "conditions": {
+      "n2_method": "Z-scan",
+      "pulse_duration": "140e-15 97e-15"
+    }
+  },
+  "id": "1322fc4d-af2d-56b6-a55f-866a04aba3f4"
+}

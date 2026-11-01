@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Bosomworth-300K",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      0.0,
+      6.63,
+      2.0,
+      38.911,
+      2.0,
+      -3088.6,
+      0.0,
+      38.911,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      52.0,
+      1000.0
+    ]
+  },
+  "metadata": {
+    "source": "D. R. Bosomworth. Far-infrared optical properties of CaF2, SrF2, BaF2, and CdF2. Phys. Rev., 157, 709 (1967) (https://doi.org/10.1103/PhysRev.157.709); downloaded from refractiveindex.info",
+    "description": "300 K",
+    "conditions": {
+      "temperature": 300
+    }
+  },
+  "id": "51b2a86a-7c00-50d0-8c02-40988d3e8532"
+}

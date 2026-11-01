@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Heitmann",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      1.2485,
+      0.010466
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.26,
+      0.76
+    ]
+  },
+  "metadata": {
+    "source": "W. Heitmann and E. Ritter. Production and properties of vacuum evaporated films of thorium fluoride. Appl. Opt. 7, 307-309 (1968) (https://doi.org/10.1364/AO.7.000307) (Digitization of graphical data (https://refractiveindex.info/download/data/1968/Heitmann.png) and fitting with the Sellmeier dispersion formula: refractiveindex.info); downloaded from refractiveindex.info",
+    "description": "ThF4 film on quartz glass"
+  },
+  "id": "54d841c6-e2ba-55cd-b928-f4071118972e"
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Zelmon",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      2.282,
+      0.01185,
+      3.27644,
+      282.734
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      5.0
+    ]
+  },
+  "metadata": {
+    "source": "D. E. Zelmon, D. L. Small and R. Page. Refractive-index measurements of undoped yttrium aluminum garnet from 0.4 to 5.0 μm. Appl. Opt. 37, 4933-4935 (1998) (https://doi.org/10.1364/AO.37.004933); downloaded from refractiveindex.info"
+  },
+  "id": "14cbea53-2c6c-591e-864c-31cfa9eb0ebb"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Grace-solid-161.35K",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.4,
+      0.6,
+      0.1469,
+      0.0008,
+      0.827
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.157,
+      0.66
+    ]
+  },
+  "metadata": {
+    "source": "E. Grace, A. Butcher, J. Monroe, J. A. Nikkel. Index of refraction, Rayleigh scattering length, and Sellmeier coefficients in solid and liquid argon and xenon. Nucl. Instr. Meth. Phys. Res. A 867, 204-208 (2017) (https://doi.org/10.1016/j.nima.2017.06.031); downloaded from refractiveindex.info",
+    "description": "Solid xenon at 161.35 K (-111.80 °C, melting point).",
+    "conditions": {
+      "temperature": 161.35
+    }
+  },
+  "id": "01146620-7402-5333-87d6-9e21e04ba6e4"
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Sinnock-solid-100K",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.3612,
+      0.365,
+      0.4063,
+      0.4358,
+      0.47,
+      0.4806,
+      0.5086,
+      0.5461,
+      0.578,
+      0.6439
+    ],
+    "re": [
+      1.5024,
+      1.5012,
+      1.4927,
+      1.4886,
+      1.4849,
+      1.4838,
+      1.4814,
+      1.4786,
+      1.4765,
+      1.474
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "A. C. Sinnock and B. L. Smith. Refractive indices of the condensed inert gases. Phys. Rev. 181, 1297-1307 (1969) (https://doi.org/10.1103/PhysRev.181.1297); downloaded from refractiveindex.info",
+    "description": "Solid xenon at 100 K (-173.15 °C).",
+    "conditions": {
+      "temperature": 100
+    }
+  },
+  "id": "c8f6204b-8fe5-50f6-bad2-6f4566c34add"
+}

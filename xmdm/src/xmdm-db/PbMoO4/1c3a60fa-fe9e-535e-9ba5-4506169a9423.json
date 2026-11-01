@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Malitson-e",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      3.52555,
+      0.1795,
+      0.2066,
+      0.32537
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.44,
+      1.08
+    ]
+  },
+  "metadata": {
+    "source": "I. H. Malitson, as cited in Handbook of Optics, 3rd edition, Vol. 4. McGraw-Hill 2009. Data fit by Handbook of Optics.; downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e)",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "1c3a60fa-fe9e-535e-9ba5-4506169a9423"
+}

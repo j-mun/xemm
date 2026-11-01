@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Radhakrishnan-e",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      0.665721,
+      0.06,
+      0.503511,
+      0.106,
+      0.214792,
+      0.119,
+      0.539173,
+      8.792,
+      1.807613,
+      19.7
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.18,
+      3.0
+    ]
+  },
+  "metadata": {
+    "source": "1) T. Radhakrishnan. Further studies on the temperature variation of the refractive index of crystals. Proc. Indian Acad. Sci. 31, 22-34 (1951) (https://doi.org/10.1007/BF03172255) 2) T. Radhakrishnan. The dispersion, briefringence and optical activity of quartz. Proc. Indian Acad. Sci. 25, 260-265 (1947) (https://doi.org/10.1007/BF03171408); downloaded from refractiveindex.info",
+    "description": "18 °C"
+  },
+  "id": "372b813f-dad0-54e5-a833-261725236c8b"
+}

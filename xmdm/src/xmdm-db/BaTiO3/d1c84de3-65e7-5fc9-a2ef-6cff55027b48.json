@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Johnston-unclamped",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      1.686,
+      0.2799,
+      2.611,
+      0.1377
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      1.0
+    ]
+  },
+  "metadata": {
+    "source": "A. R. Johnston. Dispersion of electro‐optic effect in BaTiO3. J. Appl. Phys. 42, 3501-3507 (1971) (https://doi.org/10.1063/1.1660761); downloaded from refractiveindex.info",
+    "description": "Crystalline BaTiO3. Unclamped (low frequency) measurements."
+  },
+  "id": "d1c84de3-65e7-5fc9-a2ef-6cff55027b48"
+}

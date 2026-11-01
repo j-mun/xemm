@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Schroter",
+  "data": {
+    "formula": 8,
+    "coefficients": [
+      0.47856,
+      0.07858,
+      0.08277,
+      -0.00881
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.43,
+      0.66
+    ]
+  },
+  "metadata": {
+    "source": "H. Schröter. Über die Brechungsindizes einiger Schwermetallhalogenide im Sichtbaren und die Berechnung von Interpolationsformeln für den Dispersionsverlauf (On the refractive indices of some heavy-metal halides in the visible and calculation of interpolation formulas for dispersion). Z. Phys. 67, 24-36 (1931) (https://doi.org/10.1007/BF01391040) [in German]; downloaded from refractiveindex.info"
+  },
+  "id": "b72b5db1-99f1-5ebe-b81b-4fa91a9eb762"
+}

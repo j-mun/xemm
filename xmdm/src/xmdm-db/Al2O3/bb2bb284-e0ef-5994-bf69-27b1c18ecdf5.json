@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Malitson-e",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      1.5039759,
+      0.0740288,
+      0.55069141,
+      0.1216529,
+      6.5927379,
+      20.072248
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.2,
+      5.0
+    ]
+  },
+  "metadata": {
+    "source": "1) I. H. Malitson and M. J. Dodge. Refractive index and birefringence of synthetic sapphire. J. Opt. Soc. Am. 62, 1405 (1972) (http://www.opticsinfobase.org/josa/abstract.cfm?uri=josa-62-11-1336) 2) M. J. Dodge. \"Refractive index\" in Handbook of Laser Science and Technology, Volume IV, Optical Materials: Part 2, CRC Press, Boca Raton, 1986, p. 30 * Ref. 1 is a talk abstract in a conference program; Ref. 2 provides a dispersion formula; downloaded from refractiveindex.info",
+    "description": "Synthetic sapphire, Extraordinary ray (e), 20 °C",
+    "conditions": {
+      "temperature": 293,
+      "direction": "e"
+    }
+  },
+  "id": "bb2bb284-e0ef-5994-bf69-27b1c18ecdf5"
+}

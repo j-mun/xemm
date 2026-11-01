@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Geints-5bar-500fs",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      0.8
+    ],
+    "re": [
+      1.215e-22
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "Y. E. Geints, V. O. Kompanets, S. V. Chekalin. Measurements of optical Kerr nonlinearity n2 in compressed gases. Opt. Commun. 596, 132584 (2025) (https://doi.org/10.1016/j.optcom.2025.132584); downloaded from refractiveindex.info",
+    "description": "500 fs (Long pulse regime). Self-focusing. Room temperature, 5 bar.",
+    "conditions": {
+      "n2_method": "SF",
+      "pulse_duration": "500e-15",
+      "pressure": "5e5"
+    }
+  },
+  "id": "158ff95d-ce19-5d30-b2ea-ffaf71ccabe8"
+}

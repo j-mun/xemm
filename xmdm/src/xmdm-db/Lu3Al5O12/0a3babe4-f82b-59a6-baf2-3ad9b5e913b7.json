@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Hrabovsky",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      2.077,
+      1.237,
+      2.0,
+      0.1376,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0104,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.193,
+      1.69
+    ]
+  },
+  "metadata": {
+    "source": "J. Hrabovský, M. Kučera, L. Paloušová, L. Bi, M. Veis. Optical characterization of Y3Al5O12 and Lu3Al5O12 single crystals. Opt. Mater. Express 11, 1218-1223 (2021) (https://doi.org/10.1364/OME.417670); downloaded from refractiveindex.info"
+  },
+  "id": "0a3babe4-f82b-59a6-baf2-3ad9b5e913b7"
+}

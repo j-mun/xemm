@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Li-e",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.25385,
+      0.66405,
+      0.08504,
+      1.0899,
+      22.2,
+      0.1816,
+      24.4,
+      2.1227,
+      40.6
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.14,
+      7.5
+    ]
+  },
+  "metadata": {
+    "source": "H. H. Li. Refractive index of alkaline earth halides and its wavelength and temperature derivatives. J. Phys. Chem. Ref. Data 9, 161-289 (1980) (https://doi.org/10.1063/1.555616) and references therein. * Sellmeier formula is derived by critical analysis of experimental data from several sources.; downloaded from refractiveindex.info",
+    "description": "293 K (20 °C). Extraordinary ray (e).",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "30d349c9-87f4-5e2d-8203-158d72def92f"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Bliss",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.064
+    ],
+    "re": [
+      7.3e-20
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "E. S. Bliss, D. R. Speck, W. W. Simmons. Direct interferometric measurements of the nonlinear refractive index coefficient n2 in laser materials. Appl. Phys. Lett. 25, 728 (1974) (https://doi.org/10.1063/1.1655378); downloaded from refractiveindex.info",
+    "description": "150 ps. Time-resolved interferometry.",
+    "conditions": {
+      "n2_method": "TRI",
+      "pulse_duration": "150e-12"
+    }
+  },
+  "id": "9a38b9e5-34c6-5ff4-89f7-08ca2c64899a"
+}

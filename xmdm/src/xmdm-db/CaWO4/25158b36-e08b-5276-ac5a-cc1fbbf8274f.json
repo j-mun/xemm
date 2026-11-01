@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Bond-o",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      2.5493,
+      0.1347,
+      0.92,
+      10.815
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.45,
+      4.0
+    ]
+  },
+  "metadata": {
+    "source": "1) W. L. Bond. Measurement of the refractive indices of several crystals. J. Appl. Phys. 36, 1674-1677 (1965) (https://doi.org/10.1063/1.1703106) 2) Handbook of Optics, 3rd edition, Vol. 4. McGraw-Hill 2009 * Ref. 2 provides a dispersion formula based on data from ref. 1; downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o). Room temperature.",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "25158b36-e08b-5276-ac5a-cc1fbbf8274f"
+}

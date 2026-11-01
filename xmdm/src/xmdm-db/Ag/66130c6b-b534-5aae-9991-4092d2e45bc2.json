@@ -1,0 +1,16 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "drude",
+  "id": "66130c6b-b534-5aae-9991-4092d2e45bc2",
+  "data": {
+    "eps_inf": 1.0,
+    "omega_p": 9.04,
+    "gamma": 21.25
+  },
+  "metadata": {
+    "legacy_path": "drude.yml",
+    "source": "Zeman et al. (1990), J. Appl. Phys. 67, 3854"
+  },
+  "name": "Zeman"
+}

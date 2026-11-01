@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Uchida-e",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      2.823,
+      0.1342,
+      1.542,
+      0.2631
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      1.0
+    ]
+  },
+  "metadata": {
+    "source": "N. Uchida. Optical properties of single-crystal paratellurite (TeO2). Phys. Rev.B 4, 3736-3745 (1971) (https://doi.org/10.1103/PhysRevB.4.3736); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e)",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "023cf713-9e57-57be-8975-b18c20b931d0"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Carvajal-gamma",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      2.2864,
+      1.128,
+      2.0,
+      0.0562,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0188,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      1.5
+    ]
+  },
+  "metadata": {
+    "source": "J. J. Carvajal, P. Segonds, A. Peña, J. Zaccaro, B. Boulanger, F. Díaz and M. Aguiló. Structural and optical properties of RbTiOPO4:Nb crystals. J. Phys.: Condens. Matter 19, 116214, 2007 (https://doi.org/10.1088/0953-8984/19/11/116214); downloaded from refractiveindex.info",
+    "description": "nγ; 293 K (20 °C).",
+    "conditions": {
+      "temperature": 293,
+      "direction": "gamma"
+    }
+  },
+  "id": "3621dcbf-48a4-5359-8171-1d914005b87e"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Sheik-Bahae",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.064
+    ],
+    "re": [
+      3.86e-18
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "M. Sheik-Bahae, D. C. Hutchings, D. J. Hagan, E. W. Van Stryland. Dispersion of bound electron nonlinear refraction in solids. IEEE J. Quantum Electron. 27, 1296 (1991) (https://doi.org/10.1109/3.89946); downloaded from refractiveindex.info",
+    "description": "27 ps. Z-scan.",
+    "conditions": {
+      "n2_method": "Z-scan",
+      "pulse_duration": "27e-12"
+    }
+  },
+  "id": "5bd353fc-9260-50e5-a619-cecd639f61a8"
+}

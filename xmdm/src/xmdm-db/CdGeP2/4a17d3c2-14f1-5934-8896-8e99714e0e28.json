@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Boyd-118-o",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      5.3737,
+      3.9281,
+      0.2269,
+      1.6686,
+      671.33
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.8,
+      12.5
+    ]
+  },
+  "metadata": {
+    "source": "1) G. D. Boyd, E. Buehler, F. G Storz, J. H. Wernick. Linear and nonlinear optical properties of ternary AIIBIVC2V chalcopyrite semiconductors. IEEE J. Quantum Electron., 8, 419-426 (1972) (https://doi.org/10.1109/JQE.1972.1076982) 2) G. C. Bhar and G. Ghosh. Temperature-dependent Sellmeier coefficients and coherence lengths for some chalcopyrite crystals. J. Opt. Soc. Am. 69, 730-733 (1979) (https://doi.org/10.1364/JOSA.69.000730) * Ref. 2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o); 118 °C",
+    "conditions": {
+      "temperature": 391,
+      "direction": "o"
+    }
+  },
+  "id": "4a17d3c2-14f1-5934-8896-8e99714e0e28"
+}

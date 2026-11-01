@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kachare",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      2.5,
+      7.4969,
+      0.4082,
+      1.9347,
+      37.17
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      1.4,
+      11.0
+    ]
+  },
+  "metadata": {
+    "source": "A. H. Kachare, W. G. Spitzer, J. E. Fredrickson. Refractive index of ion-implanted GaAs. J. Appl. Phys., 47, 4209-4212 (1976) (https://doi.org/10.1063/1.323292); downloaded from refractiveindex.info",
+    "description": "Room temperature"
+  },
+  "id": "5415298b-b01b-5e96-bc13-a16c55c7f1e2"
+}

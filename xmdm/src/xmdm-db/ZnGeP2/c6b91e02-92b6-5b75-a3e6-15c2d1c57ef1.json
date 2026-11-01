@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Boyd-20C-o",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      3.4733,
+      5.2658,
+      0.1338,
+      1.4909,
+      662.55
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.64,
+      12.0
+    ]
+  },
+  "metadata": {
+    "source": "1) G. D. Boyd, E. Buehler, F. G Storz. Linear and nonlinear optical properties of ZnGeP2 and CdSe. Appl. Phys. Lett., 18, 301-304 (1971) (https://doi.org/10.1063/1.1653673) 2) G. C. Bhar and G. Ghosh. Temperature-dependent Sellmeier coefficients and coherence lengths for some chalcopyrite crystals. J. Opt. Soc. Am. 69, 730-733 (1979) (https://doi.org/10.1364/JOSA.69.000730) * Ref. 2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o); 20 °C",
+    "conditions": {
+      "temperature": 293,
+      "direction": "o"
+    }
+  },
+  "id": "c6b91e02-92b6-5b75-a3e6-15c2d1c57ef1"
+}

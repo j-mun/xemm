@@ -1,0 +1,72 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Parsons",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      54.369,
+      57.048,
+      59.602,
+      61.728,
+      66.684,
+      71.803,
+      77.797,
+      84.962,
+      90.992,
+      106.15,
+      113.74,
+      138.75,
+      168.46,
+      188.79,
+      216.59,
+      296.21,
+      366.03
+    ],
+    "re": [
+      3.444,
+      3.4302,
+      3.4238,
+      3.4134,
+      3.401,
+      3.3922,
+      3.383,
+      3.3754,
+      3.3706,
+      3.3621,
+      3.3584,
+      3.3522,
+      3.3463,
+      3.345,
+      3.3438,
+      3.3399,
+      3.3407
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "D. F. Parsons and P. D. Coleman. Far infrared optical constants of gallium phosphide. Appl. Opt. 10, 1683_1-1685 (1971) (https://doi.org/10.1364/AO.10.1683_1); downloaded from refractiveindex.info",
+    "description": "Room temperature"
+  },
+  "id": "043f6fc2-b15f-539c-b8b5-e1e0db8ef14d"
+}

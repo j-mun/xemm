@@ -1,5 +1,7 @@
 .vscode/
 thirdparty/
+old/
+proj/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

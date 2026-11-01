@@ -1,0 +1,54 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Sinnock-liquid-178K",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.3612,
+      0.365,
+      0.4063,
+      0.4358,
+      0.47,
+      0.4806,
+      0.5086,
+      0.5461,
+      0.578,
+      0.6439
+    ],
+    "re": [
+      1.3944,
+      1.3936,
+      1.3874,
+      1.3834,
+      1.38,
+      1.379,
+      1.377,
+      1.375,
+      1.3732,
+      1.3708
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "A. C. Sinnock and B. L. Smith. Refractive indices of the condensed inert gases. Phys. Rev. 181, 1297-1307 (1969) (https://doi.org/10.1103/PhysRev.181.1297); downloaded from refractiveindex.info",
+    "description": "Liquid xenon at 178 K (-95.15 °C).",
+    "conditions": {
+      "temperature": 178
+    }
+  },
+  "id": "28475f1a-3eac-519a-aea2-54f34124a5c8"
+}

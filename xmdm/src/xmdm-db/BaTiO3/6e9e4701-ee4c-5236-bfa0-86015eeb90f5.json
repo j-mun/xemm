@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Wemple-o",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      4.187,
+      0.223
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      0.7
+    ]
+  },
+  "metadata": {
+    "source": "S.H. Wemple, M. Didomenico Jr., I. Camlibel. Dielectric and optical properties of melt-grown BaTiO3. J. Phys. Chem. Solids 29, 1797-1803 (1968) (https://doi.org/10.1016/0022-3697(68)90164-9); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o). Room temperature.",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "6e9e4701-ee4c-5236-bfa0-86015eeb90f5"
+}

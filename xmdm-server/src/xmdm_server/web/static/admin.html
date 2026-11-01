@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>Administration · XMDM</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body data-page="admin">
+    <header class="topbar">
+      <a class="brand" href="/data">XMDM <span>materials</span></a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="/data">Data</a>
+        <a href="/upload">Upload</a>
+        <a href="/admin" aria-current="page">Admin</a>
+        <a href="/status">Status</a>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <p class="eyebrow">ADMINISTRATION</p>
+        <h1>Manage material data</h1>
+        <p>Review staged uploads and archive or restore published records.
+          Archived records retain their immutable history and can be restored.</p>
+      </section>
+      <section class="panel" aria-labelledby="admin-auth-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">AUTHORIZATION</p>
+            <h2 id="admin-auth-title">Administrator access</h2>
+          </div>
+        </div>
+        <p class="muted">Use a separate administrator token with the
+          tokens:admin scope. Archive hides a record from catalog readers but
+          retains its revision and provenance history.</p>
+        <label class="admin-token-label">Review bearer token (tokens:admin)
+          <input id="admin-token" type="password" autocomplete="off"
+            placeholder="Token is kept in this page only">
+        </label>
+      </section>
+      <section class="admin-panel panel" aria-labelledby="pending-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SUBMISSIONS</p>
+            <h2 id="pending-title">Pending and reviewed uploads</h2>
+          </div>
+          <button id="refresh-submissions" type="button">Search submissions</button>
+        </div>
+        <div class="admin-filters">
+          <label>Search pending data
+            <input id="submission-search" type="search"
+              placeholder="Material, name, submitter, description">
+          </label>
+          <label>Submission status
+            <select id="submission-status">
+              <option value="pending">Pending</option>
+              <option value="accepted">Accepted</option>
+              <option value="rejected">Rejected</option>
+              <option value="all">All</option>
+            </select>
+          </label>
+          <label>Rejection note
+            <input id="review-note" type="text" maxlength="2000"
+              placeholder="Optional reason for rejection">
+          </label>
+        </div>
+        <div id="submission-list" class="submission-list"></div>
+        <div id="admin-status" class="status" role="status">Submission list not loaded.</div>
+      </section>
+      <section class="admin-panel panel" aria-labelledby="records-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CATALOG RECORDS</p>
+            <h2 id="records-title">Archive or restore records</h2>
+          </div>
+          <button id="search-admin-records" type="button">Search records</button>
+        </div>
+        <div class="admin-filters">
+          <label>Search records
+            <input id="admin-record-search" type="search"
+              placeholder="Material, name, source, model">
+          </label>
+        </div>
+        <div id="admin-record-list" class="submission-list"></div>
+        <div id="admin-record-status" class="status" role="status">Record list not loaded.</div>
+      </section>
+    </main>
+  </body>
+</html>

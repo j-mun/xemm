@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Skauli",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      4.372514,
+      5.466742,
+      0.4431307,
+      0.0242996,
+      0.8746453,
+      1.957522,
+      36.9166
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.97,
+      17.0
+    ]
+  },
+  "metadata": {
+    "source": "T. Skauli, P. S. Kuo, K. L. Vodopyanov, T. J. Pinguet, O. Levi, L. A. Eyres, J. S. Harris, M. M. Fejer, B. Gerard, L. Becouarn, E. Lallier. Improved dispersion relations for GaAs and applications to nonlinear optics. J. Appl. Phys., 94, 6447-6455 (2003) (https://doi.org/10.1063/1.1621740); downloaded from refractiveindex.info",
+    "description": "22 °C. See the original publication for temperature dependence of refractive index."
+  },
+  "id": "b2796a10-9e5a-5839-9fdd-e81d2cd1e1b3"
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Sinnock-liquid-166K",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.3612,
+      0.365,
+      0.4063,
+      0.4358,
+      0.47,
+      0.4806,
+      0.5086,
+      0.5461,
+      0.578,
+      0.6439
+    ],
+    "re": [
+      1.4065,
+      1.4057,
+      1.3995,
+      1.3955,
+      1.3921,
+      1.3911,
+      1.3891,
+      1.3871,
+      1.3853,
+      1.383
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "A. C. Sinnock and B. L. Smith. Refractive indices of the condensed inert gases. Phys. Rev. 181, 1297-1307 (1969) (https://doi.org/10.1103/PhysRev.181.1297); downloaded from refractiveindex.info",
+    "description": "Liquid xenon at 166 K (-107.15 °C).",
+    "conditions": {
+      "temperature": 166
+    }
+  },
+  "id": "42f65726-4bc1-509b-8fe6-5c82b8f5e152"
+}

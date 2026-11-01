@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Luke",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      3.0249,
+      0.1353406,
+      40314.0,
+      1239.842
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.31,
+      5.504
+    ]
+  },
+  "metadata": {
+    "source": "K. Luke, Y. Okawachi, M. R. E. Lamont, A. L. Gaeta, M. Lipson. Broadband mid-infrared frequency comb generation in a Si3N4 microresonator. Opt. Lett. 40, 4823-4826 (2015) (https://doi.org/10.1364/OL.40.004823); downloaded from refractiveindex.info",
+    "description": "340 nm Si3N4 on 3.1 μm of thermal SiO2 on silicon."
+  },
+  "id": "26f58d91-97b6-5816-a757-ce5f23f39b58"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Ghosh-250K-o",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      3.58457517,
+      5.11280186,
+      0.13378216,
+      2.16914685,
+      900.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.7,
+      12.0
+    ]
+  },
+  "metadata": {
+    "source": "G. Ghosh. Sellmeier coefficients for the birefringence and refractive indices of ZnGeP2 nonlinear crystal at different temperatures. Appl. Opt., 37, 1205-1212 (1998) (https://doi.org/10.1364/AO.37.001205); downloaded from refractiveindex.info",
+    "description": "Critical analysis of experimental data from multiple sources.",
+    "conditions": {
+      "temperature": 250,
+      "direction": "o"
+    }
+  },
+  "id": "6f8e78ac-c397-5801-90a7-e4fc5aeca05f"
+}

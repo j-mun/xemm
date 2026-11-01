@@ -1,0 +1,37 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "DeSalvo",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      0.266,
+      0.355,
+      0.532,
+      1.064
+    ],
+    "re": [
+      7.82e-20,
+      2.41e-20,
+      2.24e-20,
+      2.14e-20
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "R. DeSalvo, A. A. Said, D. J. Hagan, E. W. Van Stryland, M. Sheik-Bahae. Infrared to ultraviolet measurements of two-photon absorption and n2 in wide bandgap solids. IEEE J. Quantum Electron. 32, 1324 (1996) (https://doi.org/10.1109/3.511545); downloaded from refractiveindex.info",
+    "description": "Fused silica. 15 ps @ 266 nm, 17 ps @ 355 nm, 22 ps @ 532 nm, 30 ps @ 1064 nm. Z-scan.",
+    "conditions": {
+      "n2_method": "Z-scan",
+      "pulse_duration": "15e-12 17e-12 22e-12 30e-12"
+    }
+  },
+  "id": "0ebcdbc3-7714-5bf6-8505-60741b2d2f9b"
+}

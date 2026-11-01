@@ -1,0 +1,68 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Sutherland",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.128,
+      0.1406,
+      0.1438,
+      0.1496,
+      0.1579,
+      0.161,
+      0.1744,
+      0.1799,
+      0.1848,
+      0.1899,
+      0.2,
+      0.2101,
+      0.2198,
+      0.23,
+      0.2535,
+      0.3131
+    ],
+    "re": [
+      0.964,
+      0.972,
+      0.978,
+      0.976,
+      0.965,
+      0.959,
+      0.929,
+      0.924,
+      0.911,
+      0.89,
+      0.876,
+      0.845,
+      0.823,
+      0.793,
+      0.717,
+      0.392
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "J. C. Sutherland and E. T. Arakawa. Optical properties of potassium for photons of energy 3.96 to 9.69 eV. J. Opt. Soc. Am. 58, 1080-1083 (1968) (https://doi.org/10.1364/JOSA.58.001080); downloaded from refractiveindex.info"
+  },
+  "id": "9bc63f86-455c-530b-a7af-a5fb5a81d656"
+}

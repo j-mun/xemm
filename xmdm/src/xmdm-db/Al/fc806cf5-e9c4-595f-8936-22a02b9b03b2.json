@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "lorentz",
+  "id": "fc806cf5-e9c4-595f-8936-22a02b9b03b2",
+  "data": {
+    "eps_inf": 1.0,
+    "omega_p": 14.98,
+    "f": [
+      0.523,
+      0.227,
+      0.052,
+      0.215,
+      0.114
+    ],
+    "gamma": [
+      0.047,
+      0.333,
+      0.312,
+      1.351,
+      3.382
+    ],
+    "omega_0": [
+      0.0,
+      0.162,
+      1.544,
+      1.808,
+      3.473
+    ]
+  },
+  "metadata": {
+    "legacy_path": "lorentz.yml",
+    "source": "Rakić et al. (1998), Appl. Opt. 37, 5271"
+  },
+  "name": "Rakic"
+}

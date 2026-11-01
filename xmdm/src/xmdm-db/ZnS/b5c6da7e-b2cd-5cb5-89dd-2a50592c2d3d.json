@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Ensley",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      2.0,
+      3.9
+    ],
+    "re": [
+      5.5e-19,
+      5e-19
+    ],
+    "im": [
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "T. R. Ensley and N. K. Bambha. Ultrafast nonlinear refraction measurements of infrared transmitting materials in the mid-wave infrared. Opt. Express 27, 37940 (2019) (https://doi.org/10.1364/OE.380702); downloaded from refractiveindex.info",
+    "description": "100 fs. Z-scan.",
+    "conditions": {
+      "n2_method": "Z-scan",
+      "pulse_duration": "100e-15"
+    }
+  },
+  "id": "b5c6da7e-b2cd-5cb5-89dd-2a50592c2d3d"
+}

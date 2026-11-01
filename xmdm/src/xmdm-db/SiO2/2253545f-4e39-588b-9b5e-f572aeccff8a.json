@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Jansonas",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.03
+    ],
+    "re": [
+      2.53e-20
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "G. Jansonas, R. Budriūnas, M. Vengris, A. Varanavičius. Interferometric measurements of nonlinear refractive index in the infrared spectral range. Opt. Express 30, 30507–30524 (2022) (https://doi.org/10.1364/OE.458850); downloaded from refractiveindex.info",
+    "description": "Ultraviolet grade fused silica - UVFS (SiO2). 230 fs at 1.03 μm. Fourier Interferometry.",
+    "conditions": {
+      "n2_method": "FI",
+      "pulse_duration": "230e-15"
+    }
+  },
+  "id": "2253545f-4e39-588b-9b5e-f572aeccff8a"
+}

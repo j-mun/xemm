@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Fujii",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      3.591,
+      0.193
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      1.06
+    ]
+  },
+  "metadata": {
+    "source": "Y. Fujii and T. Sakudo. Dielectric and optical properties of KTaO3. J. Phys. Soc. Jpn. 41, 888-893 (1976) (https://doi.org/10.1143/JPSJ.41.888).; downloaded from refractiveindex.info",
+    "description": "300 K (27 °C)"
+  },
+  "id": "2f5c2440-6e6c-5571-b0a6-b83852b4cc67"
+}

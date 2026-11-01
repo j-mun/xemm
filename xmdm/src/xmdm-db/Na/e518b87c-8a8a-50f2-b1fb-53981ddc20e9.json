@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Monin",
+  "data": {
+    "unit": "um",
+    "type": "nk",
+    "f": [
+      0.2536,
+      0.2654,
+      0.2804,
+      0.313,
+      0.334,
+      0.366,
+      0.406,
+      0.4358,
+      0.46,
+      0.4916,
+      0.546,
+      0.578,
+      0.62
+    ],
+    "re": [
+      0.044,
+      0.042,
+      0.041,
+      0.045,
+      0.049,
+      0.057,
+      0.06,
+      0.062,
+      0.063,
+      0.062,
+      0.056,
+      0.049,
+      0.039
+    ],
+    "im": [
+      0.613,
+      0.713,
+      0.83,
+      1.053,
+      1.184,
+      1.36,
+      1.574,
+      1.741,
+      1.86,
+      2.03,
+      2.31,
+      2.46,
+      2.73
+    ]
+  },
+  "metadata": {
+    "source": "J. Monin and G.-A. Boutry. Optical and photoelectric properties of alkali metals. Phys. Rev. B 9, 1309-1327 (1974) (https://doi.org/10.1103/PhysRevB.9.1309); downloaded from refractiveindex.info",
+    "description": "293 K (19.85 °C)",
+    "conditions": {
+      "temperature": 293
+    }
+  },
+  "id": "e518b87c-8a8a-50f2-b1fb-53981ddc20e9"
+}

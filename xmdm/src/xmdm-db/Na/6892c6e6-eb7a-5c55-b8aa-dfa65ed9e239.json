@@ -1,0 +1,17 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "drude",
+  "id": "6892c6e6-eb7a-5c55-b8aa-dfa65ed9e239",
+  "data": {
+    "eps_inf": 1.0,
+    "omega_p": 5.93,
+    "gamma": 0.028
+  },
+  "metadata": {
+    "legacy_path": "drude.yml",
+    "source": "Blaber et al. (2009), J. Phys. Chem. C 113, 3041",
+    "description": "Alkali metal, low-loss but highly reactive"
+  },
+  "name": "Blaber"
+}

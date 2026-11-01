@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Chandler-Horowitz",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      11.67316,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.004482633,
+      0.0,
+      1.108205,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      2.5,
+      22.222
+    ]
+  },
+  "metadata": {
+    "source": "D. Chandler-Horowitz and P. M. Amirtharaj. High-accuracy, midinfrared (450 cm−1 ≤ ω ≤ 4000 cm−1) refractive index values of silicon. J. Appl. Phys. 97, 123526 (2005) (https://doi.org/10.1063/1.1923612); downloaded from refractiveindex.info",
+    "description": "Room temperatue."
+  },
+  "id": "4937be3d-8391-5d24-8674-f72a3999f3bb"
+}

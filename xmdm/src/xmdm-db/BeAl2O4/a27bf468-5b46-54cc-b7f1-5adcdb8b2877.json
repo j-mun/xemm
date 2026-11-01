@@ -1,0 +1,35 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Walling-beta",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      1.58829,
+      1.42711,
+      2.0,
+      0.01113,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.01696,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.25,
+      2.6
+    ]
+  },
+  "metadata": {
+    "source": "1) J. Walling, O. Peterson, H. Jenssen, R. Morris, E. O'Dell. Tunable alexandrite lasers. IEEE J. Quantum Electron., 16, 1302–1315 (1980) (https://doi.org/10.1109/JQE.1980.1070430) 2) P. Loiko, A. Major. Dispersive properties of alexandrite and beryllium hexaaluminate crystals. Opt. Mater. Express, 6, 2177–2183 (2016) (https://doi.org/10.1364/OME.6.002177) * Ref. 2 provides a dispersion formula based on the experimental data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "nβ; Room temperature.",
+    "conditions": {
+      "direction": "beta"
+    }
+  },
+  "id": "a27bf468-5b46-54cc-b7f1-5adcdb8b2877"
+}

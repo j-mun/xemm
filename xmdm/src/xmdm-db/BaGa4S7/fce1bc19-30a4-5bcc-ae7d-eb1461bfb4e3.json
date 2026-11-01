@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kato-alpha",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      6.39731,
+      0.15895,
+      0.0,
+      0.02841,
+      1.0,
+      811.45,
+      0.0,
+      606.97,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.633,
+      8.82
+    ]
+  },
+  "metadata": {
+    "source": "K. Kato, V. V. Badikov, K. Miyata, V. Petrov. Refined Sellmeier equations for BaGa4S7. Appl. Opt., 60, 6600–6603 (2021) (https://doi.org/10.1364/AO.430424); downloaded from refractiveindex.info",
+    "description": "nα; room temperature.",
+    "conditions": {
+      "direction": "alpha"
+    }
+  },
+  "id": "fce1bc19-30a4-5bcc-ae7d-eb1461bfb4e3"
+}

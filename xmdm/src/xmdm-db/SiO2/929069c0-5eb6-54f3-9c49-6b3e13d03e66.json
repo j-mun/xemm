@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Arosa",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      0.931,
+      0.079,
+      0.1735,
+      0.13,
+      2.1121,
+      14.918
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.26,
+      1.7
+    ]
+  },
+  "metadata": {
+    "source": "Y. Arosa and R. de la Fuente. Refractive index spectroscopy and material dispersion in fused silica glass. Opt. Lett. 45, 4268-4271 (2020) (https://doi.org/10.1364/OL.395510); downloaded from refractiveindex.info",
+    "description": "Fused silica. The accuracy of refractive index measurements is lower than those reported by Malitson. However, by combining phase velocity and group velocity dispersion data, the authors have derived a potentially more accurate Sellmeier formula."
+  },
+  "id": "929069c0-5eb6-54f3-9c49-6b3e13d03e66"
+}

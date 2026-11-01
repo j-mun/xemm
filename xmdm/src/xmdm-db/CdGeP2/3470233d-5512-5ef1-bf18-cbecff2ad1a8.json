@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Boyd-20-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      5.1573,
+      4.097,
+      0.233,
+      1.4925,
+      671.33
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.8,
+      12.5
+    ]
+  },
+  "metadata": {
+    "source": "1) G. D. Boyd, E. Buehler, F. G Storz, J. H. Wernick. Linear and nonlinear optical properties of ternary AIIBIVC2V chalcopyrite semiconductors. IEEE J. Quantum Electron., 8, 419-426 (1972) (https://doi.org/10.1109/JQE.1972.1076982) 2) G. C. Bhar and G. Ghosh. Temperature-dependent Sellmeier coefficients and coherence lengths for some chalcopyrite crystals. J. Opt. Soc. Am. 69, 730-733 (1979) (https://doi.org/10.1364/JOSA.69.000730) * Ref. 2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "Extrardinary ray (e); 20 °C"
+  },
+  "id": "3470233d-5512-5ef1-bf18-cbecff2ad1a8"
+}

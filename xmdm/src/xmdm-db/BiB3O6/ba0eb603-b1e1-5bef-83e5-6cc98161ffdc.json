@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Umemura-gamma",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      3.6545,
+      0.05112,
+      0.0,
+      0.03713,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.02261,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.48,
+      3.1
+    ]
+  },
+  "metadata": {
+    "source": "N. Umemura, K. Miyata, and K. Kato. New data on the optical properties of BiB3O6, Opt. Mat. 30, 532-534 (2007) ( https://doi.org/10.1016/j.optmat.2006.12.014); downloaded from refractiveindex.info",
+    "description": "nγ; 20 °C.",
+    "conditions": {
+      "temperature": 293,
+      "direction": "gamma"
+    }
+  },
+  "id": "ba0eb603-b1e1-5bef-83e5-6cc98161ffdc"
+}

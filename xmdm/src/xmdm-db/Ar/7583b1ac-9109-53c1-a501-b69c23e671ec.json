@@ -1,0 +1,51 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Sinnock-solid-40K",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.3612,
+      0.365,
+      0.4063,
+      0.4358,
+      0.4753,
+      0.5086,
+      0.5461,
+      0.578,
+      0.6439
+    ],
+    "re": [
+      1.2934,
+      1.2931,
+      1.2909,
+      1.2896,
+      1.2885,
+      1.2876,
+      1.2869,
+      1.2862,
+      1.2854
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "A. C. Sinnock and B. L. Smith. Refractive indices of the condensed inert gases. Phys. Rev. 181, 1297-1307 (1969) (https://doi.org/10.1103/PhysRev.181.1297); downloaded from refractiveindex.info",
+    "description": "Solid argon at 40 K (-233.15 °C).",
+    "conditions": {
+      "temperature": 40
+    }
+  },
+  "id": "7583b1ac-9109-53c1-a501-b69c23e671ec"
+}

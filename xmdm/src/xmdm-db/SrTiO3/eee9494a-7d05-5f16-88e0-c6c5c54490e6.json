@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Wohlecke-a",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      2.7791,
+      0.16755
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.3,
+      1.0
+    ]
+  },
+  "metadata": {
+    "source": "M. Wöhlecke, V. Marrello, A. Onton. Refractive index of BaTiO3 and SrTiO3 films. J. Appl. Phys. 48, 1748–1750 (1977) (https://doi.org/10.1063/1.323822); downloaded from refractiveindex.info",
+    "description": "Amorphous 1–4 µm thin film. Prepared by RF sputter deposition at 300 K substrate temperature.",
+    "conditions": {
+      "temperature": 300
+    }
+  },
+  "id": "eee9494a-7d05-5f16-88e0-c6c5c54490e6"
+}

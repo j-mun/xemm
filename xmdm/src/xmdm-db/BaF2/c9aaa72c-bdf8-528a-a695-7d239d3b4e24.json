@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Malitson",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      0.643356,
+      0.057789,
+      0.506762,
+      0.10968,
+      3.8261,
+      46.3864
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.2652,
+      10.346
+    ]
+  },
+  "metadata": {
+    "source": "I. H. Malitson. Refractive properties of barium fluoride. J. Opt. Soc. Am. 54, 628-630 (1964) (https://doi.org/10.1364/JOSA.54.000628); downloaded from refractiveindex.info",
+    "description": "25 °C",
+    "conditions": {
+      "temperature": 298
+    }
+  },
+  "id": "c9aaa72c-bdf8-528a-a695-7d239d3b4e24"
+}

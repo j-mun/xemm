@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Zysset-alpha",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      1.0,
+      1.048233,
+      2.0,
+      0.2552277,
+      2.0,
+      2.371045,
+      2.0,
+      0.1197142,
+      2.0,
+      -0.01943289,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      3.4
+    ]
+  },
+  "metadata": {
+    "source": "B. Zysset, I. Biaggio, P. Günter. Refractive indices of orthorhombic KNbO3. I. Dispersion and temperature dependence. J. Opt. Soc. Am. B 9, 380-386 (1992) (https://doi.org/10.1364/JOSAB.9.000380); downloaded from refractiveindex.info",
+    "description": "nα; 22 °C. See the original publication for temperature dependence.",
+    "conditions": {
+      "temperature": 295,
+      "direction": "alpha"
+    }
+  },
+  "id": "1f2f0588-5966-5834-8cdc-97b6f38e6db7"
+}

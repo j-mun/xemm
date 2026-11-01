@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Boyd-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      4.2912,
+      1.397,
+      0.2845,
+      1.9282,
+      1600.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.725,
+      13.5
+    ]
+  },
+  "metadata": {
+    "source": "1) G. D. Boyd, H. M. Kasper, J. H McFee, F. G Storz. Linear and nonlinear optical properties of some ternary selenides. IEEE J. Quantum Electron., 8, 900-908 (1972) (https://doi.org/10.1109/JQE.1972.1076900) 2) G. C. Bhar. Refractive index interpolation in phase-matching. Appl. Opt. 15, 305-307 (1976) (https://doi.org/10.1364/AO.15.0305_1) * Ref. 2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "Extraordinary ray(e)",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "dd526873-b2ed-5c9a-aafb-9d07732671b8"
+}

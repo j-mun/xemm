@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Malitson",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      0.6961663,
+      0.0684043,
+      0.4079426,
+      0.1162414,
+      0.8974794,
+      9.896161
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.21,
+      6.7
+    ]
+  },
+  "metadata": {
+    "source": "1) I. H. Malitson. Interspecimen comparison of the refractive index of fused silica. J. Opt. Soc. Am. 55, 1205-1208 (1965) (https://doi.org/10.1364/JOSA.55.001205) 2) C. Z. Tan. Determination of refractive index of silica glass for infrared wavelengths by IR spectroscopy. J. Non-Cryst. Solids 223, 158-163 (1998) (https://doi.org/10.1016/S0022-3093(97)00438-9) * Sellmeier formula is reported in Ref. 1 for the 0.21–3.71 μm wavelength range. Ref. 2 verifies the validity of the formula up to 6.7 μm.; downloaded from refractiveindex.info",
+    "description": "Fused silica, 20 °C",
+    "conditions": {
+      "temperature": 293
+    }
+  },
+  "id": "7cc052fc-357b-51d0-a4d0-5e9eaa06183c"
+}

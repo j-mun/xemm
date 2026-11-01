@@ -1,0 +1,17 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "drude",
+  "id": "af86e359-e558-585e-8e16-764342f7d19e",
+  "data": {
+    "eps_inf": 1.0,
+    "omega_p": 3.72,
+    "gamma": 0.018
+  },
+  "metadata": {
+    "legacy_path": "drude.yml",
+    "source": "Blaber et al. (2009), J. Phys. Chem. C 113, 3041",
+    "description": "Alkali metal with low plasma frequency"
+  },
+  "name": "Blaber"
+}

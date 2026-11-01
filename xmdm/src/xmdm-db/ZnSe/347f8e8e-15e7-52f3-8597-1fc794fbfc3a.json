@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Marple",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      3.0,
+      1.9,
+      0.113
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.48,
+      2.5
+    ]
+  },
+  "metadata": {
+    "source": "D. T. F. Marple. Refractive index of ZnSe, ZnTe, and CdTe. J. Appl. Phys. 35, 539-542 (1964) (https://doi.org/10.1063/1.1713411); downloaded from refractiveindex.info",
+    "description": "Room temperature"
+  },
+  "id": "347f8e8e-15e7-52f3-8597-1fc794fbfc3a"
+}

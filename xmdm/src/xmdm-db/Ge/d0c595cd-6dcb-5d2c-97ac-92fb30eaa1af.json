@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Icenogle",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      8.28156,
+      6.7288,
+      0.44105,
+      0.21307,
+      3870.1
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      2.5,
+      12.0
+    ]
+  },
+  "metadata": {
+    "source": "1) Icenogle, B. C. Platt, W. L. Wolfe Refractive indexes and temperature coefficients of germanium and silicon, Appl. Opt. 15 2348-2351 (1976) 2) N. P. Barnes and M. S. Piltch. Temperature-dependent Sellmeier coefficients and nonlinear optics average power limit for germanium. J. Opt. Soc. Am. 69 178-180 (1979) (https://doi.org/10.1364/JOSA.69.000178) * Ref. 2 provides temperature-dependent Sellmeier equations based on data from Ref. 1.; downloaded from refractiveindex.info",
+    "description": "293 K (20 °C)"
+  },
+  "id": "d0c595cd-6dcb-5d2c-97ac-92fb30eaa1af"
+}

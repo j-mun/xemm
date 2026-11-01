@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Pastrnak-o",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      2.1399,
+      1.3786,
+      0.1715,
+      3.861,
+      15.03
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.22,
+      5.0
+    ]
+  },
+  "metadata": {
+    "source": "J. Pastrňák and L. Roskovcová. Refraction index measurements on AlN single crystals. Phys. Stat. Sol. 14, K5-K8 (1966) (https://doi.org/10.1002/pssb.19660140127); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o).",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "ce32dbeb-36fb-532e-ac6d-c3494b78b399"
+}

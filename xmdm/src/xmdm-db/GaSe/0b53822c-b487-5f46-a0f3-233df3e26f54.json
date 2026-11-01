@@ -1,0 +1,39 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Chen-n-o",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      7.37,
+      3.1436,
+      2.0,
+      2193.8,
+      1.0,
+      0.017,
+      2.0,
+      262177.5577,
+      1.0,
+      0.405,
+      -2.0,
+      0.0186,
+      -4.0,
+      0.0061,
+      -6.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      3.0,
+      1500.0
+    ]
+  },
+  "metadata": {
+    "source": "C.-W. Chen, T.-T. Tang, S.-H. Lin, J. Y. Huang, C.-S. Chang, P.-K. Chung, S.-T. Yen, C.-L. Pan. Optical properties and potential applications of ɛ-GaSe at terahertz frequencies. J. Opt. Soc. Am. B 26, A58-A65 (2009) (https://doi.org/10.1364/JOSAB.26.000A58); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o)",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "0b53822c-b487-5f46-a0f3-233df3e26f54"
+}

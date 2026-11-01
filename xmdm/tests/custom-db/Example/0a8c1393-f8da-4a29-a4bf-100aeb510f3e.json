@@ -1,0 +1,17 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "linear",
+  "id": "0a8c1393-f8da-4a29-a4bf-100aeb510f3e",
+  "data": {
+    "unit": "nm",
+    "type": "n",
+    "f": [400, 500, 600, 700],
+    "re": [2, 3, 4, 5],
+    "im": [0.1, 0.2, 0.3, 0.4]
+  },
+  "metadata": {
+    "source": "Synthetic test data; not a measured material"
+  }
+}

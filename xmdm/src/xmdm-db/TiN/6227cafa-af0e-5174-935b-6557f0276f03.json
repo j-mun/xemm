@@ -1,0 +1,17 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "drude",
+  "id": "6227cafa-af0e-5174-935b-6557f0276f03",
+  "data": {
+    "eps_inf": 5.0,
+    "omega_p": 7.64,
+    "gamma": 0.63
+  },
+  "metadata": {
+    "legacy_path": "drude.yml",
+    "source": "Shah et al. (2018), ResearchGate / Adv. Optical Mater.; https://www.researchgate.net/figure/Drude-Lorentz-fitting-parameters_tbl2_325641117",
+    "description": "An alternative refractory plasmonic material"
+  },
+  "name": "Shah"
+}

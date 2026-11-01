@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Werner",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      3.9
+    ],
+    "re": [
+      1.2e-18
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "K. Werner, M. G. Hastings, A. Schweinsberg, B. L. Wilmer, D. Austin, C. M. Wolfe, M. Kolesik, T. R. Ensley, L. Vanderhoef, A. Valenzuela, E. Chowdhury. Ultrafast mid-infrared high harmonic and supercontinuum generation with n2 characterization in zinc selenide. Opt. Express 27, 2867 (2019) (https://doi.org/10.1364/OE.27.002867); downloaded from refractiveindex.info",
+    "description": "260 fs. Z-scan.",
+    "conditions": {
+      "n2_method": "Z-scan",
+      "pulse_duration": "260e-15"
+    }
+  },
+  "id": "b8428cff-ec9d-5810-b0e5-98a334c64f38"
+}

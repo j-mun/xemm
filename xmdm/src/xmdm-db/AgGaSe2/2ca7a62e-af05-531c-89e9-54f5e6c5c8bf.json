@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Pigeon",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      10.6
+    ],
+    "re": [
+      2.4e-19
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "J. J. Pigeon, D. A. Matteo, S. Ya. Tochitsky, I. Ben-Zvi, C. Joshi. Measurements of the nonlinear refractive index of AgGaSe2, GaSe, and ZnSe at 10 µm. J. Opt. Soc. Am. B 37, 2076 (2020) (https://doi.org/10.1364/JOSAB.395844); downloaded from refractiveindex.info",
+    "description": "300 ns. Four-wave mixing. Relative measurement (to GaAs). The authors mistakenly used an incorrect value of n2 of GaAs when converting a relative measurement to an absolute value. They used 4.0e-19 cm2/W instead of 4.0e-14 cm2/W, which was cited earlier in the same paper. The database now includes a recalculated value using n2(GaAs) = 4.0e-14 cm2/W.",
+    "conditions": {
+      "n2_method": "FWM",
+      "pulse_duration": "300e-9"
+    }
+  },
+  "id": "2ca7a62e-af05-531c-89e9-54f5e6c5c8bf"
+}

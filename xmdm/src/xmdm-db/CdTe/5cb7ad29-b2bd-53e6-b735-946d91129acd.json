@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Tatsuura-111",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.55
+    ],
+    "re": [
+      5.23e-17
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "S. Tatsuura, T. Matsubara, H. Mitsu, Y. Sato, I. Iwasa, M. Tian, M. Furuki. Cadmium telluride bulk crystal as an ultrafast nonlinear optical switch. Appl. Phys. Lett 87, 251110 (2005) (https://doi.org/10.1063/1.2151256); downloaded from refractiveindex.info",
+    "description": "CdTe[111]. 110 fs. Z-scan.",
+    "conditions": {
+      "n2_method": "Z-scan",
+      "pulse_duration": "110e-15"
+    }
+  },
+  "id": "5cb7ad29-b2bd-53e6-b735-946d91129acd"
+}

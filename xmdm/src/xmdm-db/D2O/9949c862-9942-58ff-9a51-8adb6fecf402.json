@@ -1,0 +1,48 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Asfar",
+  "data": {
+    "unit": "um",
+    "type": "nk",
+    "f": [
+      250.0,
+      285.7,
+      333.3,
+      400.0,
+      500.0,
+      666.7,
+      1000.0,
+      2000.0
+    ],
+    "re": [
+      2.02,
+      2.05,
+      2.09,
+      2.14,
+      2.19,
+      2.28,
+      2.43,
+      3.02
+    ],
+    "im": [
+      0.525,
+      0.553,
+      0.557,
+      0.586,
+      0.633,
+      0.722,
+      0.915,
+      1.146
+    ]
+  },
+  "metadata": {
+    "source": "M. N. Afsar and J. B. Hasted. Measurements of the optical constants of liquid H2O and D2O between 6 and 450 cm−1. J. Opt. Soc. Am. 67, 902-904 (1977) (https://doi.org/10.1364/JOSA.67.000902); downloaded from refractiveindex.info",
+    "description": "Heavy water (D2O) at 19.5 °C",
+    "conditions": {
+      "temperature": 292.65
+    }
+  },
+  "id": "9949c862-9942-58ff-9a51-8adb6fecf402"
+}

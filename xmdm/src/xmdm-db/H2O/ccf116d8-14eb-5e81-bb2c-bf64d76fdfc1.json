@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Bashkatov",
+  "data": {
+    "formula": 5,
+    "coefficients": [
+      1.31984,
+      0.005190553,
+      -2.0,
+      -0.000256169,
+      -4.0,
+      9.39388e-06,
+      -6.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.225,
+      1.14
+    ]
+  },
+  "metadata": {
+    "source": "A. N. Bashkatov and E. A. Genina. Water refractive index in dependence on temperature and wavelength: a simple approximation. Proc. SPIE 5068, 393-395 (2003) (https://doi.org/10.1117/12.518857); downloaded from refractiveindex.info",
+    "description": "High-performance liquid chromatography (HPLC) distilled water at 20.0 °C.\n\n\n\nThere are typesetting errors in the original paper: In Table 2, the coefficient C must be multiplied by 108 (not 10−8) and the coefficient D must be multiplied by 1012. Additionally, Equation (7) must be multiplied by 1012. With these corrections, and after converting the wavelength to µm, the following expressions can be used to calculate the coefficients of the dispersion formula at any temperature in the 0–100 °C range:\n\n\n\nA(t) = 1.3208\n       − 1.2325×10−5·t\n       − 1.8674×10−6·t2\n       + 5.0233×10−9·t3\n\nB(t) = 5.2082413×10−3\n       − 5.179×10−7·t\n       − 2.284×10−8·t2\n       + 6.9608×10−11·t3\n\nC(t) = −2.5551×10−4\n       − 1.8341336×10−8·t\n       − 9.172319×10−10·t2\n       + 2.7729×10−12·t3\n\nD(t) = 9.3495×10−6\n       + 1.7855×10−3·t\n       + 3.6733×10−1·t2\n       − 1.2932×101·t3",
+    "conditions": {
+      "temperature": 293.15
+    }
+  },
+  "id": "ccf116d8-14eb-5e81-bb2c-bf64d76fdfc1"
+}

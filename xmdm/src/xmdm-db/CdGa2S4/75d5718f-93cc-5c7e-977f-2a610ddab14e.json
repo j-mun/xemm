@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kato-e",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      6.50983,
+      0.17311,
+      0.0,
+      0.02912,
+      1.0,
+      330.88,
+      0.0,
+      332.38,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.49,
+      7.519
+    ]
+  },
+  "metadata": {
+    "source": "K. Kato, N. Umemura, V. Petrov. Sellmeier and thermo-optic dispersion formulas for CdGa2S4 and their application to the nonlinear optics of Hg1−xCdxGa2S4. Opt. Commun. 386, 49-52 (2017) (https://doi.org/10.1016/j.optcom.2016.10.054); downloaded from refractiveindex.info",
+    "description": "Room temperature. Extraordinary ray (e).",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "75d5718f-93cc-5c7e-977f-2a610ddab14e"
+}

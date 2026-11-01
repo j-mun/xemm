@@ -1,0 +1,39 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Wettling",
+  "id": "214141df-287b-53fd-9b32-e1ee4b6a64ff",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.4545,
+      0.458,
+      0.488,
+      0.496,
+      0.5145,
+      0.6328
+    ],
+    "re": [
+      3.34,
+      3.34,
+      3.32,
+      3.3,
+      3.26,
+      3.0
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "W. Wettling and J. Windscheif. Elastic constants and refractive index of boron phosphide. Solid State Commun. 50 33-34 (1984) (https://doi.org/10.1016/0038-1098(84)90053-X); downloaded from refractiveindex.info",
+    "description": "Room temperature"
+  }
+}

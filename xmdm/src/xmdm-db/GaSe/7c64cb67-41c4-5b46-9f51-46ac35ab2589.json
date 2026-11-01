@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Jansonas",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      2.2,
+      3.2
+    ],
+    "re": [
+      2.14e-18,
+      7.1e-19
+    ],
+    "im": [
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "G. Jansonas, R. Budriūnas, M. Vengris, A. Varanavičius. Interferometric measurements of nonlinear refractive index in the infrared spectral range. Opt. Express 30, 30507–30524 (2022) (https://doi.org/10.1364/OE.458850); downloaded from refractiveindex.info",
+    "description": "Single crystal GaSe (o). Polar angle (θ): 0°. Electric field was parallel to the X dielectric axis. 170 fs and 190 fs at 2.2 μm and 3.2 μm, respectively. Estimated Kerr values were 35.2e-19 m2/W and 34.7e-19 m2/W at 2.2 μm and 3.2 μm, respectively.  Fourier Interferometry.",
+    "conditions": {
+      "n2_method": "FI",
+      "pulse_duration": "170e-15 190e-15"
+    }
+  },
+  "id": "7c64cb67-41c4-5b46-9f51-46ac35ab2589"
+}

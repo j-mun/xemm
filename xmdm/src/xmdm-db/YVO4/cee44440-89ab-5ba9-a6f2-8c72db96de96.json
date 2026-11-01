@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Shi-e-20C",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      4.6072,
+      0.108087,
+      0.0,
+      0.052495,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.014305,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.48,
+      1.34
+    ]
+  },
+  "metadata": {
+    "source": "H. S. Shi, G. Zhang and H. Y. Shen. Measurement of principal refractive indices and the thermal refractive index coefficients of yttrium vanadate, J. Synthetic Cryst. 30, 85-88 (2001) (http://caod.oriprobe.com/articles/3152847/Measurement_of_Principal_Refractive_Indices_and_the_Thermal_Refractive.htm); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e), 20 °C.",
+    "conditions": {
+      "temperature": 293,
+      "direction": "e"
+    }
+  },
+  "id": "cee44440-89ab-5ba9-a6f2-8c72db96de96"
+}

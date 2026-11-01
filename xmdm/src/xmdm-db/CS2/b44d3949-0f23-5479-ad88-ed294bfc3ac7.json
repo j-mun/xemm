@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Chang",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      1.502,
+      0.169,
+      0.163,
+      6.52
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      2.0
+    ]
+  },
+  "metadata": {
+    "source": "H.-J. Chang, N. Munera, C. Lopez-Zelaya, D. Banerjee, G. Beadie, E. W. Van Stryland, D. J. Hagan. Refractive index measurements of liquids from 0.5 to 2 µm using Rayleigh interferometry. Opt. Mater. Express 14, 1253–1267 (2024) (https://doi.org/10.1364/OME.519907); downloaded from refractiveindex.info",
+    "description": "21.5–22.0 °C.",
+    "conditions": {
+      "temperature": 295
+    }
+  },
+  "id": "b44d3949-0f23-5479-ad88-ed294bfc3ac7"
+}

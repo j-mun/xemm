@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Singh-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      5.7292,
+      0.028923
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.488,
+      1.064
+    ]
+  },
+  "metadata": {
+    "source": "S. Singh, J. R. Potopowicz, L. G. Van Uitert, S. H. Wemple. Nonlinear optical properties of hexagonal silicon carbide. Appl. Phys. Lett. 19, 53 (1971) (https://doi.org/10.1063/1.1653819) (fit of the experimental data with Sellmeier dispersion formula: refractiveindex.info); downloaded from refractiveindex.info",
+    "description": "α-SiC (hexagonal crystal structure); Extraordinary ray (e); Room temperature.",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "d3379549-c880-5cca-8892-23374e6e525a"
+}

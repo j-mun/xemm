@@ -1,0 +1,23 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Williams",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      3.1218393,
+      0.1807
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.305,
+      1.0
+    ]
+  },
+  "metadata": {
+    "source": "P. A. Williams, A. H. Rose, K. S. Lee, D. C. Conrad, G. W. Day, P. D. Hale. Optical, thermo-optic, electro-optic, and photoelastic properties of bismuth germanate Bi4Ge3O12. Appl. Opt. 35, 3562-3569 (1996) (https://doi.org/10.1364/AO.35.003562); downloaded from refractiveindex.info"
+  },
+  "id": "1cd51330-3c33-5e77-bb3d-c06c41041af3"
+}

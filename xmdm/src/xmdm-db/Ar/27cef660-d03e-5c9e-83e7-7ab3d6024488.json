@@ -1,0 +1,51 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Sinnock-solid-60K",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.3612,
+      0.365,
+      0.4063,
+      0.4358,
+      0.4753,
+      0.5086,
+      0.5461,
+      0.578,
+      0.6439
+    ],
+    "re": [
+      1.2866,
+      1.2863,
+      1.2841,
+      1.2829,
+      1.2817,
+      1.2809,
+      1.2801,
+      1.2795,
+      1.2786
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "A. C. Sinnock and B. L. Smith. Refractive indices of the condensed inert gases. Phys. Rev. 181, 1297-1307 (1969) (https://doi.org/10.1103/PhysRev.181.1297); downloaded from refractiveindex.info",
+    "description": "Solid argon at 60 K (-213.15 °C).",
+    "conditions": {
+      "temperature": 60
+    }
+  },
+  "id": "27cef660-d03e-5c9e-83e7-7ab3d6024488"
+}

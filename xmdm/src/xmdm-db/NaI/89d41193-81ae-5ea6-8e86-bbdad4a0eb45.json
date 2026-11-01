@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Jellison",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      1.994,
+      0.176
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.436,
+      0.633
+    ]
+  },
+  "metadata": {
+    "source": "G. E. Jellison Jr., L. A. Boatner, J. O. Ramey, J. A. Kolopus, L. A. Ramey D. J. Singh. Refractive index of sodium iodide. J. Appl. Phys. 111, 043521 (2012) (https://doi.org/10.1063/1.3689746); downloaded from refractiveindex.info",
+    "description": "Room temperature"
+  },
+  "id": "89d41193-81ae-5ea6-8e86-bbdad4a0eb45"
+}

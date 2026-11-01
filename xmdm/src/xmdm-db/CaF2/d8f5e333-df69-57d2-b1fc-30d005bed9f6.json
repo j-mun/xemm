@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Daimon-25",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      0.437387571,
+      0.00173799328,
+      0.449211397,
+      0.00782718648,
+      0.152068715,
+      0.0124086125,
+      13.002042,
+      4039.76541
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.138,
+      2.326
+    ]
+  },
+  "metadata": {
+    "source": "M. Daimon and A. Masumura. High-accuracy measurements of the refractive index and its temperature coefficient of calcium fluoride in a wide wavelength range from 138 to 2326 nm. Appl. Opt. 41, 5275-5281 (2002) (https://doi.org/10.1364/AO.41.005275); downloaded from refractiveindex.info",
+    "description": "25 °C, Nitrogen atmosphere"
+  },
+  "id": "d8f5e333-df69-57d2-b1fc-30d005bed9f6"
+}

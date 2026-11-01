@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "DeSalvo",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      0.532,
+      1.064
+    ],
+    "re": [
+      1.26e-19,
+      7.87e-20
+    ],
+    "im": [
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "R. DeSalvo, A. A. Said, D. J. Hagan, E. W. Van Stryland, M. Sheik-Bahae. Infrared to ultraviolet measurements of two-photon absorption and n2 in wide bandgap solids. IEEE J. Quantum Electron. 32, 1324 (1996) (https://doi.org/10.1109/3.511545); downloaded from refractiveindex.info",
+    "description": "22 ps @ 532 nm, 30 ps @ 1064 nm. Z-scan.",
+    "conditions": {
+      "n2_method": "Z-scan",
+      "pulse_duration": "22e-12 30e-12"
+    }
+  },
+  "id": "c6d37615-2f40-5838-a777-8aaa92250f8d"
+}

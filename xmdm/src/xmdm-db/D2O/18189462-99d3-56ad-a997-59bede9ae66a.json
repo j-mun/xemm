@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kedenburg",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      -0.30637,
+      -47.26686,
+      0.74659,
+      0.00893
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.5,
+      1.6
+    ]
+  },
+  "metadata": {
+    "source": "S. Kedenburg, M. Vieweg, T. Gissibl, H. Giessen. Linear refractive index and absorption measurements of nonlinear optical liquids in the visible and near-infrared spectral region. Opt. Mater. Express 2, 1588-1611 (2012) (https://doi.org/10.1364/OME.2.001588); downloaded from refractiveindex.info",
+    "description": "Heavy water (D2O) at 20 °C.",
+    "conditions": {
+      "temperature": 293
+    }
+  },
+  "id": "18189462-99d3-56ad-a997-59bede9ae66a"
+}

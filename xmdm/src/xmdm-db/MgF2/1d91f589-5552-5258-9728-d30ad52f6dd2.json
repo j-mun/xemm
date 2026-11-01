@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Adair",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.064
+    ],
+    "re": [
+      7.6e-21
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "R. Adair, L. L. Chase, S. A. Payne. Nonlinear refractive index of optical crystals. Phys. Rev. B 39, 3337 (1989) (https://doi.org/10.1103/PhysRevB.39.3337); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o). 3 ns. Three-wave mixing.",
+    "conditions": {
+      "n2_method": "TWM",
+      "pulse_duration": "3e-9",
+      "direction": "o"
+    }
+  },
+  "id": "1d91f589-5552-5258-9728-d30ad52f6dd2"
+}

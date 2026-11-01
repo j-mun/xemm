@@ -1,0 +1,48 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Sinnock-solid-75K",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.3631,
+      0.4063,
+      0.4358,
+      0.4753,
+      0.5086,
+      0.5461,
+      0.578,
+      0.6439
+    ],
+    "re": [
+      1.3761,
+      1.3723,
+      1.3701,
+      1.3678,
+      1.3662,
+      1.3648,
+      1.3638,
+      1.3622
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "A. C. Sinnock and B. L. Smith. Refractive indices of the condensed inert gases. Phys. Rev. 181, 1297-1307 (1969) (https://doi.org/10.1103/PhysRev.181.1297); downloaded from refractiveindex.info",
+    "description": "Solid krypton at 75 K (-198.15 °C).",
+    "conditions": {
+      "temperature": 75
+    }
+  },
+  "id": "e3f759c7-db8f-5f23-9846-6f055d01086a"
+}

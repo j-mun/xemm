@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Pigeon",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      10.6
+    ],
+    "re": [
+      8.4e-23
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "J. J. Pigeon, S. Ya. Tochitsky, E. C. Welch, C. Joshi. Measurements of the nonlinear refractive index of air, N2, and O2 at 10 μm using four-wave mixing. Opt. Lett. 41, 3924-3927 (2016) (https://doi.org/10.1364/OL.41.003924); downloaded from refractiveindex.info",
+    "description": "200 ps at 10.6 nm. Four-wave mixing. Room temperature, atmospheric pressure.",
+    "conditions": {
+      "n2_method": "FWM",
+      "pulse_duration": "200e-12"
+    }
+  },
+  "id": "240b8124-4731-5d5c-8e5c-faf4e61ca238"
+}

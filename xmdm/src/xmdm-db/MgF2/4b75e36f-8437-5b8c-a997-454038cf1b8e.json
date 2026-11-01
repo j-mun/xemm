@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Zheng-e-21C",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      0.41343,
+      0.036843,
+      0.50545,
+      0.090762,
+      2.4905,
+      23.772
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.22,
+      1.7
+    ]
+  },
+  "metadata": {
+    "source": "Q. Zheng, X. Wang, D. Thompson. Temperature-dependent optical properties of monocrystalline CaF2, BaF2, and MgF2. Opt. Mater. Express 13, 2380–2391 (2023) (https://doi.org/10.1364/OME.496246) (See Supplementary materials); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e).\n21.1 °C.\nThe supplementary materials of the original publication contain coefficients of the Sellmeier formula for multiple temperatures in the range of 21 °C to 368 °C.",
+    "conditions": {
+      "temperature": 294.25,
+      "direction": "e"
+    }
+  },
+  "id": "4b75e36f-8437-5b8c-a997-454038cf1b8e"
+}

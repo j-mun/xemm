@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Fischer-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      6.346,
+      3.026,
+      175.2
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      17.0,
+      150.0
+    ]
+  },
+  "metadata": {
+    "source": "M. P. Fischer, J. Bühler, G. Fitzky, T. Kurihara, S. Eggert, A. Leitenstorfer, D. Brida. Coherent field transients below 15 THz from phase-matched difference frequency generation in 4H-SiC. Opt. Lett. 42, 2687-2690 (2017) (https://doi.org/10.1364/OL.42.002687); downloaded from refractiveindex.info",
+    "description": "4H-SiC (hexagonal crystal structure); Extraordinary ray (e); Room temperature.",
+    "conditions": {
+      "temperature": 293,
+      "direction": "e"
+    }
+  },
+  "id": "ea04a34f-4050-5e00-80cb-810b91a97f52"
+}

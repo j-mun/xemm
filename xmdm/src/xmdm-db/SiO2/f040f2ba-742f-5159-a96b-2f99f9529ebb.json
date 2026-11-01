@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Milam",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      0.351,
+      0.527,
+      1.053
+    ],
+    "re": [
+      3.6e-20,
+      3e-20,
+      2.74e-20
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "D. Milam. Review and assessment of measured values of the nonlinear refractive-index coefficient of fused silica. Appl. Opt. 37, 546 (1998) (https://doi.org/10.1364/AO.37.000546) (Compilation of data from several sources); downloaded from refractiveindex.info",
+    "description": "Fused silica."
+  },
+  "id": "f040f2ba-742f-5159-a96b-2f99f9529ebb"
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "drude",
+  "id": "ebb66040-1301-5dbc-96bc-f6d1c7e77e2a",
+  "data": {
+    "eps_inf": 1.0,
+    "omega_p": 4.09,
+    "gamma": 0.0211
+  },
+  "metadata": {
+    "legacy_path": "drude.yml",
+    "source": "Ordal et al. (1988), Appl. Opt. 27, 1203"
+  },
+  "name": "Ordal"
+}

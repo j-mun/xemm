@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Wohlecke-mx",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      2.9274,
+      0.17463
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.3,
+      1.0
+    ]
+  },
+  "metadata": {
+    "source": "M. Wöhlecke, V. Marrello, A. Onton. Refractive index of BaTiO3 and SrTiO3 films. J. Appl. Phys. 48, 1748–1750 (1977) (https://doi.org/10.1063/1.323822); downloaded from refractiveindex.info",
+    "description": "Microcrystalline 1–4 µm thin film. Prepared by RF sputter deposition at 600 K substrate temperature."
+  },
+  "id": "67553ad4-9e68-5749-9288-5e8f268ade69"
+}

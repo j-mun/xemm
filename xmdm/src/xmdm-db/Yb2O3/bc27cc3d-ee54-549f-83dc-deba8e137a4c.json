@@ -1,0 +1,23 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Medenbach",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      2.647,
+      0.018
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.435,
+      0.644
+    ]
+  },
+  "metadata": {
+    "source": "O. Medenbach, D. Dettmar, R. D. Shannon, R. X. Fischer, W. M. Yen. Refractive index and optical dispersion of rare earth oxides using a small-prism technique. J. Opt. A: Pure Appl. Opt. 3, 174-177, 2001 (https://doi.org/10.1088/1464-4258/3/3/303); downloaded from refractiveindex.info"
+  },
+  "id": "bc27cc3d-ee54-549f-83dc-deba8e137a4c"
+}

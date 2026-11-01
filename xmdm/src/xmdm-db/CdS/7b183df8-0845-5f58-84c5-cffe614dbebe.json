@@ -1,0 +1,34 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Bieniewski-o",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      5.1792,
+      0.23504,
+      0.0,
+      0.083591,
+      1.0,
+      0.036927,
+      0.0,
+      0.23504,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.51,
+      1.4
+    ]
+  },
+  "metadata": {
+    "source": "1) T. M. Bieniewski and S. J. Czyzak. Refractive indexes of single hexagonal ZnS and CdS crystals. J. Opt. Soc. Am. 53, 496-497 (1963) (https://doi.org/10.1364/JOSA.53.000496) 2) M. Sanchez Gomez, J. M. Guerra, and F. Vilches. Weighted nonlinear regression analysis of a Sellmeier expansion: comparison of several nonlinear fits of CdS dispersion. Appl. Opt. 24, 1147-1150 (1985) (https://doi.org/10.1364/AO.24.001147) * Ref. 2 provides a dispersion formula based on data from ref. 1; downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o). 25 °C.",
+    "conditions": {
+      "temperature": 298,
+      "direction": "o"
+    }
+  },
+  "id": "7b183df8-0845-5f58-84c5-cffe614dbebe"
+}

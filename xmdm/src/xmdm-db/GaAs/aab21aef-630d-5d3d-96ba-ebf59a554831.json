@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Hurlbut",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      2.5
+    ],
+    "re": [
+      9e-18
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "W. C. Hurlbut, Y.-S. Lee, K. L. Vodopyanov, P. S. Kuo, M. M. Fejer. Multiphoton absorption and nonlinear refraction of GaAs in the mid-infrared. Opt. Lett. 32, 668 (2007) (https://doi.org/10.1364/OL.32.000668); downloaded from refractiveindex.info",
+    "description": "100 ps. Z-scan. See reference for n2(λ) in 1.3–3.5 µm range",
+    "conditions": {
+      "n2_method": "Z-scan",
+      "pulse_duration": "100e-12"
+    }
+  },
+  "id": "aab21aef-630d-5d3d-96ba-ebf59a554831"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kato-o",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      7.4899,
+      0.22713,
+      0.0,
+      0.10209,
+      1.0,
+      1089.68,
+      0.0,
+      706.14,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.6328,
+      10.591
+    ]
+  },
+  "metadata": {
+    "source": "K. Kato, V. Petrov, N. Umemura. Phase-matching properties of yellow color HgGa2S4 for SHG and SFG in the 0.944-10.5910 μm range. Appl. Opt. 55, 3145-3148 (2016) (https://doi.org/10.1364/AO.55.003145); downloaded from refractiveindex.info",
+    "description": "Room temperature. Ordinary ray (o).",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "242486a6-0412-54cb-97de-793ad67fa78e"
+}

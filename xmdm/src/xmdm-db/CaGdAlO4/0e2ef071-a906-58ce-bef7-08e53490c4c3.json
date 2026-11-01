@@ -1,0 +1,35 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Loiko-o",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      3.64863,
+      0.03926,
+      0.0,
+      0.02239,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.01121,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.35,
+      2.1
+    ]
+  },
+  "metadata": {
+    "source": "P. Loiko, P. Becker, L. Bohatý, C. Liebald, M. Peltz, S. Vernay, D. Rytz, J. M. Serres, X. Mateos, Y. Wang, X. Xu, J. Xu, A. Major, A. Baranov, U. Griebner, V. Petrov. Sellmeier equations, group velocity dispersion, and thermo-optic dispersion formulas for CaLnAlO4 (Ln = Y, Gd) laser host crystals. Opt. Lett., 42, 2275–2278 (2017) (https://doi.org/10.1364/OL.42.002275); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o); room temperature.",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "0e2ef071-a906-58ce-bef7-08e53490c4c3"
+}

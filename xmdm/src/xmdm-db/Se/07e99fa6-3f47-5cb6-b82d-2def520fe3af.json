@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Campel-o",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      1.06,
+      1.15,
+      3.39,
+      10.6
+    ],
+    "re": [
+      2.79,
+      2.737,
+      2.65,
+      2.64
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "L. Gampel and F. M. Johnson, Index of refraction of single-crystal selenium, J. Opt. Soc. Am., 59, 72-73 (1969); downloaded from refractiveindex.info",
+    "description": "Single-crystal selenium; 23 °C; Ordinary ray.",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "07e99fa6-3f47-5cb6-b82d-2def520fe3af"
+}

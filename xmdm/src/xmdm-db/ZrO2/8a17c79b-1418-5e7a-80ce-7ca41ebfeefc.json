@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Bodurov",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      3.3037,
+      0.1987971
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.405,
+      0.635
+    ]
+  },
+  "metadata": {
+    "source": "I. Bodurov, I. Vlaeva, A. Viraneva, T. Yovcheva, S. Sainov. Modified design of a laser refractometer. Nanoscience & Nanotechnology 16, 31-33 (2016) (https://nsnt.iees.bas.bg/shr/oldjournals/16-2.pdf); downloaded from refractiveindex.info",
+    "description": "<100 nm diameter nanoparticles dispersed in water. Concentration 10 wt.%. 24 °C. Refractive index of nanoparticles calculated using Bruggeman's effective medium approximation.",
+    "conditions": {
+      "temperature": 297
+    }
+  },
+  "id": "8a17c79b-1418-5e7a-80ce-7ca41ebfeefc"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Badikov-gamma",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      7.764197,
+      0.326812,
+      0.0,
+      0.069734,
+      1.0,
+      1975.857,
+      0.0,
+      1297.079,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.48,
+      10.4
+    ]
+  },
+  "metadata": {
+    "source": "V. Badikov, D. Badikov, G. Shevyrdyaeva, A. Tyazhev, G. Marchev, V. Panyutin, V. Petrov, A. Kwasniewski. Phase-matching properties of BaGa4S7 and BaGa4Se7: Wide-bandgap nonlinear crystals for the mid-infrared. Phys. Status Solidi RRL, 5, 31–33 (2010) (https://doi.org/10.1002/pssr.201004425); downloaded from refractiveindex.info",
+    "description": "nγ; room temperature.",
+    "conditions": {
+      "direction": "gamma"
+    }
+  },
+  "id": "1d7fa89b-8c35-5c2b-9bda-af259fecffbd"
+}

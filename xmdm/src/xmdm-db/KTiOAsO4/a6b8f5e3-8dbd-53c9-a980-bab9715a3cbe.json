@@ -1,0 +1,34 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Jansonas-Y",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.03,
+      2.2,
+      3.2
+    ],
+    "re": [
+      1.85e-19,
+      2.2e-19,
+      2.2e-19
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "G. Jansonas, R. Budriūnas, M. Vengris, A. Varanavičius. Interferometric measurements of nonlinear refractive index in the infrared spectral range. Opt. Express 30, 30507–30524 (2022) (https://doi.org/10.1364/OE.458850); downloaded from refractiveindex.info",
+    "description": "Single crystal KTiOAsO4 (KTA). Polar angle (θ): 45°, azimuthal angle (φ): 0°. Electric field was parallel to the Y dielectric axis. 230 fs, 170 fs and 190 fs at 1.03 μm, 2.2 μm and 3.2 μm, respectively. Estimated Kerr values were 1.9e-19, 2.2e-19 and 2.3e-19 at 1.03 μm, 2.2 μm and 3.2 μm, respectively. Fourier Interferometry.",
+    "conditions": {
+      "n2_method": "FI",
+      "pulse_duration": "230e-15 170e-15 190e-15"
+    }
+  },
+  "id": "a6b8f5e3-8dbd-53c9-a980-bab9715a3cbe"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Singh-o",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      5.3635,
+      0.050267
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.45,
+      1.15
+    ]
+  },
+  "metadata": {
+    "source": "S. Singh, J. P. Remeika, J. R. Potopowicz. Nonlinear optical properties of ferroelectric lead titanate. Appl. Phys. Lett. 20, 135, 1972 (https://doi.org/10.1063/1.1654078); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o)",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "19de1321-c693-5c2b-bbbd-1ca2ac5d286b"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Edwards-o",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      1.92274,
+      0.07908,
+      1.24209,
+      9.7131
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.44,
+      7.0
+    ]
+  },
+  "metadata": {
+    "source": "D. F. Edwards and R. H. White, \"Beryllium Oxide,\" in E. D. Palik (ed.), Handbook of Optical Constants of Solids II, Academic Press, Orlando, 1991, pp. 805-814.; downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o). Room temperature.",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "181cffd7-bfaa-5161-9e59-20cecddf0e36"
+}

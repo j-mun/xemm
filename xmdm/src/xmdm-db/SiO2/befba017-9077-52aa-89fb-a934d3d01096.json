@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Ghosh-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.28851804,
+      1.09509924,
+      0.0102101864,
+      1.15662475,
+      100.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.198,
+      2.0531
+    ]
+  },
+  "metadata": {
+    "source": "G. Ghosh. Dispersion-equation coefficients for the refractive index and birefringence of calcite and quartz crystals. Opt. Commun. 163, 95-102 (1999) (https://doi.org/10.1016/S0030-4018(99)00091-7); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e). Room temperature.",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "befba017-9077-52aa-89fb-a934d3d01096"
+}

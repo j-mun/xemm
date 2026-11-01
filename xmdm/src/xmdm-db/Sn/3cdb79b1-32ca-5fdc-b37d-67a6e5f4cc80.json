@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Golovashkin-4.2K",
+  "data": {
+    "unit": "um",
+    "type": "nk",
+    "f": [
+      0.93,
+      0.99,
+      1.2,
+      1.35,
+      1.5,
+      1.7,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0
+    ],
+    "re": [
+      2.95,
+      3.7,
+      3.05,
+      2.55,
+      1.99,
+      1.51,
+      1.38,
+      1.39,
+      1.58,
+      1.95,
+      2.13,
+      2.75,
+      3.73,
+      4.89,
+      6.05,
+      7.9,
+      10.1,
+      12.6,
+      15.3
+    ],
+    "im": [
+      7.62,
+      7.15,
+      5.98,
+      6.64,
+      7.8,
+      9.35,
+      11.4,
+      14.6,
+      18.0,
+      21.1,
+      24.2,
+      30.0,
+      35.8,
+      41.6,
+      47.4,
+      53.3,
+      58.7,
+      63.4,
+      67.0
+    ]
+  },
+  "metadata": {
+    "source": "A. I. Golovashkin and G. P. Motulevich. Optical properties of tin at helium temperaturs, Sov. Phys. JETP 20, 44-49 (1965) (http://jetp.ac.ru/cgi-bin/e/index/e/20/1/p44?a=list); downloaded from refractiveindex.info",
+    "description": "4.2 K (-268.95 °C)",
+    "conditions": {
+      "temperature": 4.2
+    }
+  },
+  "id": "3cdb79b1-32ca-5fdc-b37d-67a6e5f4cc80"
+}

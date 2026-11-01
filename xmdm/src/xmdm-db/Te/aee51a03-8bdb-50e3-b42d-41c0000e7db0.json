@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Sherman-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.9041,
+      36.8133,
+      1.0803,
+      6.2456,
+      10000.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      8.5,
+      30.3
+    ]
+  },
+  "metadata": {
+    "source": "1) G. H. Sherman et al. Proceedings of the Symposium on Sub-millimeter Waves (Polytechnic Press, Brooklyn, 1970) 2) G. C. Bhar, Refractive index interpolation in phase-matching. Appl. Opt. 15, 305-307 (1976) (https://doi.org/10.1364/AO.15.0305_1) * Ref. 2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "Extraordinary ray",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "aee51a03-8bdb-50e3-b42d-41c0000e7db0"
+}

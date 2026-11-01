@@ -1,0 +1,34 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Li",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.47285,
+      0.16512,
+      0.129,
+      0.41222,
+      0.175,
+      0.44163,
+      0.187,
+      0.16076,
+      0.219,
+      0.33571,
+      69.44,
+      1.92474,
+      98.04
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.25,
+      50.0
+    ]
+  },
+  "metadata": {
+    "source": "H. H. Li. Refractive index of alkali halides and its wavelength and temperature derivatives. J. Phys. Chem. Ref. Data 5, 329-528 (1976) (https://doi.org/10.1063/1.555536) and references therein. * Sellmeier formula is derived by critical analysis of experimental data from several sources.; downloaded from refractiveindex.info",
+    "description": "297 K (24 °C)."
+  },
+  "id": "66315b1f-b76d-59c2-b433-2b2ce737c4d9"
+}

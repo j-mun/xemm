@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Zhang",
+  "data": {
+    "formula": 6,
+    "coefficients": [
+      0.0001181494,
+      0.009708931,
+      75.4
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      1.8
+    ]
+  },
+  "metadata": {
+    "source": "1) J. Zhang, Z. H. Lu, L. J. Wang. Precision refractive index measurements of air, N2, O2, Ar, and CO2 with a frequency comb. Appl. Opt. 47, 3143-3151 (2008) (https://doi.org/10.1364/AO.47.003143) 2) P. Křen. Comment on \"Precision refractive index measurements of air, N2, O2, Ar, and CO2 with a frequency comb\". Appl. Opt. 50, 6484-6485 (2011) (https://doi.org/10.1364/AO.50.006484); downloaded from refractiveindex.info",
+    "description": "Standard conditions: 20 °C, 101 325 Pa.",
+    "conditions": {
+      "temperature": 293,
+      "pressure": 101325
+    }
+  },
+  "id": "f8cc87a6-03f3-5809-ac73-3383f3cde13d"
+}

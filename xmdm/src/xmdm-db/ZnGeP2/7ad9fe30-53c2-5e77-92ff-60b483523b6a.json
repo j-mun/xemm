@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Boyd-70C-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      3.5717,
+      5.4513,
+      0.1435,
+      1.4262,
+      662.55
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.64,
+      12.0
+    ]
+  },
+  "metadata": {
+    "source": "1) G. D. Boyd, E. Buehler, F. G Storz. Linear and nonlinear optical properties of ZnGeP2 and CdSe. Appl. Phys. Lett., 18, 301-304 (1971) (https://doi.org/10.1063/1.1653673) 2) G. C. Bhar and G. Ghosh. Temperature-dependent Sellmeier coefficients and coherence lengths for some chalcopyrite crystals. J. Opt. Soc. Am. 69, 730-733 (1979) (https://doi.org/10.1364/JOSA.69.000730) * Ref. 2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "Extrardinary ray (e); 70 °C",
+    "conditions": {
+      "temperature": 343,
+      "direction": "e"
+    }
+  },
+  "id": "7ad9fe30-53c2-5e77-92ff-60b483523b6a"
+}

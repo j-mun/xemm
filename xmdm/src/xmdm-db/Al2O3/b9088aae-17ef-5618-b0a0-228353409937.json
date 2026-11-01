@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Malitson",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      1.023798,
+      0.06144821,
+      1.058264,
+      0.1106997,
+      5.280792,
+      17.92656
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.2652,
+      5.577
+    ]
+  },
+  "metadata": {
+    "source": "I. H. Malitson. Refraction and dispersion of synthetic sapphire. J. Opt. Soc. Am. 52, 1377-1379 (1962) (https://doi.org/10.1364/JOSA.52.001377); downloaded from refractiveindex.info",
+    "description": "Synthetic sapphire, Ordinary ray (o), 24 °C",
+    "conditions": {
+      "temperature": 297,
+      "direction": "o"
+    }
+  },
+  "id": "b9088aae-17ef-5618-b0a0-228353409937"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Nibbering",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      0.8
+    ],
+    "re": [
+      8.1e-23
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "E. T. J. Nibbering, G. Grillon, M. A. Franco, B. S. Prade, A. Mysyrowicz. Determination of the inertial contribution to the nonlinear refractive index of air, N2, and O2 by use of unfocused high-intensity femtosecond laser pulses. J. Opt. Soc. Am. B 14, 650-660 (1997) (https://doi.org/10.1364/JOSAB.14.000650); downloaded from refractiveindex.info",
+    "description": "120 fs at 800 nm. Spectral analysis of self-phase modulation.",
+    "conditions": {
+      "n2_method": "SSPM",
+      "pulse_duration": "120e-15",
+      "temperature": 293,
+      "pressure": 101325
+    }
+  },
+  "id": "b35c225f-6029-5760-8a44-b01e210b6a83"
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Bristow",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.03,
+      1.16,
+      1.22,
+      1.4,
+      1.48,
+      1.55,
+      1.62,
+      1.69,
+      1.76,
+      1.85,
+      1.95,
+      2.15
+    ],
+    "re": [
+      2.71e-18,
+      5.21e-18,
+      4.7e-18,
+      5.57e-18,
+      5.48e-18,
+      4.84e-18,
+      8.24e-18,
+      6.57e-18,
+      1.15e-17,
+      1.25e-17,
+      1.12e-17,
+      1.01e-17
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "A. D. Bristow, N. Rotenberg, H. M. van Driel. Two-photon absorption and Kerr coefficients of silicon for 850–2200nm. Appl. Phys. Lett. 90, 37940 (2007) (https://doi.org/10.1063/1.2737359); downloaded from refractiveindex.info",
+    "description": "200 fs. Z-scan.",
+    "conditions": {
+      "n2_method": "Z-scan",
+      "pulse_duration": "200e-15"
+    }
+  },
+  "id": "52342a71-df12-5fc6-a74e-ba171de160b7"
+}

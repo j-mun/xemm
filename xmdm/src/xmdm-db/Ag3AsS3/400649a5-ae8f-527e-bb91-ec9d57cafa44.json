@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Hulme-o",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      7.483,
+      0.474,
+      0.0,
+      0.09,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0019,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.63,
+      4.6
+    ]
+  },
+  "metadata": {
+    "source": "K. F. Hulme, O. Jones, P. H. Davies, M. V. Hobden. Synthetic proustite (Ag3AsS3): a new crystal for optical mixing. Appl. Phys. Lett. 10, 133-135 (1967) (https://doi.org/10.1063/1.1754880); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o), 20 °C",
+    "conditions": {
+      "temperature": 293,
+      "direction": "o"
+    }
+  },
+  "id": "400649a5-ae8f-527e-bb91-ec9d57cafa44"
+}

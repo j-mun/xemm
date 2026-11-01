@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "DeBell-20K",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      6.0599879,
+      0.1004272,
+      3.7564378,
+      6138.789
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      6.0,
+      22.0
+    ]
+  },
+  "metadata": {
+    "source": "A. G. DeBell, E. L. Dereniak, J. Harvey, J. Nissley, J. Palmer, A. Selvarajan, W. L. Wolfe. Cryogenic refractive indices and temperature coefficients of cadmium telluride from 6 µm to 22 µm. Appl. Opt. 18, 3114-3115 (1979) (https://doi.org/10.1364/AO.18.003114); downloaded from refractiveindex.info",
+    "description": "20 K (-253.1 °C)"
+  },
+  "id": "d7fb8ca0-621b-56a7-a27a-ab4e0ae578fa"
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Bond-gamma",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.42,
+      0.45,
+      0.55,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.1,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2.0,
+      2.4,
+      2.6,
+      2.8,
+      3.2,
+      3.4,
+      3.6
+    ],
+    "re": [
+      2.4497,
+      2.4191,
+      2.3547,
+      2.3362,
+      2.3118,
+      2.297,
+      2.2865,
+      2.2731,
+      2.2684,
+      2.2612,
+      2.2554,
+      2.2503,
+      2.2455,
+      2.2359,
+      2.2309,
+      2.2254,
+      2.214,
+      2.2079,
+      2.2013
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "W. L. Bond. Measurement of the refractive indices of several crystals. J. Appl. Phys. 36, 1674-1677 (1965) (https://doi.org/10.1063/1.1703106); downloaded from refractiveindex.info",
+    "description": "Monoclinic ZnWO4; nγ; room temperature.",
+    "conditions": {
+      "direction": "gamma"
+    }
+  },
+  "id": "ce36fe34-44b4-5014-aabd-415561441605"
+}

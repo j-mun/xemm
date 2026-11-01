@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Feldman",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      3.58,
+      0.03162,
+      2.0,
+      0.1642,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.09288,
+      -2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.43,
+      2.5
+    ]
+  },
+  "metadata": {
+    "source": "A. Feldman and D. Horowitz. Refractive Index of Cuprous Chloride. J. Opt. Soc. Am. 59, 1406-1408 (1969) (https://doi.org/10.1364/JOSA.59.001406); downloaded from refractiveindex.info",
+    "description": "Room temperature"
+  },
+  "id": "35a815d1-8f09-5689-abaf-7472b60ebbc8"
+}

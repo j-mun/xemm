@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Chemnitz",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      1.499426,
+      0.178763,
+      0.089531,
+      6.591946
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.3,
+      12.0
+    ]
+  },
+  "metadata": {
+    "source": "M. Chemnitz, M. Gebhardt, C. Gaida, F. Stutzki, J. Kobelke, J. Limpert, A. Tünnermann, M. A. Schmidt. Hybrid soliton dynamics in liquid-core fibres. Nat. Commun. 8, 42 (2017) (https://doi.org/10.1038/s41467-017-00033-5) (See Supplementary information); downloaded from refractiveindex.info",
+    "description": "20 °C.",
+    "conditions": {
+      "temperature": 293
+    }
+  },
+  "id": "7a8be7dd-4896-5f37-b987-5f97070468b7"
+}

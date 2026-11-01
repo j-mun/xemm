@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Birnbaum-o",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      2.7665,
+      0.026884
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.488,
+      3.39
+    ]
+  },
+  "metadata": {
+    "source": "1) M. Birnbaum, L. G. DeShazer. Low threshold CW Nd laser oscillator at 1060 nm study. NASA Report, Contract Number NAS 5-22387 (1976) (https://refractiveindex.info/download/data/1976/Birnbaum_NASA_report.pdf) 2) T. S. Lomheim. L. G. DeShazer. Optical-absorption intensities of trivalent neodymium in the uniaxial crystal yttrium orthovanadate. J. Appl. Phys. 49, 5517-5522 (1978) (https://doi.org/10.1063/1.324471) * Ref. 2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o)",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "ee84e5b2-e836-5df6-b220-87447a5a5646"
+}

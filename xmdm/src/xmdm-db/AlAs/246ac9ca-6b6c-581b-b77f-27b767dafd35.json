@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Fern",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      1.0792,
+      6.084,
+      0.2822,
+      1.9,
+      27.62
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.56,
+      2.2
+    ]
+  },
+  "metadata": {
+    "source": "R. E. Fern and A. Onton. Refractive index of AlAs. J. Appl. Phys. 42, 3499-3500 (1971) (https://doi.org/10.1063/1.1660760); downloaded from refractiveindex.info"
+  },
+  "id": "246ac9ca-6b6c-581b-b77f-27b767dafd35"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Barnes-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.31021,
+      0.84903,
+      0.00876,
+      0.53607,
+      134.9566
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.225,
+      2.6
+    ]
+  },
+  "metadata": {
+    "source": "N. P. Barnes and D. J. Gettemy. Temperature variation of the refractive indices of yttrium lithium fluoride. J. Opt. Soc. Am. 70, 1244-1247 (1980) (https://doi.org/10.1364/JOSA.70.001244); downloaded from refractiveindex.info",
+    "description": "Room temperature. Extraordinary ray (e).",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "8d9500a2-6c14-59c0-baf0-427904923188"
+}

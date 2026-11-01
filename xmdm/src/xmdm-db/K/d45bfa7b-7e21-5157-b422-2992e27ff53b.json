@@ -1,0 +1,41 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Ives",
+  "data": {
+    "unit": "um",
+    "type": "nk",
+    "f": [
+      0.2536,
+      0.3126,
+      0.365,
+      0.4047,
+      0.4358,
+      0.5461,
+      0.578
+    ],
+    "re": [
+      0.744,
+      0.41,
+      0.15,
+      0.105,
+      0.121,
+      0.091,
+      0.094
+    ],
+    "im": [
+      0.049,
+      0.08,
+      0.443,
+      0.71,
+      0.978,
+      1.42,
+      1.57
+    ]
+  },
+  "metadata": {
+    "source": "H. E. Ives and H. B. Briggs. The optical constants of potassium. J. Opt. Soc. Am. 26, 238-246 (1936) (https://doi.org/10.1364/JOSA.26.000238); downloaded from refractiveindex.info"
+  },
+  "id": "d45bfa7b-7e21-5157-b422-2992e27ff53b"
+}

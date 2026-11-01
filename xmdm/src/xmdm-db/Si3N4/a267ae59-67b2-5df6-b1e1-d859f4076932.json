@@ -1,0 +1,23 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Philipp",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      2.8939,
+      0.13967
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.207,
+      1.24
+    ]
+  },
+  "metadata": {
+    "source": "1) H. R. Philipp. Optical properties of silicon nitride. J. Electrochim. Soc. 120, 295-300 (1973) (https://doi.org/10.1149/1.2403440) 2) T. Bååk. Silicon oxynitride; a material for GRIN optics. Appl. Opt. 21, 1069-1072 (1982) (https://doi.org/10.1364/AO.21.001069) * Ref.2 provides a dispersion formula based on data from Ref. 1; downloaded from refractiveindex.info"
+  },
+  "id": "a267ae59-67b2-5df6-b1e1-d859f4076932"
+}

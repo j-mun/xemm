@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Woods-e",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      1.92155,
+      0.00494,
+      0.0,
+      0.00617,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00373,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      1.0
+    ]
+  },
+  "metadata": {
+    "source": "B. W. Woods, S. A. Payne, J. E. Marion, R. S. Hughes, L. E. Davis. Thermomechanical and thermo-optical properties of the LiCaAlF6:Cr3+ laser material. J. Opt. Soc. Am. B 8, 970-977 (1991) (https://doi.org/10.1364/JOSAB.8.000970).; downloaded from refractiveindex.info",
+    "description": "26 °C. Extraordinary ray (e).",
+    "conditions": {
+      "temperature": 299,
+      "direction": "e"
+    }
+  },
+  "id": "9e24a7f5-fb7b-51d4-a225-8d03db9eecb7"
+}

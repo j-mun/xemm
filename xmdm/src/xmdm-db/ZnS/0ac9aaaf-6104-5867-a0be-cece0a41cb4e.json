@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Bond",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.45,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2.0,
+      2.2,
+      2.4
+    ],
+    "re": [
+      2.4709,
+      2.4208,
+      2.364,
+      2.3333,
+      2.3146,
+      2.3026,
+      2.2932,
+      2.2822,
+      2.2762,
+      2.2716,
+      2.268,
+      2.2653,
+      2.2637,
+      2.2604
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "W. L. Bond. Measurement of the refractive indices of several crystals. J. Appl. Phys. 36, 1674-1677 (1965) (https://doi.org/10.1063/1.1703106); downloaded from refractiveindex.info",
+    "description": "Room temperature."
+  },
+  "id": "0ac9aaaf-6104-5867-a0be-cece0a41cb4e"
+}

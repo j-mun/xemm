@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Pastrnak-e",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      2.0729,
+      1.6173,
+      0.1746,
+      4.139,
+      15.03
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.22,
+      5.0
+    ]
+  },
+  "metadata": {
+    "source": "J. Pastrňák and L. Roskovcová. Refraction index measurements on AlN single crystals. Phys. Stat. Sol. 14, K5-K8 (1966) (https://doi.org/10.1002/pssb.19660140127); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e).",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "a3057ffe-2b95-5a1b-8789-608a52a527a5"
+}

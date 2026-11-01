@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Polyanskiy",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      9.2
+    ],
+    "re": [
+      4.3e-20
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "M. N. Polyanskiy, I. V. Pogorelsky, M. Babzien, K. L. Vodopyanov, M. A. Palmer. Nonlinear refraction and absorption properties of optical materials for high-peak-power long-wave-infrared lasers. Opt. Mater. Express 14, 696–714 (2024) (https://doi.org/10.1364/OME.513971); downloaded from refractiveindex.info",
+    "description": "2 ps. Spatial profile analysis.",
+    "conditions": {
+      "n2_method": "SPA",
+      "pulse_duration": "2e-12"
+    }
+  },
+  "id": "fc843523-24f6-51d4-b532-23cc21ad94f6"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Nyakuchena",
+  "data": {
+    "formula": 5,
+    "coefficients": [
+      1.418,
+      -0.00054325,
+      2.0,
+      0.009,
+      -2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      1.1,
+      1.65
+    ]
+  },
+  "metadata": {
+    "source": "M. Nyakuchena, C. Juntunen, P. Shea, Y. Sung. Refractive index dispersion measurement in the short-wave infrared range using synthetic phase microscopy. Phys. Chem. Chem. Phys. 25, 23141-23149 (2023) (https://doi.org/10.1039/D3CP03158F); downloaded from refractiveindex.info",
+    "description": "Glass microspheres. 23 °C",
+    "conditions": {
+      "temperature": 296
+    }
+  },
+  "id": "dd2dcc82-2e4d-5ea3-8960-e09e648e4db6"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Das-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      2.65014,
+      6.310153,
+      0.125099,
+      1.731381,
+      900.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      1.32,
+      11.0
+    ]
+  },
+  "metadata": {
+    "source": "S. Das, G. C. Bhar, S. Gangopadhyay, C. Ghosh. Linear and nonlinear optical properties of ZnGeP2 crystal for infrared laser device applications: Revisited. Appl. Opt. 42, 4335-4340 (2003) (https://doi.org/10.1364/AO.42.004335); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e)",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "8adb6c59-98c1-50e3-a60e-19e6c8d979c9"
+}

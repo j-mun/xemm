@@ -1,0 +1,40 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Umemura-gamma",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      4.9856,
+      0.15266,
+      0.0,
+      0.06331,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.02831,
+      2.0,
+      2.0754e-06,
+      4.0,
+      -1.2131e-06,
+      6.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      5.3
+    ]
+  },
+  "metadata": {
+    "source": "N. Umemura, K. Yoshida, and K. Kato. Phase-matching properties of KNbO3 in the mid-infrared, Appl Opt. 38, 991-994 (1999) ( https://doi.org/10.1364/AO.38.000991); downloaded from refractiveindex.info",
+    "description": "nγ; 22 °C.",
+    "conditions": {
+      "temperature": 295,
+      "direction": "gamma"
+    }
+  },
+  "id": "d0a0b22a-31be-5a57-b3d8-87a6f93042d1"
+}

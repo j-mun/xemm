@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "White",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      0.355
+    ],
+    "re": [
+      2.5e-20
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "W. T. White, W. L. Smith, D. Milam. Direct measurement of the nonlinear refractive-index coefficient γ at 355 nm in fused silica and in BK-10 glass. Opt. Lett. 9, 10 (1984) (https://doi.org/10.1364/OL.9.000010); downloaded from refractiveindex.info",
+    "description": "Fused silica. Time-resolved interferometry.",
+    "conditions": {
+      "n2_method": "TRI"
+    }
+  },
+  "id": "f2ca28e5-7c87-5d68-b87e-8d76beed8617"
+}

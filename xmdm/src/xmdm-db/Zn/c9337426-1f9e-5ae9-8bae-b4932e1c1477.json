@@ -1,0 +1,54 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Motulevich",
+  "data": {
+    "unit": "um",
+    "type": "nk",
+    "f": [
+      1.23,
+      1.55,
+      2.14,
+      2.68,
+      3.2,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      10.0
+    ],
+    "re": [
+      1.17,
+      0.95,
+      1.01,
+      1.26,
+      1.86,
+      2.58,
+      3.77,
+      5.8,
+      7.6,
+      9.05,
+      15.3
+    ],
+    "im": [
+      4.92,
+      7.28,
+      10.65,
+      13.3,
+      16.6,
+      21.3,
+      26.2,
+      31.6,
+      36.1,
+      40.7,
+      47.6
+    ]
+  },
+  "metadata": {
+    "source": "G. P. Motulevich and A. A. Shubin. The optical constants of zinc, Sov. Phys. JETP 29, 24-26 (1969) (http://jetp.ac.ru/cgi-bin/e/index/e/29/1/p24?a=list); downloaded from refractiveindex.info",
+    "description": "Room temperature"
+  },
+  "id": "c9337426-1f9e-5ae9-8bae-b4932e1c1477"
+}

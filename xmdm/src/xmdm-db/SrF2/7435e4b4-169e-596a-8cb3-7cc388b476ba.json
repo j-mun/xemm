@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Li",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.33973,
+      0.7097,
+      0.09597,
+      0.1788,
+      26.03,
+      3.8796,
+      45.6
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.15,
+      14.0
+    ]
+  },
+  "metadata": {
+    "source": "H. H. Li. Refractive index of alkaline earth halides and its wavelength and temperature derivatives. J. Phys. Chem. Ref. Data 9, 161-289 (1980) (https://doi.org/10.1063/1.555616) and references therein. * Sellmeier formula is derived by critical analysis of experimental data from several sources. ** There is a misprint in the dispersion formula in the paper: \"-\" instead of \"+\" before the last term of the equation.; downloaded from refractiveindex.info",
+    "description": "293 K (20 °C)."
+  },
+  "id": "7435e4b4-169e-596a-8cb3-7cc388b476ba"
+}

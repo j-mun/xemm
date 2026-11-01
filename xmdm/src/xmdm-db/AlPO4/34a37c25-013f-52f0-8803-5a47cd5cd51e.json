@@ -1,0 +1,66 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Bond-e",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      1.0,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2.0,
+      2.2,
+      2.4,
+      2.6
+    ],
+    "re": [
+      1.5465,
+      1.5385,
+      1.5334,
+      1.5301,
+      1.5281,
+      1.5245,
+      1.5223,
+      1.5198,
+      1.5174,
+      1.5145,
+      1.5116,
+      1.5083,
+      1.5048,
+      1.5006
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "W. L. Bond. Measurement of the refractive indices of several crystals. J. Appl. Phys. 36, 1674-1677 (1965) (https://doi.org/10.1063/1.1703106); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e); Room temperature.",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "34a37c25-013f-52f0-8803-5a47cd5cd51e"
+}

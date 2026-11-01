@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Takaoka-o",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      5.7975,
+      0.2311,
+      0.0,
+      0.0688,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00257,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.58,
+      10.59
+    ]
+  },
+  "metadata": {
+    "source": "E. Takaoka and K. Kato. Thermo-optic dispersion formula for AgGaS2. Appl. Opt., 38, 4577-4580 (1999) (https://doi.org/10.1364/AO.38.004577); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o); 20.0 °C",
+    "conditions": {
+      "temperature": 293,
+      "direction": "o"
+    }
+  },
+  "id": "8bf138f9-ee19-54ae-bd12-cd33ece696ec"
+}

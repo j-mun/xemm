@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Barker-e",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      4.35,
+      5.08,
+      18.76
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.35,
+      10.0
+    ]
+  },
+  "metadata": {
+    "source": "A. S. Barker Jr. and M. Ilegems. Infrared lattice vibrations and free-electron dispersion in GaN. Phys. Rev. B 7, 743-750 (1973) (https://doi.org/10.1103/PhysRevB.7.743); downloaded from refractiveindex.info",
+    "description": "α-GaN (wurtzite); Extrardinary ray (e); 300 K (27 °C)."
+  },
+  "id": "63c1d39b-ceda-5176-95ef-d23ef3edcd3a"
+}

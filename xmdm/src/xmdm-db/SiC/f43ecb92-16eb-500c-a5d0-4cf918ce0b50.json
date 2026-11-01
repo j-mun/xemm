@@ -1,0 +1,42 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "id": "f43ecb92-16eb-500c-a5d0-4cf918ce0b50",
+  "data": {
+    "unit": "nm",
+    "type": "nk",
+    "f": [
+      467.0,
+      498.0,
+      515.0,
+      568.0,
+      589.0,
+      616.0,
+      691.0
+    ],
+    "re": [
+      2.7104,
+      2.6916,
+      2.6823,
+      2.66,
+      2.6525,
+      2.6446,
+      2.6264
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "legacy_path": "tabulated/SiC/Shaffer.yml",
+    "source": "Shaffer; downloaded from Lumerical"
+  },
+  "name": "Shaffer"
+}

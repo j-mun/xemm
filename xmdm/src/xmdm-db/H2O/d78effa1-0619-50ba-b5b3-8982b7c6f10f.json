@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kedenburg",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      0.75831,
+      0.01007,
+      0.08495,
+      8.91377
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.5,
+      1.6
+    ]
+  },
+  "metadata": {
+    "source": "S. Kedenburg, M. Vieweg, T. Gissibl, H. Giessen. Linear refractive index and absorption measurements of nonlinear optical liquids in the visible and near-infrared spectral region. Opt. Mater. Express 2, 1588-1611 (2012) (https://doi.org/10.1364/OME.2.001588); downloaded from refractiveindex.info",
+    "description": "Distilled water at 20 °C.",
+    "conditions": {
+      "temperature": 293
+    }
+  },
+  "id": "d78effa1-0619-50ba-b5b3-8982b7c6f10f"
+}

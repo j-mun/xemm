@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Malitson",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      0.5675888,
+      0.050263605,
+      0.4710914,
+      0.1003909,
+      3.8484723,
+      34.64904
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.23,
+      9.7
+    ]
+  },
+  "metadata": {
+    "source": "I. H. Malitson. A redetermination of some optical properties of calcium fluoride. Appl. Opt. 2, 1103-1107 (1963) (https://doi.org/10.1364/AO.2.001103); downloaded from refractiveindex.info",
+    "description": "24 °C"
+  },
+  "id": "339bb33e-3d60-575a-a496-a97e533dae41"
+}

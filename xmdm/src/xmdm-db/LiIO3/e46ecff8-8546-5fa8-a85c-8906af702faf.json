@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Herbst-e",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.83086,
+      1.08807,
+      0.031381,
+      0.554582,
+      158.76
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.5461,
+      5.0
+    ]
+  },
+  "metadata": {
+    "source": "Cited as \"R. L. Herbst (private communication)\" in M. M. Choy and R. L. Byer. Accurate second-order susceptibility measurements of visible and infrared nonlinear crystals. Phys. Rev. B 14, 1693-1706 (1976) (https://doi.org/10.1103/PhysRevB.14.1693).; downloaded from refractiveindex.info",
+    "description": "Room temperature. Extraordinary ray (e).",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "e46ecff8-8546-5fa8-a85c-8906af702faf"
+}

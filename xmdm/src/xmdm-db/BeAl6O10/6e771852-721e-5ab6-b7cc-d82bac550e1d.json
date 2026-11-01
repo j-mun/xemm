@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Pestryakov-gamma",
+  "data": {
+    "formula": 3,
+    "coefficients": [
+      2.980797,
+      0.01800311,
+      -2.0,
+      -0.01508514,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.43,
+      1.1
+    ]
+  },
+  "metadata": {
+    "source": "E. V. Pestryakov, V. V. Petrov, I. I. Zubrinov, V. I. Semenov, V. I. Trunov, A. V. Kirpichnikov, A. I. Alimpiev. Physical properties of BeAl6O10 single crystals. J. Appl. Phys., 82, 3661–3666 (1997) (https://doi.org/10.1063/1.365728); downloaded from refractiveindex.info",
+    "description": "nγ; Room temperature.",
+    "conditions": {
+      "direction": "gamma"
+    }
+  },
+  "id": "6e771852-721e-5ab6-b7cc-d82bac550e1d"
+}

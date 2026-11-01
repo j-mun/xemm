@@ -1,0 +1,45 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Arndt",
+  "data": {
+    "unit": "um",
+    "type": "nk",
+    "f": [
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75
+    ],
+    "re": [
+      2.18,
+      2.38,
+      2.55,
+      2.68,
+      2.81,
+      2.94,
+      3.03,
+      2.99
+    ],
+    "im": [
+      2.91,
+      3.08,
+      3.21,
+      3.36,
+      3.5,
+      3.65,
+      3.77,
+      3.86
+    ]
+  },
+  "metadata": {
+    "source": "D. P. Arndt, R. M. A. Azzam, J. M. Bennett, J. P. Borgogno, C. K. Carniglia, W. E. Case, J. A. Dobrowolski, U. J. Gibson, T. Tuttle Hart, F. C. Ho, V. A. Hodgkin, W. P. Klapp, H. A. Macleod, E. Pelletier, M. K. Purvis, D. M. Quinn, D. H. Strome, R. Swenson, P. A. Temple, T. F. Thonn. Multiple determination of the optical constants of thin-film coating materials. Appl. Opt. 23, 3571-3596 (1984) (https://doi.org/10.1364/AO.23.003571); downloaded from refractiveindex.info",
+    "description": "Thin film. Mean values of measurements by different methods."
+  },
+  "id": "d8b0edd3-8af0-5db4-aa8a-8bc302c1ba76"
+}

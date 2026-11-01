@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Das-o",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      4.67491,
+      4.077926,
+      0.159328,
+      1.896005,
+      900.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      1.32,
+      11.0
+    ]
+  },
+  "metadata": {
+    "source": "S. Das, G. C. Bhar, S. Gangopadhyay, C. Ghosh. Linear and nonlinear optical properties of ZnGeP2 crystal for infrared laser device applications: Revisited. Appl. Opt. 42, 4335-4340 (2003) (https://doi.org/10.1364/AO.42.004335); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o)",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "b5c98c50-8dd2-5218-b7b2-139306c55482"
+}

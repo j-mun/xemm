@@ -1,0 +1,35 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Chen-beta",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      2.525,
+      0.017123,
+      0.0,
+      -0.0060517,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0087838,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.2894,
+      1.064
+    ]
+  },
+  "metadata": {
+    "source": "1) C Chen, Y. Wu, A. Jiang, B. Wu, G. You, R. Li, S. Lin. New nonlinear-optical crystal: LiB3O5. J Opt. Soc. Am. 6, 616-621 (1989) (https://doi.org/10.1364/JOSAB.6.000616) 2) F. Hanson and D. Dick. Blue parametric generation from temperature-tuned LiB3O5. Opt. Lett. 16, 205-207 (1991) (https://doi.org/10.1364/OL.16.000205). * Ref. 2 provides a dispersion formulas based on the experimental data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "nβ; Room temperature.",
+    "conditions": {
+      "direction": "beta"
+    }
+  },
+  "id": "0bacb24e-af27-59d0-b6fb-4e0fb54ce996"
+}

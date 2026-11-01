@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Yim-3nm",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.382417,
+      0.396592,
+      0.416745,
+      0.434018,
+      0.459558,
+      0.473278,
+      0.492746,
+      0.523764,
+      0.548934,
+      0.571265,
+      0.591157,
+      0.606431,
+      0.628912,
+      0.652291,
+      0.728738,
+      0.888102
+    ],
+    "re": [
+      2.1604,
+      2.51564,
+      2.91656,
+      3.27182,
+      3.6455,
+      3.60961,
+      3.47388,
+      3.10205,
+      2.95726,
+      2.96688,
+      3.25823,
+      3.56764,
+      3.74081,
+      3.70488,
+      3.47881,
+      3.37157
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "C. Yim, M. O'Brien, N. McEvoy, S. Winters, I. Mirza, J. G. Lunney, G. S. Duesberg. Investigation of the optical properties of MoS2 thin films using spectroscopic ellipsometry. Appl. Phys. Let. 104, 103114 (2014) (https://doi.org/10.1063/1.4868108); downloaded from refractiveindex.info",
+    "description": "3.01 nm film synthesized by vapor phase sulfurization. ~290 nm thick SiO2 substrate thermally grown on  oriented crystalline Si wafer.",
+    "conditions": {
+      "film_thickness": 3.01e-09,
+      "substrate": "SiO2/Si"
+    }
+  },
+  "id": "6738974c-2767-50b5-b0cb-8d41c0ea2b9b"
+}

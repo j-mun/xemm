@@ -1,0 +1,31 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Ensley",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      0.8,
+      2.0
+    ],
+    "re": [
+      2.7e-20,
+      2.8e-20
+    ],
+    "im": [
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "T. R. Ensley and N. K. Bambha. Ultrafast nonlinear refraction measurements of infrared transmitting materials in the mid-wave infrared. Opt. Express 27, 37940 (2019) (https://doi.org/10.1364/OE.380702); downloaded from refractiveindex.info",
+    "description": "Fused silica. 100 fs. Z-scan.",
+    "conditions": {
+      "n2_method": "Z-scan",
+      "pulse_duration": "100e-15"
+    }
+  },
+  "id": "4aa8f3e0-c520-59f3-aafd-884ec7618af6"
+}

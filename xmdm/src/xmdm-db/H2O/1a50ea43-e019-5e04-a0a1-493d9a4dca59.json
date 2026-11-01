@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kofman-90K",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      0.28,
+      0.071,
+      0.291,
+      0.134
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.21,
+      0.757
+    ]
+  },
+  "metadata": {
+    "source": "V. Kofman, J. He, I. L. ten Kate, H. Linnartz. The refractive index of amorphous and crystalline water ice in the UV–vis. Astrophys. J. 875, 131 (2019) (https://doi.org/10.3847/1538-4357/ab0d89); downloaded from refractiveindex.info",
+    "description": "Amorphous water ice at 90 K.",
+    "conditions": {
+      "temperature": 90
+    }
+  },
+  "id": "1a50ea43-e019-5e04-a0a1-493d9a4dca59"
+}

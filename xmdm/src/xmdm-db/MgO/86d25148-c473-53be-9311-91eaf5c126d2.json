@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Stephens-vis",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      2.957019,
+      0.0216485,
+      0.0,
+      0.015865,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.0101373,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4047,
+      0.7679
+    ]
+  },
+  "metadata": {
+    "source": "R. E. Stephens and I. H. Malitson. Index of refraction of magnesium oxide. J. Res. Natl. Bur. Stand. 49 249-252 (1952) (https://doi.org/10.6028/jres.049.025 ); downloaded from refractiveindex.info",
+    "description": "30 °C. This formula gives more accurate values for visible than the other formula describing the entire transmission range."
+  },
+  "id": "86d25148-c473-53be-9311-91eaf5c126d2"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Harasaki-e",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      6.6792,
+      0.4598,
+      0.0,
+      0.2122,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00126,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.81,
+      16.0
+    ]
+  },
+  "metadata": {
+    "source": "A. Harasaki and K. Kato. New data on the nonlinear optical constant, phase-matching, and optical damage of AgGaS2. Jap. J. Appl. Phys., 36, 700-703 (1997) (https://doi.org/10.1143/JJAP.36.700); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e)",
+    "conditions": {
+      "direction": "e"
+    }
+  },
+  "id": "e9c4cffd-e07e-5af2-9ede-266ffffb63bb"
+}

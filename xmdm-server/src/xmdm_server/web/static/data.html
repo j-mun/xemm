@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>Material data · XMDM</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body data-page="data">
+    <header class="topbar">
+      <a class="brand" href="/data">XMDM <span>materials</span></a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="/data" aria-current="page">Data</a>
+        <a href="/upload">Upload</a>
+        <a href="/admin">Admin</a>
+        <a href="/status">Status</a>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <p class="eyebrow">MATERIAL DATA / OPTICS</p>
+        <h1>Explore material spectra</h1>
+        <p>Search the catalog, inspect record provenance, and visualize
+          refractive index, permittivity, extinction coefficient, or nonlinear
+          index data.</p>
+      </section>
+      <section class="browser panel" aria-labelledby="browse-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CATALOG</p>
+            <h2 id="browse-title">Find a record</h2>
+          </div>
+          <span id="catalog-count" class="muted"></span>
+        </div>
+        <div class="filters">
+          <label class="search-field">Search
+            <input id="search" type="search" placeholder="Material, source, model">
+          </label>
+          <label>Material
+            <select id="material"><option value="">All materials</option></select>
+          </label>
+          <label>Record
+            <select id="record" disabled><option value="">Choose a record</option></select>
+          </label>
+          <label>Revision
+            <select id="revision" disabled><option value="">Current</option></select>
+          </label>
+        </div>
+        <div id="record-detail" class="record-detail" hidden></div>
+      </section>
+      <section class="plot-panel panel" aria-labelledby="plot-title">
+        <div class="section-heading plot-heading">
+          <div>
+            <p class="eyebrow">SPECTRUM</p>
+            <h2 id="plot-title">Optical property</h2>
+          </div>
+          <div class="plot-actions">
+            <label>Property
+              <select id="parameter">
+                <option value="">Choose a record first</option>
+              </select>
+            </label>
+            <label>Interpolation
+              <select id="interpolation">
+                <option value="linear">Linear</option>
+                <option value="cubic">Cubic</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="range-controls">
+          <label>Start (nm)<input id="range-start" type="number" value="300" min="0" step="any"></label>
+          <label>End (nm)<input id="range-end" type="number" value="1000" min="0" step="any"></label>
+          <label>Samples<input id="sample-count" type="number" value="300" min="2" max="1000"></label>
+          <button id="plot-button" type="button" disabled>Plot spectrum</button>
+        </div>
+        <div id="status" class="status" role="status">Loading material catalog…</div>
+        <div class="chart-wrap">
+          <svg id="chart" viewBox="0 0 960 460" role="img"
+               aria-label="Optical property spectrum plot">
+            <text x="480" y="215" text-anchor="middle" class="chart-placeholder">
+              Choose a record to plot its spectrum
+            </text>
+          </svg>
+        </div>
+        <div id="legend" class="legend"></div>
+      </section>
+    </main>
+  </body>
+</html>

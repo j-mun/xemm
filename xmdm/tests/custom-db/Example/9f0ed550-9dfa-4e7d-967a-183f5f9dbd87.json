@@ -1,0 +1,16 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "cauchy",
+  "name": "cauchy",
+  "id": "9f0ed550-9dfa-4e7d-967a-183f5f9dbd87",
+  "data": {
+    "unit": "um",
+    "A": 1.5,
+    "B": 0.01,
+    "C": 0.001
+  },
+  "metadata": {
+    "source": "Synthetic test parameters; not a measured material"
+  }
+}

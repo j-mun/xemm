@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Polyanskiy",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      9.2
+    ],
+    "re": [
+      3.4e-20
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "M. N. Polyanskiy, I. V. Pogorelsky, M. Babzien, R. Kupfer, K. L. Vodopyanov, M. A. Palmer. Post-compression of long-wave infrared 2 picosecond sub-terawatt pulses in bulk materials. Opt. Express 29, 31714 (2021) (https://doi.org/10.1364/OE.434238); downloaded from refractiveindex.info",
+    "description": "2 ps. Spatial profile analysis.",
+    "conditions": {
+      "n2_method": "SPA",
+      "pulse_duration": "2e-12"
+    }
+  },
+  "id": "f1333379-617e-53d4-878e-d959fded7e33"
+}

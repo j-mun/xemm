@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Zelmon-o",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      0.0,
+      2.6734,
+      0.01764,
+      1.229,
+      0.05914,
+      12.614,
+      474.6
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      5.0
+    ]
+  },
+  "metadata": {
+    "source": "D. E. Zelmon, D. L. Small, D. Jundt. Infrared corrected Sellmeier coefficients for congruently grown lithium niobate and 5 mol.% magnesium oxide-doped lithium niobate. J. Opt. Soc. Am. B 14, 3319-3322 (1997) (https://doi.org/10.1364/JOSAB.14.003319); downloaded from refractiveindex.info",
+    "description": "21 °C. Ordinary ray (o). Congruently grown lithium niobate (CLN).",
+    "conditions": {
+      "temperature": 294,
+      "direction": "o"
+    }
+  },
+  "id": "855b492c-6341-5763-8e4c-690fb880c809"
+}

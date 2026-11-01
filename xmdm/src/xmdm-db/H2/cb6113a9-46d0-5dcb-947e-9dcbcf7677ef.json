@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Peck",
+  "data": {
+    "formula": 6,
+    "coefficients": [
+      0.0,
+      0.0148956,
+      180.7,
+      0.0049037,
+      92.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.168,
+      1.6945
+    ]
+  },
+  "metadata": {
+    "source": "E. R. Peck and S. Hung. Refractivity and dispersion of hydrogen in the visible and near infrared. J. Opt. Soc. Am. 67, 1550-1554 (1977) (https://doi.org/10.1364/JOSA.67.001550); downloaded from refractiveindex.info",
+    "description": "Standard conditions. 0 °C, 760 torr (101.325 kPa).",
+    "conditions": {
+      "temperature": 273.15,
+      "pressure": 101325
+    }
+  },
+  "id": "cb6113a9-46d0-5dcb-947e-9dcbcf7677ef"
+}

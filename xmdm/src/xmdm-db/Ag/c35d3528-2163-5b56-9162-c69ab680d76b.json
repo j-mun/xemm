@@ -1,0 +1,16 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "drude",
+  "id": "c35d3528-2163-5b56-9162-c69ab680d76b",
+  "data": {
+    "eps_inf": 1.0,
+    "omega_p": 9.6,
+    "gamma": 22.8
+  },
+  "metadata": {
+    "legacy_path": "drude.yml",
+    "source": "Blaber et al. (2009), J. Phys. Chem. C 113, 3041"
+  },
+  "name": "Blaber"
+}

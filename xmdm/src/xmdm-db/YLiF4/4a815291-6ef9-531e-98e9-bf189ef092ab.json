@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Milam",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      1.064
+    ],
+    "re": [
+      1.72e-20
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "D. Milam, M. J. Weber, A. J. Glass. Nonlinear refractive index of fluoride crystals. Appl. Phys. Lett. 31, 822 (1977) (https://doi.org/10.1063/1.89561); downloaded from refractiveindex.info",
+    "description": "Tetragonal (scheelite). Ordinary ray (o). 125 ps. Time-resolved interferometry.",
+    "conditions": {
+      "n2_method": "TRI",
+      "pulse_duration": "125e-12",
+      "direction": "o"
+    }
+  },
+  "id": "4a815291-6ef9-531e-98e9-bf189ef092ab"
+}

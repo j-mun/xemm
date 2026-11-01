@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Al-Kuhaili",
+  "data": {
+    "formula": 5,
+    "coefficients": [
+      1.875,
+      0.00628,
+      -2.0,
+      0.00058,
+      -4.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.2,
+      2.0
+    ]
+  },
+  "metadata": {
+    "source": "M. F. Al-Kuhaili. Optical properties of hafnium oxide thin films and their application in energy-efficient windows. Opt. Mat. 27, 383-387 (2004) (https://doi.org/10.1016/j.optmat.2004.04.014); downloaded from refractiveindex.info",
+    "description": "Thin films of hafnium oxide deposited by electron beam evaporation."
+  },
+  "id": "75db1a52-4c17-5115-ba3e-4639c7fbb85f"
+}

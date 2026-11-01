@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Grace-solid-83.81K",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.3,
+      0.29,
+      0.1066,
+      0.00087,
+      0.9083
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.117,
+      0.66
+    ]
+  },
+  "metadata": {
+    "source": "E. Grace, A. Butcher, J. Monroe, J. A. Nikkel. Index of refraction, Rayleigh scattering length, and Sellmeier coefficients in solid and liquid argon and xenon. Nucl. Instr. Meth. Phys. Res. A 867, 204-208 (2017) (https://doi.org/10.1016/j.nima.2017.06.031); downloaded from refractiveindex.info",
+    "description": "Solid argon at 83.81 K (-189.34 °C, melting point).",
+    "conditions": {
+      "temperature": 83.81
+    }
+  },
+  "id": "fd2a25be-b880-5ad4-8f39-e3a33ae4fa75"
+}

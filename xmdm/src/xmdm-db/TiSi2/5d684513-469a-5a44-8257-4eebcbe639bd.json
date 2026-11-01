@@ -1,0 +1,17 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "drude",
+  "id": "5d684513-469a-5a44-8257-4eebcbe639bd",
+  "data": {
+    "eps_inf": 1.0,
+    "omega_p": 6.76,
+    "gamma": 0.81
+  },
+  "metadata": {
+    "legacy_path": "drude.yml",
+    "source": "Lyvers et al. (2011), Appl. Phys. Lett. 99, 131112",
+    "description": "Refractory silicide useful for high-temperature plasmonics"
+  },
+  "name": "Lyvers"
+}

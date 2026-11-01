@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Tropf",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      1.8938,
+      0.09942,
+      3.0755,
+      15.826
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.35,
+      5.5
+    ]
+  },
+  "metadata": {
+    "source": "1) W. J. Tropf and M. E. Thomas, Magnesium aluminum spinel (MgAlO4), in E. D. Palik (ed.), Handbook of Optical Constants of Solids II, Academic Press, Orlando, 1991, pp. 881-895 2) Handbook of Optics, 3rd edition, Vol. 4. McGraw-Hill 2009 * Ref. 2 provides improved Sellmeier equation based on data from Ref. 1; downloaded from refractiveindex.info",
+    "description": "Room temperature"
+  },
+  "id": "41db4503-e683-58cd-99b0-f366245292ad"
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Zhang-o",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      2.7359,
+      0.01878,
+      0.0,
+      0.01822,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.01471,
+      2.0,
+      0.0006081,
+      4.0,
+      -6.74e-05,
+      6.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.64,
+      3.18
+    ]
+  },
+  "metadata": {
+    "source": "D. Zhang, Y. Kong, J.-Y. Zhang. Optical parametric properties of 532-nm-pumped beta-barium-borate near the infrared absorption edge. Opt. Commun., 184, 485-491 (2000) (https://doi.org/10.1016/S0030-4018(00)00968-8); downloaded from refractiveindex.info",
+    "description": "Beta barium borate (ß-BaB2O4, BBO). Ordinary ray (o). Near infrared.",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "882ee272-806e-524e-abe3-392b7b6bd3a4"
+}

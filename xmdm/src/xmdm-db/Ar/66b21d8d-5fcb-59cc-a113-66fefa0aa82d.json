@@ -1,0 +1,43 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Zahedpour",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      0.4,
+      0.8,
+      1.25,
+      1.65,
+      2.2,
+      2.4
+    ],
+    "re": [
+      1.09e-23,
+      1.01e-23,
+      1.05e-23,
+      1.09e-23,
+      9.3e-24,
+      9.9e-24
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "S. Zahedpour, J. K. Wahlstrand, H. M. Milchberg. Measurement of the nonlinear refractive index of air constituents at mid-infrared wavelengths. Opt. Lett. 40, 5794-5795 (2015) (https://doi.org/10.1364/OL.40.005794); downloaded from refractiveindex.info",
+    "description": "40 fs. Single-shot supercontinuum spectral interferometry. Room temperature, atmospheric pressure.",
+    "conditions": {
+      "n2_method": "SI",
+      "pulse_duration": "40e-15"
+    }
+  },
+  "id": "66b21d8d-5fcb-59cc-a113-66fefa0aa82d"
+}

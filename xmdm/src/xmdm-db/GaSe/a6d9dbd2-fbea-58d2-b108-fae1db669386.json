@@ -1,0 +1,34 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kato-o",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      10.6409,
+      0.3788,
+      0.0,
+      0.1232,
+      1.0,
+      7090.7,
+      0.0,
+      2216.3,
+      1.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.8,
+      1620.0
+    ]
+  },
+  "metadata": {
+    "source": "K. Kato, F. Tanno, N. Umemura. Sellmeier and thermo-optic dispersion formulas for GaSe (Revisited). Appl. Opt. 52, 2325-2328 (2013) (https://doi.org/10.1364/AO.52.002325); downloaded from refractiveindex.info",
+    "description": "20 °C, Ordinary ray (o)",
+    "conditions": {
+      "temperature": 293,
+      "direction": "o"
+    }
+  },
+  "id": "a6d9dbd2-fbea-58d2-b108-fae1db669386"
+}

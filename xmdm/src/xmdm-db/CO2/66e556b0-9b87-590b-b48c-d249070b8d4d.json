@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Old",
+  "data": {
+    "formula": 6,
+    "coefficients": [
+      0.0,
+      1.54489e-06,
+      0.0584738,
+      0.083091927,
+      210.9241,
+      0.002876419,
+      60.122959
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.480126,
+      1.817228
+    ]
+  },
+  "metadata": {
+    "source": "J. G. Old, K. L. Gentili, E. R. Peck. Dispersion of Carbon Dioxide. J. Opt. Soc. Am. 61, 89-90 (1971) (https://doi.org/10.1364/JOSA.61.000089); downloaded from refractiveindex.info",
+    "description": "Standard conditions: 0 °C, 760 torr (101.325 kPa).",
+    "conditions": {
+      "temperature": 273.15,
+      "pressure": 101325
+    }
+  },
+  "id": "66e556b0-9b87-590b-b48c-d249070b8d4d"
+}

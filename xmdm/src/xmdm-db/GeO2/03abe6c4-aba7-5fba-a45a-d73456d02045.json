@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Fleming",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      0.80686642,
+      0.068972606,
+      0.71815848,
+      0.15396605,
+      0.85416831,
+      11.841931
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.36,
+      4.3
+    ]
+  },
+  "metadata": {
+    "source": "J. W. Fleming. Dispersion in GeO2-SiO2 glasses. Appl. Opt. 23, 4486-4493 (1984) (https://doi.org/10.1364/AO.23.004486); downloaded from refractiveindex.info"
+  },
+  "id": "03abe6c4-aba7-5fba-a45a-d73456d02045"
+}

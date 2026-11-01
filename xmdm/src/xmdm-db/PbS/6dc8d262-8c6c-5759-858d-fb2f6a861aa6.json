@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Zemel",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      0.0,
+      15.9,
+      0.77,
+      133.2,
+      141.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      3.5,
+      10.0
+    ]
+  },
+  "metadata": {
+    "source": "1) J. N. Zemel, J. D. Jensen, R. B. Schoolar. Electrical and optical properties of epitaxial films of PbS, PbSe, PbTe, and SnTe. Phys. Rev. 140, A330-A342, 1965 (https://doi.org/10.1103/PhysRev.140.A330) 2) Handbook of Optics, 2nd edition, Vol. 2. McGraw-Hill 1994). * Ref. 2 provides second term of the dispersion formula; downloaded from refractiveindex.info",
+    "description": "300 K (27 °C)"
+  },
+  "id": "6dc8d262-8c6c-5759-858d-fb2f6a861aa6"
+}

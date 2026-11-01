@@ -1,0 +1,35 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Harasaki-o",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      6.8507,
+      0.4297,
+      0.0,
+      0.1584,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.00125,
+      2.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.81,
+      16.0
+    ]
+  },
+  "metadata": {
+    "source": "A. Harasaki and K. Kato. New data on the nonlinear optical constant, phase-matching, and optical damage of AgGaS2. Jap. J. Appl. Phys., 36, 700-703 (1997) (https://doi.org/10.1143/JJAP.36.700); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o)",
+    "conditions": {
+      "direction": "o"
+    }
+  },
+  "id": "cc7ace42-6a4b-5dfd-bbea-aa2e10f45bac"
+}

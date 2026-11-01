@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xmdm-server"
+version = "2026.1.0"
+description = "HTTP, MCP, and CLI services for XMDM material databases"
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+authors = [
+  { name = "Jungho Mun", email = "mjh92@postech.ac.kr" }
+]
+keywords = ["materials", "optics", "database", "mcp"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "numpy",
+  "xmdm==2026.1.0",
+]
+
+[project.optional-dependencies]
+web = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1"]
+mcp = ["mcp>=1.12,<2"]
+dev = ["pytest>=7.0", "httpx>=0.27,<1"]
+all = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.30,<1",
+  "mcp>=1.12,<2",
+]
+
+[project.scripts]
+xmdm = "xmdm_server.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests*"]
+
+[tool.setuptools.package-data]
+xmdm_server = ["web/static/*"]
+
+[tool.pyright]
+extraPaths = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/j-mun/xemm"
+Repository = "https://github.com/j-mun/xemm"

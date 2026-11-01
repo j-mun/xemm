@@ -1,0 +1,40 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Kato-e",
+  "data": {
+    "formula": 4,
+    "coefficients": [
+      5.5412,
+      0.22041,
+      0.0,
+      0.09824,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      -0.002524,
+      2.0,
+      3.6214e-07,
+      4.0,
+      -8.3605e-09,
+      6.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.54,
+      12.9
+    ]
+  },
+  "metadata": {
+    "source": "1) K. Kato and H. Shirahata. Nonlinear IR generation in AgGaS2. Jpn. J. Appl. Phys., 35, 4645-4648 (1996) (https://doi.org/10.1143/JJAP.35.4645) 2) A. Harasaki and K. Kato. New data on the nonlinear optical constant, phase-matching, and optical damage of AgGaS2. Jpn. J. Appl. Phys., 36, 700-703 (1997) (https://doi.org/10.1143/JJAP.36.700); downloaded from refractiveindex.info",
+    "description": "Extraordinary ray (e); 20.0 °C",
+    "conditions": {
+      "temperature": 294,
+      "direction": "e"
+    }
+  },
+  "id": "b9d96f9e-fe54-5125-9c5f-ed99eb0473f5"
+}

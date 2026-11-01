@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Amotchkina",
+  "data": {
+    "formula": 2,
+    "coefficients": [
+      -0.689818,
+      4.855169,
+      0.056359,
+      0.673922,
+      0.056336,
+      2.48189,
+      2222.114
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4,
+      13.9
+    ]
+  },
+  "metadata": {
+    "source": "T. Amotchkina, M. Trubetskov, D. Hahner, V. Pervak. Characterization of e-beam evaporated Ge, YbF3, ZnS, and LaF3 thin films for laser-oriented coatings. Appl. Opt. 59, A40-A47 (2020) (https://doi.org/10.1364/AO.59.000A40) (Data kindly provided by Tatiana Amotchkina [data (https://refractiveindex.info/download/data/2020/Amotchkina/ZnSe_nk.xlsx)] [description (https://refractiveindex.info/download/data/2020/Amotchkina/Summary_for_RefractiveIndexINFO.pdf)]); downloaded from refractiveindex.info"
+  },
+  "id": "87c6dcd9-704c-5c80-aa90-6d3fcbd29a28"
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Gospodinov",
+  "data": {
+    "formula": 1,
+    "coefficients": [
+      1.72777,
+      3.01705,
+      0.2661
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.48,
+      0.7
+    ]
+  },
+  "metadata": {
+    "source": "M. Gospodinov et al.. Physical properties of cubic Bi12SiO20, Bulgarian J. Phys. 15, 140-143 (1988). Cited in Handbook of Optics, 3rd edition, Vol. 4. McGraw-Hill 2009; downloaded from refractiveindex.info",
+    "description": "Room temperature"
+  },
+  "id": "b653c32d-3558-59c9-9d26-36f3743a9946"
+}

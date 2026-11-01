@@ -1,0 +1,17 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "drude",
+  "id": "cfd72805-e449-5ae6-9e19-da04e916e825",
+  "data": {
+    "eps_inf": 3.9,
+    "omega_p": 1.95,
+    "gamma": 0.12
+  },
+  "metadata": {
+    "legacy_path": "drude.yml",
+    "source": "Naik et al. (2013), Optical Materials Express 3, 1658",
+    "description": "Transparent Conducting Oxide (TCO); parameters vary heavily by doping level"
+  },
+  "name": "Naik"
+}

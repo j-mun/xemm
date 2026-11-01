@@ -1,0 +1,51 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Sinnock-solid-83.81K",
+  "data": {
+    "unit": "um",
+    "type": "n",
+    "f": [
+      0.3612,
+      0.365,
+      0.4063,
+      0.4358,
+      0.4753,
+      0.5086,
+      0.5461,
+      0.578,
+      0.6439
+    ],
+    "re": [
+      1.2753,
+      1.275,
+      1.2728,
+      1.2716,
+      1.2704,
+      1.2695,
+      1.2688,
+      1.2681,
+      1.2673
+    ],
+    "im": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "A. C. Sinnock and B. L. Smith. Refractive indices of the condensed inert gases. Phys. Rev. 181, 1297-1307 (1969) (https://doi.org/10.1103/PhysRev.181.1297); downloaded from refractiveindex.info",
+    "description": "Solid argon at 83.81 K (-189.34 °C, melting point).",
+    "conditions": {
+      "temperature": 83.81
+    }
+  },
+  "id": "d8596a21-76ef-565f-af77-d62d6fc3d021"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Peck-0C",
+  "data": {
+    "formula": 6,
+    "coefficients": [
+      6.8552e-05,
+      0.03243157,
+      144.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4679,
+      2.0587
+    ]
+  },
+  "metadata": {
+    "source": "E. R. Peck and B. N. Khanna. Dispersion of nitrogen. J. Opt. Soc. Am. 56, 1059-1063 (1966) (https://doi.org/10.1364/JOSA.56.001059); downloaded from refractiveindex.info",
+    "description": "Standard conditions: 0 °C, 760 torr (101.325 kPa).",
+    "conditions": {
+      "temperature": 273.15,
+      "pressure": 101325
+    }
+  },
+  "id": "be51b327-8864-5651-9f3a-3f272e149c39"
+}

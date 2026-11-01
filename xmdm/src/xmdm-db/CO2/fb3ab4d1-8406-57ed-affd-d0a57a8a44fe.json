@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Bideau-Mehu",
+  "data": {
+    "formula": 6,
+    "coefficients": [
+      0.0,
+      0.06991,
+      166.175,
+      0.0014472,
+      79.609,
+      6.42941e-05,
+      56.3064,
+      5.21306e-05,
+      46.0196,
+      1.46847e-06,
+      0.0584738
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.1807,
+      1.6945
+    ]
+  },
+  "metadata": {
+    "source": "A. Bideau-Mehu, Y. Guern, R. Abjean and A. Johannin-Gilles. Interferometric determination of the refractive index of carbon dioxide in the ultraviolet region. Opt. Commun. 9, 432-434 (1973) (https://doi.org/10.1016/0030-4018(73)90289-7); downloaded from refractiveindex.info",
+    "description": "Standard conditions: 0 °C, 760 torr (101.325 kPa).",
+    "conditions": {
+      "temperature": 273.15,
+      "pressure": 101325
+    }
+  },
+  "id": "fb3ab4d1-8406-57ed-affd-d0a57a8a44fe"
+}

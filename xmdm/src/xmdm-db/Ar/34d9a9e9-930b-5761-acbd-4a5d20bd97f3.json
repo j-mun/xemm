@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Wahlstrand",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      0.8
+    ],
+    "re": [
+      9.7e-24
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "J. K. Wahlstrand, Y.-H. Cheng, H. M. Milchberg. Absolute measurement of the transient optical nonlinearity in N2, O2, N2O, and Ar. Phys. Rev. A 85, 043820 (2012) (https://doi.org/10.1103/PhysRevA.85.043820); downloaded from refractiveindex.info",
+    "description": "40 fs. Single-shot supercontinuum spectral interferometry. Room temperature, atmospheric pressure.",
+    "conditions": {
+      "n2_method": "SI",
+      "pulse_duration": "40e-15"
+    }
+  },
+  "id": "34d9a9e9-930b-5761-acbd-4a5d20bd97f3"
+}

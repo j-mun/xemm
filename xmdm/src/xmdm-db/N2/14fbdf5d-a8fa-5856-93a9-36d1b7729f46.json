@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "rii_formula",
+  "name": "Peck-15C",
+  "data": {
+    "formula": 6,
+    "coefficients": [
+      6.497378e-05,
+      0.030738649,
+      144.0
+    ],
+    "unit": "um",
+    "wavelength_range": [
+      0.4679,
+      2.0587
+    ]
+  },
+  "metadata": {
+    "source": "E. R. Peck and B. N. Khanna. Dispersion of nitrogen. J. Opt. Soc. Am. 56, 1059-1063 (1966) (https://doi.org/10.1364/JOSA.56.001059); downloaded from refractiveindex.info",
+    "description": "15 °C, 760 torr (101.325 kPa)",
+    "conditions": {
+      "temperature": 288,
+      "pressure": 101325
+    }
+  },
+  "id": "14fbdf5d-a8fa-5856-93a9-36d1b7729f46"
+}

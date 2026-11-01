@@ -1,0 +1,29 @@
+{
+  "schema_version": "1",
+  "physics": "nlo",
+  "model": "tabulated",
+  "name": "Matteo-o",
+  "data": {
+    "unit": "um",
+    "type": "n2",
+    "f": [
+      10.6
+    ],
+    "re": [
+      3e-16
+    ],
+    "im": [
+      0.0
+    ]
+  },
+  "metadata": {
+    "source": "D. Matteo, S. Tochitsky, C. Joshi. Tellurium crystal pumped with ultrafast 10 µm pulses demonstrates a giant nonlinear optical response. Opt. Express 31, 27239 (2023) (https://doi.org/10.1364/OE.497186); downloaded from refractiveindex.info",
+    "description": "Ordinary ray (o). 220 fs. Spectral broadening.",
+    "conditions": {
+      "n2_method": "SB",
+      "pulse_duration": "220e-15",
+      "direction": "o"
+    }
+  },
+  "id": "47a1db74-b810-51a7-ad62-41396d4a426e"
+}

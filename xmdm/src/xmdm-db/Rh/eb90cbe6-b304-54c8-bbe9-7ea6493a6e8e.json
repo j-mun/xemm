@@ -1,0 +1,39 @@
+{
+  "schema_version": "1",
+  "physics": "optics",
+  "model": "tabulated",
+  "name": "Coulter-40",
+  "data": {
+    "unit": "um",
+    "type": "nk",
+    "f": [
+      0.4047,
+      0.4358,
+      0.4916,
+      0.5461,
+      0.578,
+      0.612
+    ],
+    "re": [
+      1.35,
+      1.51,
+      1.68,
+      1.8,
+      1.85,
+      1.91
+    ],
+    "im": [
+      3.57,
+      3.76,
+      4.05,
+      4.42,
+      4.59,
+      4.77
+    ]
+  },
+  "metadata": {
+    "source": "J. K. Coulter, G. Hass, J. B. Ramsey, Jr.. Optical constants and reflectance and transmittance of evaporated rhodium films in the visible. J. Opt. Soc. Am. 63, 1149-1153 (1973) (https://doi.org/10.1364/JOSA.63.001149); downloaded from refractiveindex.info",
+    "description": "Evaporated Rh deposited at 40 °C"
+  },
+  "id": "eb90cbe6-b304-54c8-bbe9-7ea6493a6e8e"
+}
